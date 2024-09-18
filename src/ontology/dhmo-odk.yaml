@@ -1,0 +1,23 @@
+id: dhmo
+title: "RADx Data Hub Metadata Ontology"
+github_org: ckindermann
+repo: dhmo 
+git_main_branch: main
+use_context: true
+uribase: "https://github.com/bmir-radx/rxow"
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products: 
+    - id: symp
+robot_java_args: '-Xmx8G'
+
+documentation:
+  documentation_system: mkdocs

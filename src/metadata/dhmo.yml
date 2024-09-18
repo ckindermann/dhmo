@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/dhmo
+
+idspace: DHMO
+base_url: /obo/dhmo
+
+products:
+- dhmo.owl: https://raw.githubusercontent.com/ckindermann/dhmo/main/dhmo.owl
+- dhmo.obo: https://raw.githubusercontent.com/ckindermann/dhmo/main/dhmo.obo
+
+term_browser: ontobee
+example_terms:
+- DHMO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/ckindermann/dhmo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/ckindermann/dhmo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/DHMO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/ckindermann/dhmo/main/
+
