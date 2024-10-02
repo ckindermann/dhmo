@@ -2,6 +2,8 @@ id: dhmo
 title: "RADx Data Hub Metadata Ontology"
 github_org: ckindermann
 repo: dhmo 
+use_dosdps: true
+dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
 git_main_branch: main
 use_context: true
 uribase: "https://github.com/bmir-radx/rxow"
