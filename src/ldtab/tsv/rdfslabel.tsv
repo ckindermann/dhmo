@@ -1,0 +1,139 @@
+scheme:hasVerticalResolutionInMeters	rdfs:label	has Vertical Resolution In Meters	@en
+scheme:hasGeoLocationDescription	rdfs:label	has Geo Location Description	@en
+scheme:hasPolygonPointLongitude	rdfs:label	has Polygon Point Longitude	@en
+scheme:hasPolygonPointLatitude	rdfs:label	has Polygon Point Latitude	@en
+scheme:hasNorthBoundLatitude	rdfs:label	has North Bound Latitude	@en
+scheme:hasSouthBoundLatitude	rdfs:label	has South Bound Latitude	@en
+scheme:hasEastBoundLongitude	rdfs:label	has East Bound Longitude	@en
+scheme:hasWestBoundLongitude	rdfs:label	has West Bound Longitude	@en
+scheme:hasPointLongitude	rdfs:label	has Point Longitude	@en
+scheme:hasPointLatitude	rdfs:label	has Point Latitude	@en
+scheme:hasVariableSchemeIRI	rdfs:label	has Variable Scheme IRI	@en
+scheme:hasVariableScheme	rdfs:label	has Variable Scheme	@en
+scheme:hasVariableIRI	rdfs:label	has Variable IRI	@en
+scheme:hasVariable	rdfs:label	has Variable	@en
+scheme:hasDataSourceSchemeIRI	rdfs:label	has Data Source Scheme IRI	@en
+scheme:hasDataSourceScheme	rdfs:label	has Data Source Scheme	@en
+scheme:hasDataSourceIRI	rdfs:label	has Data Source IRI	@en
+scheme:hasDataSource	rdfs:label	has Data Source	@en
+scheme:hasDataStreamSchemeIRI	rdfs:label	has Data Stream Scheme IRI	@en
+scheme:hasDataStreamScheme	rdfs:label	has Data Stream Scheme	@en
+scheme:hasDataStreamIRI	rdfs:label	has Data Stream IRI	@en
+scheme:hasDataStream	rdfs:label	has Data Stream	@en
+scheme:hasDistributorType	rdfs:label	has Distributor Type	@en
+scheme:hasDistributorRole	rdfs:label	has Distributor Role	@en
+scheme:hasDistributorAffiliationIdentifierSchemeIRI	rdfs:label	has Distributor Affiliation Identifier Scheme IRI	@en
+scheme:hasDistributorAffiliationIdentifierScheme	rdfs:label	has Distributor Affiliation Identifier Scheme	@en
+scheme:hasDistributorAffiliationIdentifier	rdfs:label	has Distributor Affiliation Identifier	@en
+scheme:hasDistributorAffiliation	rdfs:label	has Distributor Affiliation	@en
+scheme:hasDistributorIdentifierSchemeIRI	rdfs:label	has Distributor Identifier Scheme IRI	@en
+scheme:hasDistributorIdentifierScheme	rdfs:label	has Distributor Identifier Scheme	@en
+scheme:hasDistributorIdentifier	rdfs:label	has Distributor Identifier	@en
+scheme:hasDistributionDate	rdfs:label	has Distribution Date	@en
+scheme:hasDistributionQueryStatement	rdfs:label	has Distribution Query Statement	@en
+scheme:hasDistributionAccessConfiguration	rdfs:label	has Distribution Access Configuration	@en
+scheme:hasDistributionAccessProtocol	rdfs:label	has Distribution Access Protocol	@en
+scheme:hasDistributionSize	rdfs:label	has Distribution Size	@en
+scheme:hasDistributionMediaType	rdfs:label	has Distribution Media Type	@en
+scheme:hasDistributionIdentifierType	rdfs:label	has Distribution Identifier Type	@en
+scheme:hasDistributionIdentifier	rdfs:label	has Distribution Identifier	@en
+scheme:hasDatasetDateType	rdfs:label	has Dataset Date Type	@en
+scheme:hasDatasetDate	rdfs:label	has Dataset Date	@en
+scheme:hasLicenseIdentifierSchemeIRI	rdfs:label	has License Identifier Scheme IRI	@en
+scheme:hasLicenseIdentifierScheme	rdfs:label	has License Identifier Scheme	@en
+scheme:hasLicenseIdentifier	rdfs:label	has License Identifier	@en
+scheme:hasLicenseName	rdfs:label	has License Name	@en
+scheme:hasPublisherAddress	rdfs:label	has Publisher Address	@en
+scheme:hasPublisherIdentifierSchemeIRI	rdfs:label	has Publisher Identifier Scheme IRI	@en
+scheme:hasPublisherIdentifierScheme	rdfs:label	has Publisher Identifier Scheme	@en
+scheme:hasPublisherIdentifier	rdfs:label	has Publisher Identifier	@en
+scheme:hasContributorType	rdfs:label	has Contributor Type	@en
+scheme:hasContributorRole	rdfs:label	has Contributor Role	@en
+scheme:hasContributorAffiliationIdentifierSchemeIRI	rdfs:label	has Contributor Affiliation Identifier Scheme IRI	@en
+scheme:hasContributorAffiliationIdentifierScheme	rdfs:label	has Contributor Affiliation Identifier Scheme	@en
+scheme:hasContributorAffiliationIdentifier	rdfs:label	has Contributor Affiliation Identifier	@en
+scheme:hasContributorAffiliation	rdfs:label	has Contributor Affiliation	@en
+scheme:hasContributorIdentifierSchemeIRI	rdfs:label	has Contributor Identifier Scheme IRI	@en
+scheme:hasContributorIdentifierScheme	rdfs:label	has Contributor Identifier Scheme	@en
+scheme:hasContributorIdentifier	rdfs:label	has Contributor Identifier	@en
+scheme:hasCreatorType	rdfs:label	has Creator Type	@en
+scheme:hasCreatorRole	rdfs:label	has Creator Role	@en
+scheme:hasCreatorAffiliationIdentifierSchemeIRI	rdfs:label	has Creator Affiliation Identifier Scheme IRI	@en
+scheme:hasCreatorAffiliationIdentifierScheme	rdfs:label	has Creator Affiliation Identifier Scheme	@en
+scheme:hasCreatorAffiliationIdentifier	rdfs:label	has Creator Affiliation Identifier	@en
+scheme:hasCreatorAffiliation	rdfs:label	has Creator Affiliation	@en
+scheme:hasCreatorIdentifierSchemeIRI	rdfs:label	has Creator Identifier Scheme IRI	@en
+scheme:hasCreatorIdentifierScheme	rdfs:label	has Creator Identifier Scheme	@en
+scheme:hasCreatorIdentifier	rdfs:label	has Creator Identifier	@en
+scheme:hasKeyword	rdfs:label	has Keyword	@en
+scheme:hasSubjectSchemeIRI	rdfs:label	has Subject Scheme IRI	@en
+scheme:hasSubjectScheme	rdfs:label	has Subject Scheme	@en
+scheme:hasSubjectIRI	rdfs:label	has Subject IRI	@en
+scheme:hasPrimaryLanguage	rdfs:label	has Primary Language	@en
+scheme:hasRelatedResourceIdentifierSubType	rdfs:label	has Related Resource Identifier Sub Type	@en
+scheme:hasDatasetIdentifierSubType	rdfs:label	has Dataset Identifier Sub Type	@en
+scheme:hasFunderInfo	rdfs:label	has Funder Info	@en
+scheme:hasAwardInfo	rdfs:label	has Award Info	@en
+scheme:hasFundingInfo	rdfs:label	has Funding Info	@en
+scheme:hasTemporalCoverageInfo	rdfs:label	has Temporal Coverage Info	@en
+scheme:hasVerticalCoverageInfo	rdfs:label	has Vertical Coverage Info	@en
+scheme:hasSpatialCoveragePolygonInfo	rdfs:label	has Spatial Coverage Polygon Info	@en
+scheme:hasSpatialCoverageBoundingBoxInfo	rdfs:label	has Spatial Coverage Bounding Box Info	@en
+scheme:hasSpatialCoveragePointInfo	rdfs:label	has Spatial Coverage Point Info	@en
+scheme:hasSpatialCoverageInfo	rdfs:label	has Spatial Coverage Info	@en
+scheme:hasOtherSubject	rdfs:label	has Other Subject	@en
+scheme:hasMeasuredVariable	rdfs:label	has Measured Variable	@en
+scheme:hasIntendedVariable	rdfs:label	has Intended Variable	@en
+scheme:hasOtherVariable	rdfs:label	has Other Variable	@en
+scheme:hasVariableInfo	rdfs:label	has Variable Info	@en
+scheme:hasDataSourceInfo	rdfs:label	has Data Source Info	@en
+scheme:hasDataStreamInfo	rdfs:label	has Data Stream Info	@en
+scheme:hasContentInfo	rdfs:label	has Content Info	@en
+scheme:hasDistributorAffiliationInfo	rdfs:label	has Distributor Affiliation Info	@en
+scheme:hasDistributorIdentifierInfo	rdfs:label	has Distributor Identifier Info	@en
+scheme:hasDistributorNameInfo	rdfs:label	has Distributor Name Info	@en
+scheme:hasDistributorInfo	rdfs:label	has Distributor Info	@en
+scheme:hasDistributionAccessInfo	rdfs:label	has Distribution Access Info	@en
+scheme:hasDistributionInfo	rdfs:label	has Distribution Info	@en
+scheme:hasDateInfo	rdfs:label	has Date Info	@en
+scheme:hasLicenseIdentifierInfo	rdfs:label	has License Identifier Info	@en
+scheme:hasRightsInfo	rdfs:label	has Rights Info	@en
+scheme:hasPublisherIdentifierInfo	rdfs:label	has Publisher Identifier Info	@en
+scheme:hasPublisherInfo	rdfs:label	has Publisher Info	@en
+scheme:hasContributorAffiliationInfo	rdfs:label	has Contributor Affiliation Info	@en
+scheme:hasContributorIdentifierInfo	rdfs:label	has Contributor Identifier Info	@en
+scheme:hasContributorNameInfo	rdfs:label	has Contributor Name Info	@en
+scheme:hasContributorInfo	rdfs:label	has Contributor Info	@en
+scheme:hasCreatorAffiliationInfo	rdfs:label	has Creator Affiliation Info	@en
+scheme:hasCreatorIdentifierInfo	rdfs:label	has Creator Identifier Info	@en
+scheme:hasCreatorNameInfo	rdfs:label	has Creator Name Info	@en
+scheme:hasCreatorInfo	rdfs:label	has Creator Info	@en
+scheme:hasControlledTermsInfo	rdfs:label	has Controlled Terms Info	@en
+scheme:hasSubjectAndKeywordInfo	rdfs:label	has Subject And Keyword Info	@en
+scheme:hasSubjectInfo	rdfs:label	has Subject Info	@en
+scheme:hasDescriptionInfo	rdfs:label	has Description Info	@en
+scheme:hasTitleInfo	rdfs:label	has Title Info	@en
+scheme:hasLanguageInfo	rdfs:label	has Language Info	@en
+scheme:hasVersionInfo	rdfs:label	has Version Info	@en
+scheme:hasRelatedResourcesInfo	rdfs:label	has Related Resources Info	@en
+scheme:hasDatasetIdentifierInfo	rdfs:label	has Dataset Identifier Info	@en
+scheme:hasResourceTypeInfo	rdfs:label	has Resource Type Info	@en
+scheme:hasFunderIdentifierSchemeIRI	rdfs:label	has Funder Identifier Scheme IRI	@en
+scheme:hasFunderIdentifierScheme	rdfs:label	has Funder Identifier Scheme	@en
+scheme:hasFunderIdentifier	rdfs:label	has Funder Identifier	@en
+scheme:hasFunderName	rdfs:label	has Funder Name	@en
+scheme:hasAwardLocalIdentifier	rdfs:label	has Award Local Identifier	@en
+scheme:hasAwardPageIRI	rdfs:label	has Award Page IRI	@en
+scheme:hasAwardTitle	rdfs:label	has Award Title	@en
+scheme:hasDuration	rdfs:label	has Duration	@en
+scheme:hasTemporalResolution	rdfs:label	has Temporal Resolution	@en
+scheme:hasTemporalExtentMaximumValue	rdfs:label	has Temporal Extent Maximum Value	@en
+scheme:hasTemporalExtentMinimumValue	rdfs:label	has Temporal Extent Minimum Value	@en
+scheme:hasVerticalExtentDatumIRI	rdfs:label	has Vertical Extent Datum IRI	@en
+scheme:hasVerticalExtentDatum	rdfs:label	has Vertical Extent Datum	@en
+scheme:hasVerticalExtentUnitSchemeIRI	rdfs:label	has Vertical Extent Unit Scheme IRI	@en
+scheme:hasVerticalExtentUnitScheme	rdfs:label	has Vertical Extent Unit Scheme	@en
+scheme:hasVerticalExtentUnitIRI	rdfs:label	has Vertical Extent Unit IRI	@en
+scheme:hasVerticalExtentUnit	rdfs:label	has Vertical Extent Unit	@en
+scheme:hasVerticalExtentMinimumValue	rdfs:label	has Vertical Extent Minimum Value	@en
+scheme:hasVerticalExtentMaximumValue	rdfs:label	has Vertical Extent Maximum Value	@en

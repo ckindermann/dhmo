@@ -1,0 +1,422 @@
+scheme:ContactPI	skos:altLabel	Contact Principal Investigator	@en
+scheme:DataPI	skos:altLabel	Data Principal Investigator	@en
+scheme:PI	skos:altLabel	Principal Investigator	@en
+scheme:UEI	skos:altLabel	Unique Entity Identifier	@en
+scheme:AFL1.1	skos:altLabel	Academic Free License v1.1	@en
+scheme:ADSL	skos:altLabel	Amazon Digital Services License	@en
+scheme:AdobeGlyph	skos:altLabel	Adobe Glyph List License	@en
+scheme:Adobe2006	skos:altLabel	Adobe Systems Incorporated Source Code License Agreement	@en
+scheme:Abstyles	skos:altLabel	Abstyles License	@en
+scheme:AAL	skos:altLabel	Attribution Assurance License	@en
+scheme:0BSD	skos:altLabel	BSD Zero Clause License	@en
+scheme:BSD3Clause	skos:altLabel	BSD 3-Clause "New" or "Revised" License	@en
+scheme:BSD2ClauseViews	skos:altLabel	BSD 2-Clause with views sentence	@en
+scheme:BSD2ClausePatent	skos:altLabel	BSD-2-Clause Plus Patent License	@en
+scheme:BSD2Clause	skos:altLabel	BSD 2-Clause "Simplified" License	@en
+scheme:BSD1Clause	skos:altLabel	BSD 1-Clause License	@en
+scheme:Borceux	skos:altLabel	Borceux license	@en
+scheme:BlueOak1.0.0	skos:altLabel	Blue Oak Model License 1.0.0	@en
+scheme:blessing	skos:altLabel	SQLite Blessing	@en
+scheme:BitTorrent1.1	skos:altLabel	BitTorrent Open Source License v1.1	@en
+scheme:BitTorrent1.0	skos:altLabel	BitTorrent Open Source License v1.0	@en
+scheme:Beerware	skos:altLabel	Beerware License	@en
+scheme:Barr	skos:altLabel	Barr License	@en
+scheme:Bahyph	skos:altLabel	Bahyph License	@en
+scheme:Artistic2.0	skos:altLabel	Artistic License 2.0	@en
+scheme:Artistic1.0Perl	skos:altLabel	Artistic License 1.0 (Perl)	@en
+scheme:Artistic1.0cl8	skos:altLabel	Artistic License 1.0 w/clause 8	@en
+scheme:Artistic1.0	skos:altLabel	Artistic License 1.0	@en
+scheme:APSL2.0	skos:altLabel	Apple Public Source License 2.0	@en
+scheme:APSL1.2	skos:altLabel	Apple Public Source License 1.2	@en
+scheme:APSL1.1	skos:altLabel	Apple Public Source License 1.1	@en
+scheme:APSL1.0	skos:altLabel	Apple Public Source License 1.0	@en
+scheme:APL1.0	skos:altLabel	Adaptive Public License 1.0	@en
+scheme:APAFML	skos:altLabel	Adobe Postscript AFM License	@en
+scheme:Apache2.0	skos:altLabel	Apache License 2.0	@en
+scheme:Apache1.1	skos:altLabel	Apache License 1.1	@en
+scheme:Apache1.0	skos:altLabel	Apache License 1.0	@en
+scheme:ANTLRPDfallback	skos:altLabel	ANTLR Software Rights Notice with license fallback	@en
+scheme:ANTLRPD	skos:altLabel	ANTLR Software Rights Notice	@en
+scheme:AMPAS	skos:altLabel	Academy of Motion Picture Arts and Sciences BSD	@en
+scheme:AML	skos:altLabel	Apple MIT License	@en
+scheme:AMDPLPA	skos:altLabel	AMD's plpa_map.c License	@en
+scheme:Aladdin	skos:altLabel	Aladdin Free Public License	@en
+scheme:AGPL3.0orlater	skos:altLabel	GNU Affero General Public License v3.0 or later	@en
+scheme:AGPL3.0only	skos:altLabel	GNU Affero General Public License v3.0 only	@en
+scheme:AGPL1.0orlater	skos:altLabel	Affero General Public License v1.0 or later	@en
+scheme:AGPL1.0only	skos:altLabel	Affero General Public License v1.0 only	@en
+scheme:Afmparse	skos:altLabel	Afmparse License	@en
+scheme:AFL3.0	skos:altLabel	Academic Free License v3.0	@en
+scheme:AFL2.1	skos:altLabel	Academic Free License v2.1	@en
+scheme:AFL2.0	skos:altLabel	Academic Free License v2.0	@en
+scheme:AFL1.2	skos:altLabel	Academic Free License v1.2	@en
+scheme:CCBYNCSA4.0	skos:altLabel	Creative Commons Attribution Non Commercial Share Alike 4.0 International	@en
+scheme:CCBYNCSA3.0	skos:altLabel	Creative Commons Attribution Non Commercial Share Alike 3.0 Unported	@en
+scheme:CCBYNCSA2.5	skos:altLabel	Creative Commons Attribution Non Commercial Share Alike 2.5 Generic	@en
+scheme:CCBYNCSA2.0	skos:altLabel	Creative Commons Attribution Non Commercial Share Alike 2.0 Generic	@en
+scheme:CCBYNCSA1.0	skos:altLabel	Creative Commons Attribution Non Commercial Share Alike 1.0 Generic	@en
+scheme:CCBYNCND4.0	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 4.0 International	@en
+scheme:CCBYNCND3.0IGO	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO	@en
+scheme:CCBYNCND3.0	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported	@en
+scheme:CCBYNCND2.5	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic	@en
+scheme:CCBYNCND2.0	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic	@en
+scheme:CCBYNCND1.0	skos:altLabel	Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic	@en
+scheme:CCBYNC4.0	skos:altLabel	Creative Commons Attribution Non Commercial 4.0 International	@en
+scheme:CCBYNC3.0	skos:altLabel	Creative Commons Attribution Non Commercial 3.0 Unported	@en
+scheme:CCBYNC2.5	skos:altLabel	Creative Commons Attribution Non Commercial 2.5 Generic	@en
+scheme:CCBYNC2.0	skos:altLabel	Creative Commons Attribution Non Commercial 2.0 Generic	@en
+scheme:CCBYNC1.0	skos:altLabel	Creative Commons Attribution Non Commercial 1.0 Generic	@en
+scheme:CCBY4.0	skos:altLabel	Creative Commons Attribution 4.0 International	@en
+scheme:CCBY3.0US	skos:altLabel	Creative Commons Attribution 3.0 United States	@en
+scheme:CCBY3.0AT	skos:altLabel	Creative Commons Attribution 3.0 Austria	@en
+scheme:CCBY3.0	skos:altLabel	Creative Commons Attribution 3.0 Unported	@en
+scheme:CCBY2.5	skos:altLabel	Creative Commons Attribution 2.5 Generic	@en
+scheme:CCBY2.0	skos:altLabel	Creative Commons Attribution 2.0 Generic	@en
+scheme:CCBY1.0	skos:altLabel	Creative Commons Attribution 1.0 Generic	@en
+scheme:CATOSL1.1	skos:altLabel	Computer Associates Trusted Open Source License 1.1	@en
+scheme:Caldera	skos:altLabel	Caldera License	@en
+scheme:CAL1.0CombinedWorkException	skos:altLabel	Cryptographic Autonomy License 1.0 (Combined Work Exception)	@en
+scheme:CAL1.0	skos:altLabel	Cryptographic Autonomy License 1.0	@en
+scheme:bzip21.0.6	skos:altLabel	bzip2 and libbzip2 License v1.0.6	@en
+scheme:bzip21.0.5	skos:altLabel	bzip2 and libbzip2 License v1.0.5	@en
+scheme:BUSL1.1	skos:altLabel	Business Source License 1.1	@en
+scheme:BSL1.0	skos:altLabel	Boost Software License 1.0	@en
+scheme:BSDSourceCode	skos:altLabel	BSD Source Code Attribution	@en
+scheme:BSDProtection	skos:altLabel	BSD Protection License	@en
+scheme:BSD4ClauseUC	skos:altLabel	BSD-4-Clause (University of California-Specific)	@en
+scheme:BSD4Clause	skos:altLabel	BSD 4-Clause "Original" or "Old" License	@en
+scheme:BSD3ClauseOpenMPI	skos:altLabel	BSD 3-Clause Open MPI variant	@en
+scheme:BSD3ClauseNoNuclearWarranty	skos:altLabel	BSD 3-Clause No Nuclear Warranty	@en
+scheme:BSD3ClauseNoNuclearLicense2014	skos:altLabel	BSD 3-Clause No Nuclear License 2014	@en
+scheme:BSD3ClauseNoNuclearLicense	skos:altLabel	BSD 3-Clause No Nuclear License	@en
+scheme:BSD3ClauseLBNL	skos:altLabel	Lawrence Berkeley National Labs BSD variant license	@en
+scheme:BSD3ClauseClear	skos:altLabel	BSD 3-Clause Clear License	@en
+scheme:BSD3ClauseAttribution	skos:altLabel	BSD with attribution	@en
+scheme:CUAOPL1.0	skos:altLabel	CUA Office Public License v1.0	@en
+scheme:CrystalStacker	skos:altLabel	CrystalStacker License	@en
+scheme:Crossword	skos:altLabel	Crossword License	@en
+scheme:CPOL1.02	skos:altLabel	Code Project Open License 1.02	@en
+scheme:CPL1.0	skos:altLabel	Common Public License 1.0	@en
+scheme:CPAL1.0	skos:altLabel	Common Public Attribution License 1.0	@en
+scheme:copyleftnext0.3.1	skos:altLabel	copyleft-next 0.3.1	@en
+scheme:copyleftnext0.3.0	skos:altLabel	copyleft-next 0.3.0	@en
+scheme:Condor1.1	skos:altLabel	Condor Public License v1.1	@en
+scheme:CNRIPythonGPLCompatible	skos:altLabel	CNRI Python Open Source GPL Compatible License Agreement	@en
+scheme:CNRIPython	skos:altLabel	CNRI Python License	@en
+scheme:CNRIJython	skos:altLabel	CNRI Jython License	@en
+scheme:ClArtistic	skos:altLabel	Clarified Artistic License	@en
+scheme:CERNOHLW2.0	skos:altLabel	CERN Open Hardware Licence Version 2 - Weakly Reciprocal	@en
+scheme:CERNOHLS2.0	skos:altLabel	CERN Open Hardware Licence Version 2 - Strongly Reciprocal	@en
+scheme:CERNOHLP2.0	skos:altLabel	CERN Open Hardware Licence Version 2 - Permissive	@en
+scheme:CERNOHL1.2	skos:altLabel	CERN Open Hardware Licence v1.2	@en
+scheme:CERNOHL1.1	skos:altLabel	CERN Open Hardware Licence v1.1	@en
+scheme:CECILLC	skos:altLabel	CeCILL-C Free Software License Agreement	@en
+scheme:CECILLB	skos:altLabel	CeCILL-B Free Software License Agreement	@en
+scheme:CECILL2.1	skos:altLabel	CeCILL Free Software License Agreement v2.1	@en
+scheme:CECILL2.0	skos:altLabel	CeCILL Free Software License Agreement v2.0	@en
+scheme:CECILL1.1	skos:altLabel	CeCILL Free Software License Agreement v1.1	@en
+scheme:CECILL1.0	skos:altLabel	CeCILL Free Software License Agreement v1.0	@en
+scheme:CDLASharing1.0	skos:altLabel	Community Data License Agreement Sharing 1.0	@en
+scheme:CDLAPermissive1.0	skos:altLabel	Community Data License Agreement Permissive 1.0	@en
+scheme:CDDL1.1	skos:altLabel	Common Development and Distribution License 1.1	@en
+scheme:CDDL1.0	skos:altLabel	Common Development and Distribution License 1.0	@en
+scheme:CC01.0	skos:altLabel	Creative Commons Zero v1.0 Universal	@en
+scheme:CCPDDC	skos:altLabel	Creative Commons Public Domain Dedication and Certification	@en
+scheme:CCBYSA4.0	skos:altLabel	Creative Commons Attribution Share Alike 4.0 International	@en
+scheme:CCBYSA3.0AT	skos:altLabel	Creative Commons Attribution-Share Alike 3.0 Austria	@en
+scheme:CCBYSA3.0	skos:altLabel	Creative Commons Attribution Share Alike 3.0 Unported	@en
+scheme:CCBYSA2.5	skos:altLabel	Creative Commons Attribution Share Alike 2.5 Generic	@en
+scheme:CCBYSA2.0UK	skos:altLabel	Creative Commons Attribution Share Alike 2.0 England and Wales	@en
+scheme:CCBYSA2.0	skos:altLabel	Creative Commons Attribution Share Alike 2.0 Generic	@en
+scheme:CCBYSA1.0	skos:altLabel	Creative Commons Attribution Share Alike 1.0 Generic	@en
+scheme:CCBYND4.0	skos:altLabel	Creative Commons Attribution No Derivatives 4.0 International	@en
+scheme:CCBYND3.0	skos:altLabel	Creative Commons Attribution No Derivatives 3.0 Unported	@en
+scheme:CCBYND2.5	skos:altLabel	Creative Commons Attribution No Derivatives 2.5 Generic	@en
+scheme:CCBYND2.0	skos:altLabel	Creative Commons Attribution No Derivatives 2.0 Generic	@en
+scheme:CCBYND1.0	skos:altLabel	Creative Commons Attribution No Derivatives 1.0 Generic	@en
+scheme:GFDL1.2noinvariantsorlater	skos:altLabel	GNU Free Documentation License v1.2 or later - no invariants	@en
+scheme:GFDL1.2noinvariantsonly	skos:altLabel	GNU Free Documentation License v1.2 only - no invariants	@en
+scheme:GFDL1.2invariantsorlater	skos:altLabel	GNU Free Documentation License v1.2 or later - invariants	@en
+scheme:GFDL1.2invariantsonly	skos:altLabel	GNU Free Documentation License v1.2 only - invariants	@en
+scheme:GFDL1.1orlater	skos:altLabel	GNU Free Documentation License v1.1 or later	@en
+scheme:GFDL1.1only	skos:altLabel	GNU Free Documentation License v1.1 only	@en
+scheme:GFDL1.1noinvariantsorlater	skos:altLabel	GNU Free Documentation License v1.1 or later - no invariants	@en
+scheme:GFDL1.1noinvariantsonly	skos:altLabel	GNU Free Documentation License v1.1 only - no invariants	@en
+scheme:GFDL1.1invariantsorlater	skos:altLabel	GNU Free Documentation License v1.1 or later - invariants	@en
+scheme:GFDL1.1invariantsonly	skos:altLabel	GNU Free Documentation License v1.1 only - invariants	@en
+scheme:FTL	skos:altLabel	Freetype Project License	@en
+scheme:FSFULLR	skos:altLabel	FSF Unlimited License (with License Retention)	@en
+scheme:FSFUL	skos:altLabel	FSF Unlimited License	@en
+scheme:FSFAP	skos:altLabel	FSF All Permissive License	@en
+scheme:FreeImage	skos:altLabel	FreeImage Public License v1.0	@en
+scheme:Frameworx1.0	skos:altLabel	Frameworx Open License 1.0	@en
+scheme:Fair	skos:altLabel	Fair License	@en
+scheme:Eurosym	skos:altLabel	Eurosym License	@en
+scheme:EUPL1.2	skos:altLabel	European Union Public License 1.2	@en
+scheme:EUPL1.1	skos:altLabel	European Union Public License 1.1	@en
+scheme:EUPL1.0	skos:altLabel	European Union Public License 1.0	@en
+scheme:EUDatagrid	skos:altLabel	EU DataGrid Software License	@en
+scheme:etalab2.0	skos:altLabel	Etalab Open License 2.0	@en
+scheme:ErlPL1.1	skos:altLabel	Erlang Public License v1.1	@en
+scheme:EPL2.0	skos:altLabel	Eclipse Public License 2.0	@en
+scheme:EPL1.0	skos:altLabel	Eclipse Public License 1.0	@en
+scheme:EPICS	skos:altLabel	EPICS Open License	@en
+scheme:Entessa	skos:altLabel	Entessa Public License v1.0	@en
+scheme:eGenix	skos:altLabel	eGenix.com Public License 1.1.0	@en
+scheme:EFL2.0	skos:altLabel	Eiffel Forum License v2.0	@en
+scheme:EFL1.0	skos:altLabel	Eiffel Forum License v1.0	@en
+scheme:ECL2.0	skos:altLabel	Educational Community License v2.0	@en
+scheme:ECL1.0	skos:altLabel	Educational Community License v1.0	@en
+scheme:dvipdfm	skos:altLabel	dvipdfm License	@en
+scheme:DSDP	skos:altLabel	DSDP License	@en
+scheme:Dotseqn	skos:altLabel	Dotseqn License	@en
+scheme:DOC	skos:altLabel	DOC License	@en
+scheme:diffmark	skos:altLabel	diffmark license	@en
+scheme:DFSL1.0	skos:altLabel	Deutsche Freie Software Lizenz	@en
+scheme:curl	skos:altLabel	curl License	@en
+scheme:Cube	skos:altLabel	Cube License	@en
+scheme:JSON	skos:altLabel	JSON License	@en
+scheme:JPNIC	skos:altLabel	Japan Network Information Center License	@en
+scheme:JasPer2.0	skos:altLabel	JasPer License	@en
+scheme:ISC	skos:altLabel	ISC License	@en
+scheme:IPL1.0	skos:altLabel	IBM Public License v1.0	@en
+scheme:IPA	skos:altLabel	IPA Font License	@en
+scheme:Interbase1.0	skos:altLabel	Interbase Public License v1.0	@en
+scheme:IntelACPI	skos:altLabel	Intel ACPI Software License Agreement	@en
+scheme:Intel	skos:altLabel	Intel Open Source License	@en
+scheme:InfoZIP	skos:altLabel	Info-ZIP License	@en
+scheme:Imlib2	skos:altLabel	Imlib2 License	@en
+scheme:iMatix	skos:altLabel	iMatix Standard Function Library Agreement	@en
+scheme:ImageMagick	skos:altLabel	ImageMagick License	@en
+scheme:IJG	skos:altLabel	Independent JPEG Group License	@en
+scheme:ICU	skos:altLabel	ICU License	@en
+scheme:IBMpibs	skos:altLabel	IBM PowerPC Initialization and Boot Software	@en
+scheme:HTMLTIDY	skos:altLabel	HTML Tidy License	@en
+scheme:HPNDsellvariant	skos:altLabel	Historical Permission Notice and Disclaimer - sell variant	@en
+scheme:HPND	skos:altLabel	Historical Permission Notice and Disclaimer	@en
+scheme:Hippocratic2.1	skos:altLabel	Hippocratic License 2.1	@en
+scheme:HaskellReport	skos:altLabel	Haskell Language Report License	@en
+scheme:gSOAP1.3b	skos:altLabel	gSOAP Public License v1.3b	@en
+scheme:GPL3.0orlater	skos:altLabel	GNU General Public License v3.0 or later	@en
+scheme:GPL3.0only	skos:altLabel	GNU General Public License v3.0 only	@en
+scheme:GPL2.0orlater	skos:altLabel	GNU General Public License v2.0 or later	@en
+scheme:GPL2.0only	skos:altLabel	GNU General Public License v2.0 only	@en
+scheme:GPL1.0orlater	skos:altLabel	GNU General Public License v1.0 or later	@en
+scheme:GPL1.0only	skos:altLabel	GNU General Public License v1.0 only	@en
+scheme:gnuplot	skos:altLabel	gnuplot License	@en
+scheme:GLWTPL	skos:altLabel	Good Luck With That Public License	@en
+scheme:Glulxe	skos:altLabel	Glulxe License	@en
+scheme:Glide	skos:altLabel	3dfx Glide License	@en
+scheme:GL2PS	skos:altLabel	GL2PS License	@en
+scheme:Giftware	skos:altLabel	Giftware License	@en
+scheme:GFDL1.3orlater	skos:altLabel	GNU Free Documentation License v1.3 or later	@en
+scheme:GFDL1.3only	skos:altLabel	GNU Free Documentation License v1.3 only	@en
+scheme:GFDL1.3noinvariantsorlater	skos:altLabel	GNU Free Documentation License v1.3 or later - no invariants	@en
+scheme:GFDL1.3noinvariantsonly	skos:altLabel	GNU Free Documentation License v1.3 only - no invariants	@en
+scheme:GFDL1.3invariantsorlater	skos:altLabel	GNU Free Documentation License v1.3 or later - invariants	@en
+scheme:GFDL1.3invariantsonly	skos:altLabel	GNU Free Documentation License v1.3 only - invariants	@en
+scheme:GFDL1.2orlater	skos:altLabel	GNU Free Documentation License v1.2 or later	@en
+scheme:GFDL1.2only	skos:altLabel	GNU Free Documentation License v1.2 only	@en
+scheme:MPL2.0nocopyleftexception	skos:altLabel	Mozilla Public License 2.0 (no copyleft exception)	@en
+scheme:MPL2.0	skos:altLabel	Mozilla Public License 2.0	@en
+scheme:MPL1.1	skos:altLabel	Mozilla Public License 1.1	@en
+scheme:MPL1.0	skos:altLabel	Mozilla Public License 1.0	@en
+scheme:mpich2	skos:altLabel	mpich2 License	@en
+scheme:Motosoto	skos:altLabel	Motosoto License	@en
+scheme:MITNFA	skos:altLabel	MIT +no-false-attribs license	@en
+scheme:MITopengroup	skos:altLabel	MIT Open Group variant	@en
+scheme:MITfeh	skos:altLabel	feh License	@en
+scheme:MITenna	skos:altLabel	enna License	@en
+scheme:MITCMU	skos:altLabel	CMU License	@en
+scheme:MITadvertising	skos:altLabel	Enlightenment License (e16)	@en
+scheme:MIT0	skos:altLabel	MIT No Attribution	@en
+scheme:MIT	skos:altLabel	MIT License	@en
+scheme:MirOS	skos:altLabel	The MirOS Licence	@en
+scheme:MakeIndex	skos:altLabel	MakeIndex License	@en
+scheme:LPPL1.3c	skos:altLabel	LaTeX Project Public License v1.3c	@en
+scheme:LPPL1.3a	skos:altLabel	LaTeX Project Public License v1.3a	@en
+scheme:LPPL1.2	skos:altLabel	LaTeX Project Public License v1.2	@en
+scheme:LPPL1.1	skos:altLabel	LaTeX Project Public License v1.1	@en
+scheme:LPPL1.0	skos:altLabel	LaTeX Project Public License v1.0	@en
+scheme:LPL1.02	skos:altLabel	Lucent Public License v1.02	@en
+scheme:LPL1.0	skos:altLabel	Lucent Public License Version 1.0	@en
+scheme:LinuxOpenIB	skos:altLabel	Linux Kernel Variant of OpenIB.org license	@en
+scheme:LiLiQRplus1.1	skos:altLabel	Licence Libre du Québec – Réciprocité forte version 1.1	@en
+scheme:LiLiQR1.1	skos:altLabel	Licence Libre du Québec – Réciprocité version 1.1	@en
+scheme:LiLiQP1.1	skos:altLabel	Licence Libre du Québec – Permissive version 1.1	@en
+scheme:libtiff	skos:altLabel	libtiff License	@en
+scheme:libselinux1.0	skos:altLabel	libselinux public domain notice	@en
+scheme:libpng2.0	skos:altLabel	PNG Reference Library version 2	@en
+scheme:Libpng	skos:altLabel	libpng License	@en
+scheme:LGPLLR	skos:altLabel	Lesser General Public License For Linguistic Resources	@en
+scheme:LGPL3.0orlater	skos:altLabel	GNU Lesser General Public License v3.0 or later	@en
+scheme:LGPL3.0only	skos:altLabel	GNU Lesser General Public License v3.0 only	@en
+scheme:LGPL2.1orlater	skos:altLabel	GNU Lesser General Public License v2.1 or later	@en
+scheme:LGPL2.1only	skos:altLabel	GNU Lesser General Public License v2.1 only	@en
+scheme:LGPL2.0orlater	skos:altLabel	GNU Library General Public License v2 or later	@en
+scheme:LGPL2.0only	skos:altLabel	GNU Library General Public License v2 only	@en
+scheme:Leptonica	skos:altLabel	Leptonica License	@en
+scheme:Latex2e	skos:altLabel	Latex2e License	@en
+scheme:LAL1.3	skos:altLabel	Licence Art Libre 1.3	@en
+scheme:LAL1.2	skos:altLabel	Licence Art Libre 1.2	@en
+scheme:OGC1.0	skos:altLabel	OGC Software License, Version 1.0	@en
+scheme:OFL1.1RFN	skos:altLabel	SIL Open Font License 1.1 with Reserved Font Name	@en
+scheme:OFL1.1noRFN	skos:altLabel	SIL Open Font License 1.1 with no Reserved Font Name	@en
+scheme:OFL1.1	skos:altLabel	SIL Open Font License 1.1	@en
+scheme:OFL1.0RFN	skos:altLabel	SIL Open Font License 1.0 with Reserved Font Name	@en
+scheme:OFL1.0noRFN	skos:altLabel	SIL Open Font License 1.0 with no Reserved Font Name	@en
+scheme:OFL1.0	skos:altLabel	SIL Open Font License 1.0	@en
+scheme:ODCBy1.0	skos:altLabel	Open Data Commons Attribution License v1.0	@en
+scheme:ODbL1.0	skos:altLabel	ODC Open Database License v1.0	@en
+scheme:OCLC2.0	skos:altLabel	OCLC Research Public License 2.0	@en
+scheme:OCCTPL	skos:altLabel	Open CASCADE Technology Public License	@en
+scheme:OUDA1.0	skos:altLabel	Open Use of Data Agreement v1.0	@en
+scheme:NTP0	skos:altLabel	NTP No Attribution	@en
+scheme:NTP	skos:altLabel	NTP License	@en
+scheme:NRL	skos:altLabel	NRL License	@en
+scheme:NPOSL3.0	skos:altLabel	Non-Profit Open Software License 3.0	@en
+scheme:NPL1.1	skos:altLabel	Netscape Public License v1.1	@en
+scheme:NPL1.0	skos:altLabel	Netscape Public License v1.0	@en
+scheme:Noweb	skos:altLabel	Noweb License	@en
+scheme:NOSL	skos:altLabel	Netizen Open Source License	@en
+scheme:Nokia	skos:altLabel	Nokia Open Source License	@en
+scheme:NLPL	skos:altLabel	No Limit Public License	@en
+scheme:NLOD1.0	skos:altLabel	Norwegian Licence for Open Government Data	@en
+scheme:NISTPDfallback	skos:altLabel	NIST Public Domain Notice with license fallback	@en
+scheme:NISTPD	skos:altLabel	NIST Public Domain Notice	@en
+scheme:NGPL	skos:altLabel	Nethack General Public License	@en
+scheme:Newsletr	skos:altLabel	Newsletr License	@en
+scheme:NetCDF	skos:altLabel	NetCDF license	@en
+scheme:NetSNMP	skos:altLabel	Net-SNMP License	@en
+scheme:NCSA	skos:altLabel	University of Illinois/NCSA Open Source License	@en
+scheme:NCGLUK2.0	skos:altLabel	Non-Commercial Government Licence	@en
+scheme:NBPL1.0	skos:altLabel	Net Boolean Public License v1	@en
+scheme:Naumen	skos:altLabel	Naumen Public License	@en
+scheme:NASA1.3	skos:altLabel	NASA Open Source Agreement 1.3	@en
+scheme:Mup	skos:altLabel	Mup License	@en
+scheme:Multics	skos:altLabel	Multics License	@en
+scheme:MulanPSL2.0	skos:altLabel	Mulan Permissive Software License, Version 2	@en
+scheme:MulanPSL1.0	skos:altLabel	Mulan Permissive Software License, Version 1	@en
+scheme:MTLL	skos:altLabel	Matrix Template Library License	@en
+scheme:MSRL	skos:altLabel	Microsoft Reciprocal License	@en
+scheme:MSPL	skos:altLabel	Microsoft Public License	@en
+scheme:psutils	skos:altLabel	psutils License	@en
+scheme:psfrag	skos:altLabel	psfrag License	@en
+scheme:PSF2.0	skos:altLabel	Python Software Foundation License 2.0	@en
+scheme:PostgreSQL	skos:altLabel	PostgreSQL License	@en
+scheme:PolyFormSmallBusiness1.0.0	skos:altLabel	PolyForm Small Business License 1.0.0	@en
+scheme:PolyFormNoncommercial1.0.0	skos:altLabel	PolyForm Noncommercial License 1.0.0	@en
+scheme:Plexus	skos:altLabel	Plexus Classworlds License	@en
+scheme:PHP3.01	skos:altLabel	PHP License v3.01	@en
+scheme:PHP3.0	skos:altLabel	PHP License v3.0	@en
+scheme:PDDL1.0	skos:altLabel	ODC Public Domain Dedication & License 1.0	@en
+scheme:Parity7.0.0	skos:altLabel	The Parity Public License 7.0.0	@en
+scheme:Parity6.0.0	skos:altLabel	The Parity Public License 6.0.0	@en
+scheme:OSL3.0	skos:altLabel	Open Software License 3.0	@en
+scheme:OSL2.1	skos:altLabel	Open Software License 2.1	@en
+scheme:OSL2.0	skos:altLabel	Open Software License 2.0	@en
+scheme:OSL1.1	skos:altLabel	Open Software License 1.1	@en
+scheme:OSL1.0	skos:altLabel	Open Software License 1.0	@en
+scheme:OSETPL2.1	skos:altLabel	OSET Public License version 2.1	@en
+scheme:OPL1.0	skos:altLabel	Open Public License v1.0	@en
+scheme:OpenSSL	skos:altLabel	OpenSSL License	@en
+scheme:OML	skos:altLabel	Open Market License	@en
+scheme:OLDAP2.8	skos:altLabel	Open LDAP Public License v2.8	@en
+scheme:OLDAP2.7	skos:altLabel	Open LDAP Public License v2.7	@en
+scheme:OLDAP2.6	skos:altLabel	Open LDAP Public License v2.6	@en
+scheme:OLDAP2.5	skos:altLabel	Open LDAP Public License v2.5	@en
+scheme:OLDAP2.4	skos:altLabel	Open LDAP Public License v2.4	@en
+scheme:OLDAP2.3	skos:altLabel	Open LDAP Public License v2.3	@en
+scheme:OLDAP2.2.2	skos:altLabel	Open LDAP Public License 2.2.2	@en
+scheme:OLDAP2.2.1	skos:altLabel	Open LDAP Public License v2.2.1	@en
+scheme:OLDAP2.2	skos:altLabel	Open LDAP Public License v2.2	@en
+scheme:OLDAP2.1	skos:altLabel	Open LDAP Public License v2.1	@en
+scheme:OLDAP2.0.1	skos:altLabel	Open LDAP Public License v2.0.1	@en
+scheme:OLDAP2.0	skos:altLabel	Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)	@en
+scheme:OLDAP1.4	skos:altLabel	Open LDAP Public License v1.4	@en
+scheme:OLDAP1.3	skos:altLabel	Open LDAP Public License v1.3	@en
+scheme:OLDAP1.2	skos:altLabel	Open LDAP Public License v1.2	@en
+scheme:OLDAP1.1	skos:altLabel	Open LDAP Public License v1.1	@en
+scheme:OGTSL	skos:altLabel	Open Group Test Suite License	@en
+scheme:OGLUK3.0	skos:altLabel	Open Government Licence v3.0	@en
+scheme:OGLUK2.0	skos:altLabel	Open Government Licence v2.0	@en
+scheme:OGLUK1.0	skos:altLabel	Open Government Licence v1.0	@en
+scheme:OGLCanada2.0	skos:altLabel	Open Government Licence - Canada	@en
+scheme:TORQUE1.1	skos:altLabel	TORQUE v2.5+ Software License v1.1	@en
+scheme:TMate	skos:altLabel	TMate Open Source License	@en
+scheme:TCPwrappers	skos:altLabel	TCP Wrappers License	@en
+scheme:TCL	skos:altLabel	TCL/TK License	@en
+scheme:TAPROHL1.0	skos:altLabel	TAPR Open Hardware License v1.0	@en
+scheme:SWL	skos:altLabel	Scheme Widget Library (SWL) Software License Agreement	@en
+scheme:SugarCRM1.1.3	skos:altLabel	SugarCRM Public License v1.1.3	@en
+scheme:SSPL1.0	skos:altLabel	Server Side Public License, v 1	@en
+scheme:SSHshort	skos:altLabel	SSH short notice	@en
+scheme:SSHOpenSSH	skos:altLabel	SSH OpenSSH license	@en
+scheme:SPL1.0	skos:altLabel	Sun Public License v1.0	@en
+scheme:Spencer99	skos:altLabel	Spencer License 99	@en
+scheme:Spencer94	skos:altLabel	Spencer License 94	@en
+scheme:Spencer86	skos:altLabel	Spencer License 86	@en
+scheme:SNIA	skos:altLabel	SNIA Public License 1.1	@en
+scheme:SMPPL	skos:altLabel	Secure Messaging Protocol Public License	@en
+scheme:SMLNJ	skos:altLabel	Standard ML of New Jersey License	@en
+scheme:Sleepycat	skos:altLabel	Sleepycat License	@en
+scheme:SISSL1.2	skos:altLabel	Sun Industry Standards Source License v1.2	@en
+scheme:SISSL	skos:altLabel	Sun Industry Standards Source License v1.1	@en
+scheme:SimPL2.0	skos:altLabel	Simple Public License 2.0	@en
+scheme:SHL0.51	skos:altLabel	Solderpad Hardware License, Version 0.51	@en
+scheme:SHL0.5	skos:altLabel	Solderpad Hardware License v0.5	@en
+scheme:SGIB2.0	skos:altLabel	SGI Free Software License B v2.0	@en
+scheme:SGIB1.1	skos:altLabel	SGI Free Software License B v1.1	@en
+scheme:SGIB1.0	skos:altLabel	SGI Free Software License B v1.0	@en
+scheme:Sendmail8.23	skos:altLabel	Sendmail License 8.23	@en
+scheme:Sendmail	skos:altLabel	Sendmail License	@en
+scheme:SCEA	skos:altLabel	SCEA Shared Source License	@en
+scheme:Saxpath	skos:altLabel	Saxpath License	@en
+scheme:SAXPD	skos:altLabel	Sax Public Domain Notice	@en
+scheme:Ruby	skos:altLabel	Ruby License	@en
+scheme:RSCPL	skos:altLabel	Ricoh Source Code Public License	@en
+scheme:RSAMD	skos:altLabel	RSA Message-Digest License	@en
+scheme:RPSL1.0	skos:altLabel	RealNetworks Public Source License v1.0	@en
+scheme:RPL1.5	skos:altLabel	Reciprocal Public License 1.5	@en
+scheme:RPL1.1	skos:altLabel	Reciprocal Public License 1.1	@en
+scheme:RHeCos1.1	skos:altLabel	Red Hat eCos Public License v1.1	@en
+scheme:Rdisc	skos:altLabel	Rdisc License	@en
+scheme:QPL1.0	skos:altLabel	Q Public License 1.0	@en
+scheme:Qhull	skos:altLabel	Qhull License	@en
+scheme:Python2.0	skos:altLabel	Python License 2.0	@en
+scheme:ZPL2.1	skos:altLabel	Zope Public License 2.1	@en
+scheme:ZPL2.0	skos:altLabel	Zope Public License 2.0	@en
+scheme:ZPL1.1	skos:altLabel	Zope Public License 1.1	@en
+scheme:zlibacknowledgement	skos:altLabel	zlib/libpng License with Acknowledgement	@en
+scheme:Zlib	skos:altLabel	zlib License	@en
+scheme:Zimbra1.4	skos:altLabel	Zimbra Public License v1.4	@en
+scheme:Zimbra1.3	skos:altLabel	Zimbra Public License v1.3	@en
+scheme:Zend2.0	skos:altLabel	Zend License v2.0	@en
+scheme:Zed	skos:altLabel	Zed License	@en
+scheme:YPL1.1	skos:altLabel	Yahoo! Public License v1.1	@en
+scheme:YPL1.0	skos:altLabel	Yahoo! Public License v1.0	@en
+scheme:XSkat	skos:altLabel	XSkat License	@en
+scheme:xpp	skos:altLabel	XPP License	@en
+scheme:Xnet	skos:altLabel	X.Net License	@en
+scheme:xinetd	skos:altLabel	xinetd License	@en
+scheme:XFree861.1	skos:altLabel	XFree86 License 1.1	@en
+scheme:Xerox	skos:altLabel	Xerox License	@en
+scheme:X11	skos:altLabel	X11 License	@en
+scheme:WTFPL	skos:altLabel	Do What The F*ck You Want To Public License	@en
+scheme:Wsuipa	skos:altLabel	Wsuipa License	@en
+scheme:Watcom1.0	skos:altLabel	Sybase Open Watcom Public License 1.0	@en
+scheme:W3C20150513	skos:altLabel	W3C Software Notice and Document License (2015-05-13)	@en
+scheme:W3C19980720	skos:altLabel	W3C Software Notice and License (1998-07-20)	@en
+scheme:W3C	skos:altLabel	W3C Software Notice and License (2002-12-31)	@en
+scheme:VSL1.0	skos:altLabel	Vovida Software License v1.0	@en
+scheme:VOSTROM	skos:altLabel	VOSTROM Public License for Open Source	@en
+scheme:Vim	skos:altLabel	Vim License	@en
+scheme:UPL1.0	skos:altLabel	Universal Permissive License v1.0	@en
+scheme:Unlicense	skos:altLabel	The Unlicense	@en
+scheme:UnicodeTOU	skos:altLabel	Unicode Terms of Use	@en
+scheme:UnicodeDFS2016	skos:altLabel	Unicode License Agreement - Data Files and Software (2016)	@en
+scheme:UnicodeDFS2015	skos:altLabel	Unicode License Agreement - Data Files and Software (2015)	@en
+scheme:UCL1.0	skos:altLabel	Upstream Compatibility License v1.0	@en
+scheme:TUBerlin2.0	skos:altLabel	Technische Universitaet Berlin License 2.0	@en
+scheme:TUBerlin1.0	skos:altLabel	Technische Universitaet Berlin License 1.0	@en
+scheme:TOSL	skos:altLabel	Trusster Open Source License	@en

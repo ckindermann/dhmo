@@ -1,0 +1,1141 @@
+scheme:hasVerticalResolutionInMeters	skos:prefLabel	has Vertical Resolution In Meters	@en
+scheme:hasGeoLocationDescription	skos:prefLabel	has Geo Location Description	@en
+scheme:hasPolygonPointLongitude	skos:prefLabel	has Polygon Point Longitude	@en
+scheme:hasPolygonPointLatitude	skos:prefLabel	has Polygon Point Latitude	@en
+scheme:hasNorthBoundLatitude	skos:prefLabel	has North Bound Latitude	@en
+scheme:hasSouthBoundLatitude	skos:prefLabel	has South Bound Latitude	@en
+scheme:hasEastBoundLongitude	skos:prefLabel	has East Bound Longitude	@en
+scheme:hasWestBoundLongitude	skos:prefLabel	has West Bound Longitude	@en
+scheme:hasPointLongitude	skos:prefLabel	has Point Longitude	@en
+scheme:hasPointLatitude	skos:prefLabel	has Point Latitude	@en
+scheme:hasVariableSchemeIRI	skos:prefLabel	has Variable Scheme IRI	@en
+scheme:hasVariableScheme	skos:prefLabel	has Variable Scheme	@en
+scheme:hasVariableIRI	skos:prefLabel	has Variable IRI	@en
+scheme:hasVariable	skos:prefLabel	has Variable	@en
+scheme:hasDataSourceSchemeIRI	skos:prefLabel	has Data Source Scheme IRI	@en
+scheme:hasDataSourceScheme	skos:prefLabel	has Data Source Scheme	@en
+scheme:hasDataSourceIRI	skos:prefLabel	has Data Source IRI	@en
+scheme:hasDataSource	skos:prefLabel	has Data Source	@en
+scheme:hasDataStreamSchemeIRI	skos:prefLabel	has Data Stream Scheme IRI	@en
+scheme:hasDataStreamScheme	skos:prefLabel	has Data Stream Scheme	@en
+scheme:hasDataStreamIRI	skos:prefLabel	has Data Stream IRI	@en
+scheme:hasDataStream	skos:prefLabel	has Data Stream	@en
+scheme:hasDistributorType	skos:prefLabel	has Distributor Type	@en
+scheme:hasDistributorRole	skos:prefLabel	has Distributor Role	@en
+scheme:hasDistributorAffiliationIdentifierSchemeIRI	skos:prefLabel	has Distributor Affiliation Identifier Scheme IRI	@en
+scheme:hasDistributorAffiliationIdentifierScheme	skos:prefLabel	has Distributor Affiliation Identifier Scheme	@en
+scheme:hasDistributorAffiliationIdentifier	skos:prefLabel	has Distributor Affiliation Identifier	@en
+scheme:hasDistributorAffiliation	skos:prefLabel	has Distributor Affiliation	@en
+scheme:hasDistributorIdentifierSchemeIRI	skos:prefLabel	has Distributor Identifier Scheme IRI	@en
+scheme:hasDistributorIdentifierScheme	skos:prefLabel	has Distributor Identifier Scheme	@en
+scheme:hasDistributorIdentifier	skos:prefLabel	has Distributor Identifier	@en
+scheme:hasDistributionDate	skos:prefLabel	has Distribution Date	@en
+scheme:hasDistributionQueryStatement	skos:prefLabel	has Distribution Query Statement	@en
+scheme:hasDistributionAccessConfiguration	skos:prefLabel	has Distribution Access Configuration	@en
+scheme:hasDistributionAccessProtocol	skos:prefLabel	has Distribution Access Protocol	@en
+scheme:hasDistributionSize	skos:prefLabel	has Distribution Size	@en
+scheme:hasDistributionMediaType	skos:prefLabel	has Distribution Media Type	@en
+scheme:hasDistributionIdentifierType	skos:prefLabel	has Distribution Identifier Type	@en
+scheme:hasDistributionIdentifier	skos:prefLabel	has Distribution Identifier	@en
+scheme:hasDatasetDateType	skos:prefLabel	has Dataset Date Type	@en
+scheme:hasDatasetDate	skos:prefLabel	has Dataset Date	@en
+scheme:hasLicenseIdentifierSchemeIRI	skos:prefLabel	has License Identifier Scheme IRI	@en
+scheme:hasLicenseIdentifierScheme	skos:prefLabel	has License Identifier Scheme	@en
+scheme:hasLicenseIdentifier	skos:prefLabel	has License Identifier	@en
+scheme:hasLicenseName	skos:prefLabel	has License Name	@en
+scheme:hasPublisherAddress	skos:prefLabel	has Publisher Address	@en
+scheme:hasPublisherIdentifierSchemeIRI	skos:prefLabel	has Publisher Identifier Scheme IRI	@en
+scheme:hasPublisherIdentifierScheme	skos:prefLabel	has Publisher Identifier Scheme	@en
+scheme:hasPublisherIdentifier	skos:prefLabel	has Publisher Identifier	@en
+scheme:hasContributorType	skos:prefLabel	has Contributor Type	@en
+scheme:hasContributorRole	skos:prefLabel	has Contributor Role	@en
+scheme:hasContributorAffiliationIdentifierSchemeIRI	skos:prefLabel	has Contributor Affiliation Identifier Scheme IRI	@en
+scheme:hasContributorAffiliationIdentifierScheme	skos:prefLabel	has Contributor Affiliation Identifier Scheme	@en
+scheme:hasContributorAffiliationIdentifier	skos:prefLabel	has Contributor Affiliation Identifier	@en
+scheme:hasContributorAffiliation	skos:prefLabel	has Contributor Affiliation	@en
+scheme:hasContributorIdentifierSchemeIRI	skos:prefLabel	has Contributor Identifier Scheme IRI	@en
+scheme:hasContributorIdentifierScheme	skos:prefLabel	has Contributor Identifier Scheme	@en
+scheme:hasContributorIdentifier	skos:prefLabel	has Contributor Identifier	@en
+scheme:hasCreatorType	skos:prefLabel	has Creator Type	@en
+scheme:hasCreatorRole	skos:prefLabel	has Creator Role	@en
+scheme:hasCreatorAffiliationIdentifierSchemeIRI	skos:prefLabel	has Creator Affiliation Identifier Scheme IRI	@en
+scheme:hasCreatorAffiliationIdentifierScheme	skos:prefLabel	has Creator Affiliation Identifier Scheme	@en
+scheme:hasCreatorAffiliationIdentifier	skos:prefLabel	has Creator Affiliation Identifier	@en
+scheme:hasCreatorAffiliation	skos:prefLabel	has Creator Affiliation	@en
+scheme:hasCreatorIdentifierSchemeIRI	skos:prefLabel	has Creator Identifier Scheme IRI	@en
+scheme:hasCreatorIdentifierScheme	skos:prefLabel	has Creator Identifier Scheme	@en
+scheme:hasCreatorIdentifier	skos:prefLabel	has Creator Identifier	@en
+scheme:hasKeyword	skos:prefLabel	has Keyword	@en
+scheme:hasSubjectSchemeIRI	skos:prefLabel	has Subject Scheme IRI	@en
+scheme:hasSubjectScheme	skos:prefLabel	has Subject Scheme	@en
+scheme:hasSubjectIRI	skos:prefLabel	has Subject IRI	@en
+scheme:hasPrimaryLanguage	skos:prefLabel	has Primary Language	@en
+scheme:hasRelatedResourceIdentifierSubType	skos:prefLabel	has Related Resource Identifier Sub Type	@en
+scheme:hasDatasetIdentifierSubType	skos:prefLabel	has Dataset Identifier Sub Type	@en
+scheme:hasFunderInfo	skos:prefLabel	has Funder Info	@en
+scheme:hasAwardInfo	skos:prefLabel	has Award Info	@en
+scheme:hasFundingInfo	skos:prefLabel	has Funding Info	@en
+scheme:hasTemporalCoverageInfo	skos:prefLabel	has Temporal Coverage Info	@en
+scheme:hasVerticalCoverageInfo	skos:prefLabel	has Vertical Coverage Info	@en
+scheme:hasSpatialCoveragePolygonInfo	skos:prefLabel	has Spatial Coverage Polygon Info	@en
+scheme:hasSpatialCoverageBoundingBoxInfo	skos:prefLabel	has Spatial Coverage Bounding Box Info	@en
+scheme:hasSpatialCoveragePointInfo	skos:prefLabel	has Spatial Coverage Point Info	@en
+scheme:hasSpatialCoverageInfo	skos:prefLabel	has Spatial Coverage Info	@en
+scheme:hasOtherSubject	skos:prefLabel	has Other Subject	@en
+scheme:hasMeasuredVariable	skos:prefLabel	has Measured Variable	@en
+scheme:hasIntendedVariable	skos:prefLabel	has Intended Variable	@en
+scheme:hasOtherVariable	skos:prefLabel	has Other Variable	@en
+scheme:hasVariableInfo	skos:prefLabel	has Variable Info	@en
+scheme:hasDataSourceInfo	skos:prefLabel	has Data Source Info	@en
+scheme:hasDataStreamInfo	skos:prefLabel	has Data Stream Info	@en
+scheme:hasContentInfo	skos:prefLabel	has Content Info	@en
+scheme:hasDistributorAffiliationInfo	skos:prefLabel	has Distributor Affiliation Info	@en
+scheme:hasDistributorIdentifierInfo	skos:prefLabel	has Distributor Identifier Info	@en
+scheme:hasDistributorNameInfo	skos:prefLabel	has Distributor Name Info	@en
+scheme:hasDistributorInfo	skos:prefLabel	has Distributor Info	@en
+scheme:hasDistributionAccessInfo	skos:prefLabel	has Distribution Access Info	@en
+scheme:hasDistributionInfo	skos:prefLabel	has Distribution Info	@en
+scheme:hasDateInfo	skos:prefLabel	has Date Info	@en
+scheme:hasLicenseIdentifierInfo	skos:prefLabel	has License Identifier Info	@en
+scheme:hasRightsInfo	skos:prefLabel	has Rights Info	@en
+scheme:hasPublisherIdentifierInfo	skos:prefLabel	has Publisher Identifier Info	@en
+scheme:hasPublisherInfo	skos:prefLabel	has Publisher Info	@en
+scheme:hasContributorAffiliationInfo	skos:prefLabel	has Contributor Affiliation Info	@en
+scheme:hasContributorIdentifierInfo	skos:prefLabel	has Contributor Identifier Info	@en
+scheme:hasContributorNameInfo	skos:prefLabel	has Contributor Name Info	@en
+scheme:hasContributorInfo	skos:prefLabel	has Contributor Info	@en
+scheme:hasCreatorAffiliationInfo	skos:prefLabel	has Creator Affiliation Info	@en
+scheme:hasCreatorIdentifierInfo	skos:prefLabel	has Creator Identifier Info	@en
+scheme:hasCreatorNameInfo	skos:prefLabel	has Creator Name Info	@en
+scheme:hasCreatorInfo	skos:prefLabel	has Creator Info	@en
+scheme:hasControlledTermsInfo	skos:prefLabel	has Controlled Terms Info	@en
+scheme:hasSubjectAndKeywordInfo	skos:prefLabel	has Subject And Keyword Info	@en
+scheme:hasSubjectInfo	skos:prefLabel	has Subject Info	@en
+scheme:hasDescriptionInfo	skos:prefLabel	has Description Info	@en
+scheme:hasTitleInfo	skos:prefLabel	has Title Info	@en
+scheme:hasLanguageInfo	skos:prefLabel	has Language Info	@en
+scheme:hasVersionInfo	skos:prefLabel	has Version Info	@en
+scheme:hasRelatedResourcesInfo	skos:prefLabel	has Related Resources Info	@en
+scheme:hasDatasetIdentifierInfo	skos:prefLabel	has Dataset Identifier Info	@en
+scheme:hasResourceTypeInfo	skos:prefLabel	has Resource Type Info	@en
+scheme:	skos:prefLabel	Ontology for Generic Dataset Metadata Template	@en
+scheme:RelatedPerson	skos:prefLabel	Related Person	@en
+scheme:RegistrationAuthority	skos:prefLabel	Registration Authority	@en
+scheme:RegistrationAgency	skos:prefLabel	Registration Agency	@en
+scheme:ProjectMember	skos:prefLabel	Project Member	@en
+scheme:ProjectManager	skos:prefLabel	Project Manager	@en
+scheme:ContactPI	skos:prefLabel	Contact PI	@en
+scheme:DataPI	skos:prefLabel	Data PI	@en
+scheme:PI	skos:prefLabel	PI	@en
+scheme:ProjectLeader	skos:prefLabel	Project Leader	@en
+scheme:Producer	skos:prefLabel	Producer	@en
+scheme:HostingInstitution	skos:prefLabel	Hosting Institution	@en
+scheme:Editor	skos:prefLabel	Editor	@en
+scheme:Distributor	skos:prefLabel	Distributor	@en
+scheme:DataManager	skos:prefLabel	Data Manager	@en
+scheme:DataCurator	skos:prefLabel	Data Curator	@en
+scheme:DataCollector	skos:prefLabel	Data Collector	@en
+scheme:ContactPerson	skos:prefLabel	Contact Person	@en
+scheme:ContributorRole	skos:prefLabel	Contributor Role	@en
+scheme:OtherResource	skos:prefLabel	Other Resource	@en
+scheme:Workflow	skos:prefLabel	Workflow	@en
+scheme:Text	skos:prefLabel	Text	@en
+scheme:Sound	skos:prefLabel	Sound	@en
+scheme:Software	skos:prefLabel	Software	@en
+scheme:Service	skos:prefLabel	Service	@en
+scheme:PhysicalObject	skos:prefLabel	Physical Object	@en
+scheme:Model	skos:prefLabel	Model	@en
+scheme:InteractiveResource	skos:prefLabel	Interactive Resource	@en
+scheme:Image	skos:prefLabel	Image	@en
+scheme:Event	skos:prefLabel	Event	@en
+scheme:DataStream	skos:prefLabel	Data Stream	@en
+scheme:Dataset	skos:prefLabel	Dataset	@en
+scheme:DataCatalog	skos:prefLabel	Data Catalog	@en
+scheme:DataPaper	skos:prefLabel	Data Paper	@en
+scheme:Collection	skos:prefLabel	Collection	@en
+scheme:Audiovisual	skos:prefLabel	Audiovisual	@en
+scheme:ResourceTypeCategory	skos:prefLabel	Resource Type Category	@en
+scheme:hasFunderIdentifierSchemeIRI	skos:prefLabel	has Funder Identifier Scheme IRI	@en
+scheme:hasFunderIdentifierScheme	skos:prefLabel	has Funder Identifier Scheme	@en
+scheme:hasFunderIdentifier	skos:prefLabel	has Funder Identifier	@en
+scheme:hasFunderName	skos:prefLabel	has Funder Name	@en
+scheme:hasAwardLocalIdentifier	skos:prefLabel	has Award Local Identifier	@en
+scheme:hasAwardPageIRI	skos:prefLabel	has Award Page IRI	@en
+scheme:hasAwardTitle	skos:prefLabel	has Award Title	@en
+scheme:hasDuration	skos:prefLabel	has Duration	@en
+scheme:hasTemporalResolution	skos:prefLabel	has Temporal Resolution	@en
+scheme:hasTemporalExtentMaximumValue	skos:prefLabel	has Temporal Extent Maximum Value	@en
+scheme:hasTemporalExtentMinimumValue	skos:prefLabel	has Temporal Extent Minimum Value	@en
+scheme:hasVerticalExtentDatumIRI	skos:prefLabel	has Vertical Extent Datum IRI	@en
+scheme:hasVerticalExtentDatum	skos:prefLabel	has Vertical Extent Datum	@en
+scheme:hasVerticalExtentUnitSchemeIRI	skos:prefLabel	has Vertical Extent Unit Scheme IRI	@en
+scheme:hasVerticalExtentUnitScheme	skos:prefLabel	has Vertical Extent Unit Scheme	@en
+scheme:hasVerticalExtentUnitIRI	skos:prefLabel	has Vertical Extent Unit IRI	@en
+scheme:hasVerticalExtentUnit	skos:prefLabel	has Vertical Extent Unit	@en
+scheme:hasVerticalExtentMinimumValue	skos:prefLabel	has Vertical Extent Minimum Value	@en
+scheme:hasVerticalExtentMaximumValue	skos:prefLabel	has Vertical Extent Maximum Value	@en
+scheme:IRI	skos:prefLabel	IRI	@en
+scheme:w3id	skos:prefLabel	w3id	@en
+scheme:URN	skos:prefLabel	URN	@en
+scheme:URL	skos:prefLabel	URL	@en
+scheme:URI	skos:prefLabel	URI	@en
+scheme:UPC	skos:prefLabel	UPC	@en
+scheme:PURL	skos:prefLabel	PURL	@en
+scheme:PMID	skos:prefLabel	PMID	@en
+scheme:LSID	skos:prefLabel	LSID	@en
+scheme:LISSN	skos:prefLabel	LISSN	@en
+scheme:ISTC	skos:prefLabel	ISTC	@en
+scheme:ISSN	skos:prefLabel	ISSN	@en
+scheme:ISBN	skos:prefLabel	ISBN	@en
+scheme:IGSN	skos:prefLabel	IGSN	@en
+scheme:Handle	skos:prefLabel	Handle	@en
+scheme:EISSN	skos:prefLabel	EISSN	@en
+scheme:EAN13	skos:prefLabel	EAN13	@en
+scheme:UEI	skos:prefLabel	UEI	@en
+scheme:DOI	skos:prefLabel	DOI	@en
+scheme:bibcode	skos:prefLabel	bibcode	@en
+scheme:arXiv	skos:prefLabel	arXiv	@en
+scheme:ARK	skos:prefLabel	ARK	@en
+scheme:IdentifierType	skos:prefLabel	Identifier Type	@en
+scheme:Withdrawn	skos:prefLabel	Withdrawn	@en
+scheme:Valid	skos:prefLabel	Valid	@en
+scheme:Updated	skos:prefLabel	Updated	@en
+scheme:Submitted	skos:prefLabel	Submitted	@en
+scheme:Issued	skos:prefLabel	Issued	@en
+scheme:Created	skos:prefLabel	Created	@en
+scheme:Collected	skos:prefLabel	Collected	@en
+scheme:Copyrighted	skos:prefLabel	Copyrighted	@en
+scheme:Available	skos:prefLabel	Available	@en
+scheme:Accepted	skos:prefLabel	Accepted	@en
+scheme:Published	skos:prefLabel	Published	@en
+scheme:DateType	skos:prefLabel	Date Type	@en
+scheme:OtherRole	skos:prefLabel	Other Role	@en
+scheme:WorkPackageLeader	skos:prefLabel	Work Package Leader	@en
+scheme:Supervisor	skos:prefLabel	Supervisor	@en
+scheme:Sponsor	skos:prefLabel	Sponsor	@en
+scheme:RightsHolder	skos:prefLabel	Rights Holder	@en
+scheme:ResearchGroup	skos:prefLabel	Research Group	@en
+scheme:Researcher	skos:prefLabel	Researcher	@en
+<https://isni.org>	skos:prefLabel	ISNI	@en
+<https://www.grid.ac>	skos:prefLabel	GRID	@en
+<https://ror.org>	skos:prefLabel	ROR	@en
+<https://www.linkedin.com>	skos:prefLabel	LinkedIn ID	@en
+<http://www.researcherid.com>	skos:prefLabel	ResearcherID	@en
+<https://www.scopus.com>	skos:prefLabel	Scopus	@en
+<https://orcid.org>	skos:prefLabel	ORCiD	@en
+scheme:IdentifierScheme	skos:prefLabel	Identifier Scheme	@en
+scheme:Organization	skos:prefLabel	Organization	@en
+scheme:Person	skos:prefLabel	Person	@en
+scheme:ResourceCreatorType	skos:prefLabel	Resource Creator Type	@en
+scheme:IsObsoletedBy	skos:prefLabel	Is Obsoleted By	@en
+scheme:Obsoletes	skos:prefLabel	Obsoletes	@en
+scheme:Requires	skos:prefLabel	Requires	@en
+scheme:IsRequiredBy	skos:prefLabel	Is Required By	@en
+scheme:IsSourceOf	skos:prefLabel	Is Source Of	@en
+scheme:IsDerivedFrom	skos:prefLabel	Is Derived From	@en
+scheme:Reviews	skos:prefLabel	Reviews	@en
+scheme:IsReviewedBy	skos:prefLabel	Is Reviewed By	@en
+scheme:IsIdenticalTo	skos:prefLabel	Is Identical To	@en
+scheme:IsOriginalFormOf	skos:prefLabel	Is Original Form Of	@en
+scheme:IsVariantFormOf	skos:prefLabel	Is Variant Form Of	@en
+scheme:Compiles	skos:prefLabel	Compiles	@en
+scheme:IsCompiledBy	skos:prefLabel	Is Compiled By	@en
+scheme:Documents	skos:prefLabel	Documents	@en
+scheme:IsDocumentedBy	skos:prefLabel	Is Documented By	@en
+scheme:References	skos:prefLabel	References	@en
+scheme:IsReferencedBy	skos:prefLabel	Is Referenced By	@en
+scheme:HasPart	skos:prefLabel	Has Part	@en
+scheme:IsPartOf	skos:prefLabel	Is Part Of	@en
+scheme:IsPreviousVersionOf	skos:prefLabel	Is Previous Version Of	@en
+scheme:IsNewVersionOf	skos:prefLabel	Is New Version Of	@en
+scheme:IsVersionOf	skos:prefLabel	Is Version Of	@en
+scheme:HasVersion	skos:prefLabel	Has Version	@en
+scheme:IsMetadataFor	skos:prefLabel	Is Metadata For	@en
+scheme:HasMetadata	skos:prefLabel	Has Metadata	@en
+scheme:IsDescribedBy	skos:prefLabel	Is Described By	@en
+scheme:Describes	skos:prefLabel	Describes	@en
+scheme:Continues	skos:prefLabel	Continues	@en
+scheme:IsContinuedBy	skos:prefLabel	Is Continued By	@en
+scheme:IsSupplementedBy	skos:prefLabel	Is Supplemented By	@en
+scheme:IsSupplementTo	skos:prefLabel	Is Supplement To	@en
+scheme:Cites	skos:prefLabel	Cites	@en
+scheme:IsCitedBy	skos:prefLabel	Is Cited By	@en
+scheme:RelationType	skos:prefLabel	Relation Type	@en
+scheme:AFL1.1	skos:prefLabel	AFL-1.1	@en
+scheme:ADSL	skos:prefLabel	ADSL	@en
+scheme:AdobeGlyph	skos:prefLabel	Adobe-Glyph	@en
+scheme:Adobe2006	skos:prefLabel	Adobe-2006	@en
+scheme:Abstyles	skos:prefLabel	Abstyles	@en
+scheme:AAL	skos:prefLabel	AAL	@en
+scheme:0BSD	skos:prefLabel	0BSD	@en
+scheme:LicenseIdentifier	skos:prefLabel	License Identifier	@en
+scheme:BSD3Clause	skos:prefLabel	BSD-3-Clause	@en
+scheme:BSD2ClauseViews	skos:prefLabel	BSD-2-Clause-Views	@en
+scheme:BSD2ClausePatent	skos:prefLabel	BSD-2-Clause-Patent	@en
+scheme:BSD2Clause	skos:prefLabel	BSD-2-Clause	@en
+scheme:BSD1Clause	skos:prefLabel	BSD-1-Clause	@en
+scheme:Borceux	skos:prefLabel	Borceux	@en
+scheme:BlueOak1.0.0	skos:prefLabel	BlueOak-1.0.0	@en
+scheme:blessing	skos:prefLabel	blessing	@en
+scheme:BitTorrent1.1	skos:prefLabel	BitTorrent-1.1	@en
+scheme:BitTorrent1.0	skos:prefLabel	BitTorrent-1.0	@en
+scheme:Beerware	skos:prefLabel	Beerware	@en
+scheme:Barr	skos:prefLabel	Barr	@en
+scheme:Bahyph	skos:prefLabel	Bahyph	@en
+scheme:Artistic2.0	skos:prefLabel	Artistic-2.0	@en
+scheme:Artistic1.0Perl	skos:prefLabel	Artistic-1.0-Perl	@en
+scheme:Artistic1.0cl8	skos:prefLabel	Artistic-1.0-cl8	@en
+scheme:Artistic1.0	skos:prefLabel	Artistic-1.0	@en
+scheme:APSL2.0	skos:prefLabel	APSL-2.0	@en
+scheme:APSL1.2	skos:prefLabel	APSL-1.2	@en
+scheme:APSL1.1	skos:prefLabel	APSL-1.1	@en
+scheme:APSL1.0	skos:prefLabel	APSL-1.0	@en
+scheme:APL1.0	skos:prefLabel	APL-1.0	@en
+scheme:APAFML	skos:prefLabel	APAFML	@en
+scheme:Apache2.0	skos:prefLabel	Apache-2.0	@en
+scheme:Apache1.1	skos:prefLabel	Apache-1.1	@en
+scheme:Apache1.0	skos:prefLabel	Apache-1.0	@en
+scheme:ANTLRPDfallback	skos:prefLabel	ANTLR-PD-fallback	@en
+scheme:ANTLRPD	skos:prefLabel	ANTLR-PD	@en
+scheme:AMPAS	skos:prefLabel	AMPAS	@en
+scheme:AML	skos:prefLabel	AML	@en
+scheme:AMDPLPA	skos:prefLabel	AMDPLPA	@en
+scheme:Aladdin	skos:prefLabel	Aladdin	@en
+scheme:AGPL3.0orlater	skos:prefLabel	AGPL-3.0-or-later	@en
+scheme:AGPL3.0only	skos:prefLabel	AGPL-3.0-only	@en
+scheme:AGPL1.0orlater	skos:prefLabel	AGPL-1.0-or-later	@en
+scheme:AGPL1.0only	skos:prefLabel	AGPL-1.0-only	@en
+scheme:Afmparse	skos:prefLabel	Afmparse	@en
+scheme:AFL3.0	skos:prefLabel	AFL-3.0	@en
+scheme:AFL2.1	skos:prefLabel	AFL-2.1	@en
+scheme:AFL2.0	skos:prefLabel	AFL-2.0	@en
+scheme:AFL1.2	skos:prefLabel	AFL-1.2	@en
+scheme:CCBYNCSA4.0	skos:prefLabel	CC-BY-NC-SA-4.0	@en
+scheme:CCBYNCSA3.0	skos:prefLabel	CC-BY-NC-SA-3.0	@en
+scheme:CCBYNCSA2.5	skos:prefLabel	CC-BY-NC-SA-2.5	@en
+scheme:CCBYNCSA2.0	skos:prefLabel	CC-BY-NC-SA-2.0	@en
+scheme:CCBYNCSA1.0	skos:prefLabel	CC-BY-NC-SA-1.0	@en
+scheme:CCBYNCND4.0	skos:prefLabel	CC-BY-NC-ND-4.0	@en
+scheme:CCBYNCND3.0IGO	skos:prefLabel	CC-BY-NC-ND-3.0-IGO	@en
+scheme:CCBYNCND3.0	skos:prefLabel	CC-BY-NC-ND-3.0	@en
+scheme:CCBYNCND2.5	skos:prefLabel	CC-BY-NC-ND-2.5	@en
+scheme:CCBYNCND2.0	skos:prefLabel	CC-BY-NC-ND-2.0	@en
+scheme:CCBYNCND1.0	skos:prefLabel	CC-BY-NC-ND-1.0	@en
+scheme:CCBYNC4.0	skos:prefLabel	CC-BY-NC-4.0	@en
+scheme:CCBYNC3.0	skos:prefLabel	CC-BY-NC-3.0	@en
+scheme:CCBYNC2.5	skos:prefLabel	CC-BY-NC-2.5	@en
+scheme:CCBYNC2.0	skos:prefLabel	CC-BY-NC-2.0	@en
+scheme:CCBYNC1.0	skos:prefLabel	CC-BY-NC-1.0	@en
+scheme:CCBY4.0	skos:prefLabel	CC-BY-4.0	@en
+scheme:CCBY3.0US	skos:prefLabel	CC-BY-3.0-US	@en
+scheme:CCBY3.0AT	skos:prefLabel	CC-BY-3.0-AT	@en
+scheme:CCBY3.0	skos:prefLabel	CC-BY-3.0	@en
+scheme:CCBY2.5	skos:prefLabel	CC-BY-2.5	@en
+scheme:CCBY2.0	skos:prefLabel	CC-BY-2.0	@en
+scheme:CCBY1.0	skos:prefLabel	CC-BY-1.0	@en
+scheme:CATOSL1.1	skos:prefLabel	CATOSL-1.1	@en
+scheme:Caldera	skos:prefLabel	Caldera	@en
+scheme:CAL1.0CombinedWorkException	skos:prefLabel	CAL-1.0-Combined-Work-Exception	@en
+scheme:CAL1.0	skos:prefLabel	CAL-1.0	@en
+scheme:bzip21.0.6	skos:prefLabel	bzip2-1.0.6	@en
+scheme:bzip21.0.5	skos:prefLabel	bzip2-1.0.5	@en
+scheme:BUSL1.1	skos:prefLabel	BUSL-1.1	@en
+scheme:BSL1.0	skos:prefLabel	BSL-1.0	@en
+scheme:BSDSourceCode	skos:prefLabel	BSD-Source-Code	@en
+scheme:BSDProtection	skos:prefLabel	BSD-Protection	@en
+scheme:BSD4ClauseUC	skos:prefLabel	BSD-4-Clause-UC	@en
+scheme:BSD4Clause	skos:prefLabel	BSD-4-Clause	@en
+scheme:BSD3ClauseOpenMPI	skos:prefLabel	BSD-3-Clause-Open-MPI	@en
+scheme:BSD3ClauseNoNuclearWarranty	skos:prefLabel	BSD-3-Clause-No-Nuclear-Warranty	@en
+scheme:BSD3ClauseNoNuclearLicense2014	skos:prefLabel	BSD-3-Clause-No-Nuclear-License-2014	@en
+scheme:BSD3ClauseNoNuclearLicense	skos:prefLabel	BSD-3-Clause-No-Nuclear-License	@en
+scheme:BSD3ClauseLBNL	skos:prefLabel	BSD-3-Clause-LBNL	@en
+scheme:BSD3ClauseClear	skos:prefLabel	BSD-3-Clause-Clear	@en
+scheme:BSD3ClauseAttribution	skos:prefLabel	BSD-3-Clause-Attribution	@en
+scheme:CUAOPL1.0	skos:prefLabel	CUA-OPL-1.0	@en
+scheme:CrystalStacker	skos:prefLabel	CrystalStacker	@en
+scheme:Crossword	skos:prefLabel	Crossword	@en
+scheme:CPOL1.02	skos:prefLabel	CPOL-1.02	@en
+scheme:CPL1.0	skos:prefLabel	CPL-1.0	@en
+scheme:CPAL1.0	skos:prefLabel	CPAL-1.0	@en
+scheme:copyleftnext0.3.1	skos:prefLabel	copyleft-next-0.3.1	@en
+scheme:copyleftnext0.3.0	skos:prefLabel	copyleft-next-0.3.0	@en
+scheme:Condor1.1	skos:prefLabel	Condor-1.1	@en
+scheme:CNRIPythonGPLCompatible	skos:prefLabel	CNRI-Python-GPL-Compatible	@en
+scheme:CNRIPython	skos:prefLabel	CNRI-Python	@en
+scheme:CNRIJython	skos:prefLabel	CNRI-Jython	@en
+scheme:ClArtistic	skos:prefLabel	ClArtistic	@en
+scheme:CERNOHLW2.0	skos:prefLabel	CERN-OHL-W-2.0	@en
+scheme:CERNOHLS2.0	skos:prefLabel	CERN-OHL-S-2.0	@en
+scheme:CERNOHLP2.0	skos:prefLabel	CERN-OHL-P-2.0	@en
+scheme:CERNOHL1.2	skos:prefLabel	CERN-OHL-1.2	@en
+scheme:CERNOHL1.1	skos:prefLabel	CERN-OHL-1.1	@en
+scheme:CECILLC	skos:prefLabel	CECILL-C	@en
+scheme:CECILLB	skos:prefLabel	CECILL-B	@en
+scheme:CECILL2.1	skos:prefLabel	CECILL-2.1	@en
+scheme:CECILL2.0	skos:prefLabel	CECILL-2.0	@en
+scheme:CECILL1.1	skos:prefLabel	CECILL-1.1	@en
+scheme:CECILL1.0	skos:prefLabel	CECILL-1.0	@en
+scheme:CDLASharing1.0	skos:prefLabel	CDLA-Sharing-1.0	@en
+scheme:CDLAPermissive1.0	skos:prefLabel	CDLA-Permissive-1.0	@en
+scheme:CDDL1.1	skos:prefLabel	CDDL-1.1	@en
+scheme:CDDL1.0	skos:prefLabel	CDDL-1.0	@en
+scheme:CC01.0	skos:prefLabel	CC0-1.0	@en
+scheme:CCPDDC	skos:prefLabel	CC-PDDC	@en
+scheme:CCBYSA4.0	skos:prefLabel	CC-BY-SA-4.0	@en
+scheme:CCBYSA3.0AT	skos:prefLabel	CC-BY-SA-3.0-AT	@en
+scheme:CCBYSA3.0	skos:prefLabel	CC-BY-SA-3.0	@en
+scheme:CCBYSA2.5	skos:prefLabel	CC-BY-SA-2.5	@en
+scheme:CCBYSA2.0UK	skos:prefLabel	CC-BY-SA-2.0-UK	@en
+scheme:CCBYSA2.0	skos:prefLabel	CC-BY-SA-2.0	@en
+scheme:CCBYSA1.0	skos:prefLabel	CC-BY-SA-1.0	@en
+scheme:CCBYND4.0	skos:prefLabel	CC-BY-ND-4.0	@en
+scheme:CCBYND3.0	skos:prefLabel	CC-BY-ND-3.0	@en
+scheme:CCBYND2.5	skos:prefLabel	CC-BY-ND-2.5	@en
+scheme:CCBYND2.0	skos:prefLabel	CC-BY-ND-2.0	@en
+scheme:CCBYND1.0	skos:prefLabel	CC-BY-ND-1.0	@en
+scheme:GFDL1.2noinvariantsorlater	skos:prefLabel	GFDL-1.2-no-invariants-or-later	@en
+scheme:GFDL1.2noinvariantsonly	skos:prefLabel	GFDL-1.2-no-invariants-only	@en
+scheme:GFDL1.2invariantsorlater	skos:prefLabel	GFDL-1.2-invariants-or-later	@en
+scheme:GFDL1.2invariantsonly	skos:prefLabel	GFDL-1.2-invariants-only	@en
+scheme:GFDL1.1orlater	skos:prefLabel	GFDL-1.1-or-later	@en
+scheme:GFDL1.1only	skos:prefLabel	GFDL-1.1-only	@en
+scheme:GFDL1.1noinvariantsorlater	skos:prefLabel	GFDL-1.1-no-invariants-or-later	@en
+scheme:GFDL1.1noinvariantsonly	skos:prefLabel	GFDL-1.1-no-invariants-only	@en
+scheme:GFDL1.1invariantsorlater	skos:prefLabel	GFDL-1.1-invariants-or-later	@en
+scheme:GFDL1.1invariantsonly	skos:prefLabel	GFDL-1.1-invariants-only	@en
+scheme:FTL	skos:prefLabel	FTL	@en
+scheme:FSFULLR	skos:prefLabel	FSFULLR	@en
+scheme:FSFUL	skos:prefLabel	FSFUL	@en
+scheme:FSFAP	skos:prefLabel	FSFAP	@en
+scheme:FreeImage	skos:prefLabel	FreeImage	@en
+scheme:Frameworx1.0	skos:prefLabel	Frameworx-1.0	@en
+scheme:Fair	skos:prefLabel	Fair	@en
+scheme:Eurosym	skos:prefLabel	Eurosym	@en
+scheme:EUPL1.2	skos:prefLabel	EUPL-1.2	@en
+scheme:EUPL1.1	skos:prefLabel	EUPL-1.1	@en
+scheme:EUPL1.0	skos:prefLabel	EUPL-1.0	@en
+scheme:EUDatagrid	skos:prefLabel	EUDatagrid	@en
+scheme:etalab2.0	skos:prefLabel	etalab-2.0	@en
+scheme:ErlPL1.1	skos:prefLabel	ErlPL-1.1	@en
+scheme:EPL2.0	skos:prefLabel	EPL-2.0	@en
+scheme:EPL1.0	skos:prefLabel	EPL-1.0	@en
+scheme:EPICS	skos:prefLabel	EPICS	@en
+scheme:Entessa	skos:prefLabel	Entessa	@en
+scheme:eGenix	skos:prefLabel	eGenix	@en
+scheme:EFL2.0	skos:prefLabel	EFL-2.0	@en
+scheme:EFL1.0	skos:prefLabel	EFL-1.0	@en
+scheme:ECL2.0	skos:prefLabel	ECL-2.0	@en
+scheme:ECL1.0	skos:prefLabel	ECL-1.0	@en
+scheme:dvipdfm	skos:prefLabel	dvipdfm	@en
+scheme:DSDP	skos:prefLabel	DSDP	@en
+scheme:Dotseqn	skos:prefLabel	Dotseqn	@en
+scheme:DOC	skos:prefLabel	DOC	@en
+scheme:diffmark	skos:prefLabel	diffmark	@en
+scheme:DFSL1.0	skos:prefLabel	D-FSL-1.0	@en
+scheme:curl	skos:prefLabel	curl	@en
+scheme:Cube	skos:prefLabel	Cube	@en
+scheme:JSON	skos:prefLabel	JSON	@en
+scheme:JPNIC	skos:prefLabel	JPNIC	@en
+scheme:JasPer2.0	skos:prefLabel	JasPer-2.0	@en
+scheme:ISC	skos:prefLabel	ISC	@en
+scheme:IPL1.0	skos:prefLabel	IPL-1.0	@en
+scheme:IPA	skos:prefLabel	IPA	@en
+scheme:Interbase1.0	skos:prefLabel	Interbase-1.0	@en
+scheme:IntelACPI	skos:prefLabel	Intel-ACPI	@en
+scheme:Intel	skos:prefLabel	Intel	@en
+scheme:InfoZIP	skos:prefLabel	Info-ZIP	@en
+scheme:Imlib2	skos:prefLabel	Imlib2	@en
+scheme:iMatix	skos:prefLabel	iMatix	@en
+scheme:ImageMagick	skos:prefLabel	ImageMagick	@en
+scheme:IJG	skos:prefLabel	IJG	@en
+scheme:ICU	skos:prefLabel	ICU	@en
+scheme:IBMpibs	skos:prefLabel	IBM-pibs	@en
+scheme:HTMLTIDY	skos:prefLabel	HTMLTIDY	@en
+scheme:HPNDsellvariant	skos:prefLabel	HPND-sell-variant	@en
+scheme:HPND	skos:prefLabel	HPND	@en
+scheme:Hippocratic2.1	skos:prefLabel	Hippocratic-2.1	@en
+scheme:HaskellReport	skos:prefLabel	HaskellReport	@en
+scheme:gSOAP1.3b	skos:prefLabel	gSOAP-1.3b	@en
+scheme:GPL3.0orlater	skos:prefLabel	GPL-3.0-or-later	@en
+scheme:GPL3.0only	skos:prefLabel	GPL-3.0-only	@en
+scheme:GPL2.0orlater	skos:prefLabel	GPL-2.0-or-later	@en
+scheme:GPL2.0only	skos:prefLabel	GPL-2.0-only	@en
+scheme:GPL1.0orlater	skos:prefLabel	GPL-1.0-or-later	@en
+scheme:GPL1.0only	skos:prefLabel	GPL-1.0-only	@en
+scheme:gnuplot	skos:prefLabel	gnuplot	@en
+scheme:GLWTPL	skos:prefLabel	GLWTPL	@en
+scheme:Glulxe	skos:prefLabel	Glulxe	@en
+scheme:Glide	skos:prefLabel	Glide	@en
+scheme:GL2PS	skos:prefLabel	GL2PS	@en
+scheme:Giftware	skos:prefLabel	Giftware	@en
+scheme:GFDL1.3orlater	skos:prefLabel	GFDL-1.3-or-later	@en
+scheme:GFDL1.3only	skos:prefLabel	GFDL-1.3-only	@en
+scheme:GFDL1.3noinvariantsorlater	skos:prefLabel	GFDL-1.3-no-invariants-or-later	@en
+scheme:GFDL1.3noinvariantsonly	skos:prefLabel	GFDL-1.3-no-invariants-only	@en
+scheme:GFDL1.3invariantsorlater	skos:prefLabel	GFDL-1.3-invariants-or-later	@en
+scheme:GFDL1.3invariantsonly	skos:prefLabel	GFDL-1.3-invariants-only	@en
+scheme:GFDL1.2orlater	skos:prefLabel	GFDL-1.2-or-later	@en
+scheme:GFDL1.2only	skos:prefLabel	GFDL-1.2-only	@en
+scheme:MPL2.0nocopyleftexception	skos:prefLabel	MPL-2.0-no-copyleft-exception	@en
+scheme:MPL2.0	skos:prefLabel	MPL-2.0	@en
+scheme:MPL1.1	skos:prefLabel	MPL-1.1	@en
+scheme:MPL1.0	skos:prefLabel	MPL-1.0	@en
+scheme:mpich2	skos:prefLabel	mpich2	@en
+scheme:Motosoto	skos:prefLabel	Motosoto	@en
+scheme:MITNFA	skos:prefLabel	MITNFA	@en
+scheme:MITopengroup	skos:prefLabel	MIT-open-group	@en
+scheme:MITfeh	skos:prefLabel	MIT-feh	@en
+scheme:MITenna	skos:prefLabel	MIT-enna	@en
+scheme:MITCMU	skos:prefLabel	MIT-CMU	@en
+scheme:MITadvertising	skos:prefLabel	MIT-advertising	@en
+scheme:MIT0	skos:prefLabel	MIT-0	@en
+scheme:MIT	skos:prefLabel	MIT	@en
+scheme:MirOS	skos:prefLabel	MirOS	@en
+scheme:MakeIndex	skos:prefLabel	MakeIndex	@en
+scheme:LPPL1.3c	skos:prefLabel	LPPL-1.3c	@en
+scheme:LPPL1.3a	skos:prefLabel	LPPL-1.3a	@en
+scheme:LPPL1.2	skos:prefLabel	LPPL-1.2	@en
+scheme:LPPL1.1	skos:prefLabel	LPPL-1.1	@en
+scheme:LPPL1.0	skos:prefLabel	LPPL-1.0	@en
+scheme:LPL1.02	skos:prefLabel	LPL-1.02	@en
+scheme:LPL1.0	skos:prefLabel	LPL-1.0	@en
+scheme:LinuxOpenIB	skos:prefLabel	Linux-OpenIB	@en
+scheme:LiLiQRplus1.1	skos:prefLabel	LiLiQ-Rplus-1.1	@en
+scheme:LiLiQR1.1	skos:prefLabel	LiLiQ-R-1.1	@en
+scheme:LiLiQP1.1	skos:prefLabel	LiLiQ-P-1.1	@en
+scheme:libtiff	skos:prefLabel	libtiff	@en
+scheme:libselinux1.0	skos:prefLabel	libselinux-1.0	@en
+scheme:libpng2.0	skos:prefLabel	libpng-2.0	@en
+scheme:Libpng	skos:prefLabel	Libpng	@en
+scheme:LGPLLR	skos:prefLabel	LGPLLR	@en
+scheme:LGPL3.0orlater	skos:prefLabel	LGPL-3.0-or-later	@en
+scheme:LGPL3.0only	skos:prefLabel	LGPL-3.0-only	@en
+scheme:LGPL2.1orlater	skos:prefLabel	LGPL-2.1-or-later	@en
+scheme:LGPL2.1only	skos:prefLabel	LGPL-2.1-only	@en
+scheme:LGPL2.0orlater	skos:prefLabel	LGPL-2.0-or-later	@en
+scheme:LGPL2.0only	skos:prefLabel	LGPL-2.0-only	@en
+scheme:Leptonica	skos:prefLabel	Leptonica	@en
+scheme:Latex2e	skos:prefLabel	Latex2e	@en
+scheme:LAL1.3	skos:prefLabel	LAL-1.3	@en
+scheme:LAL1.2	skos:prefLabel	LAL-1.2	@en
+scheme:OGC1.0	skos:prefLabel	OGC-1.0	@en
+scheme:OFL1.1RFN	skos:prefLabel	OFL-1.1-RFN	@en
+scheme:OFL1.1noRFN	skos:prefLabel	OFL-1.1-no-RFN	@en
+scheme:OFL1.1	skos:prefLabel	OFL-1.1	@en
+scheme:OFL1.0RFN	skos:prefLabel	OFL-1.0-RFN	@en
+scheme:OFL1.0noRFN	skos:prefLabel	OFL-1.0-no-RFN	@en
+scheme:OFL1.0	skos:prefLabel	OFL-1.0	@en
+scheme:ODCBy1.0	skos:prefLabel	ODC-By-1.0	@en
+scheme:ODbL1.0	skos:prefLabel	ODbL-1.0	@en
+scheme:OCLC2.0	skos:prefLabel	OCLC-2.0	@en
+scheme:OCCTPL	skos:prefLabel	OCCT-PL	@en
+scheme:OUDA1.0	skos:prefLabel	O-UDA-1.0	@en
+scheme:NTP0	skos:prefLabel	NTP-0	@en
+scheme:NTP	skos:prefLabel	NTP	@en
+scheme:NRL	skos:prefLabel	NRL	@en
+scheme:NPOSL3.0	skos:prefLabel	NPOSL-3.0	@en
+scheme:NPL1.1	skos:prefLabel	NPL-1.1	@en
+scheme:NPL1.0	skos:prefLabel	NPL-1.0	@en
+scheme:Noweb	skos:prefLabel	Noweb	@en
+scheme:NOSL	skos:prefLabel	NOSL	@en
+scheme:Nokia	skos:prefLabel	Nokia	@en
+scheme:NLPL	skos:prefLabel	NLPL	@en
+scheme:NLOD1.0	skos:prefLabel	NLOD-1.0	@en
+scheme:NISTPDfallback	skos:prefLabel	NIST-PD-fallback	@en
+scheme:NISTPD	skos:prefLabel	NIST-PD	@en
+scheme:NGPL	skos:prefLabel	NGPL	@en
+scheme:Newsletr	skos:prefLabel	Newsletr	@en
+scheme:NetCDF	skos:prefLabel	NetCDF	@en
+scheme:NetSNMP	skos:prefLabel	Net-SNMP	@en
+scheme:NCSA	skos:prefLabel	NCSA	@en
+scheme:NCGLUK2.0	skos:prefLabel	NCGL-UK-2.0	@en
+scheme:NBPL1.0	skos:prefLabel	NBPL-1.0	@en
+scheme:Naumen	skos:prefLabel	Naumen	@en
+scheme:NASA1.3	skos:prefLabel	NASA-1.3	@en
+scheme:Mup	skos:prefLabel	Mup	@en
+scheme:Multics	skos:prefLabel	Multics	@en
+scheme:MulanPSL2.0	skos:prefLabel	MulanPSL-2.0	@en
+scheme:MulanPSL1.0	skos:prefLabel	MulanPSL-1.0	@en
+scheme:MTLL	skos:prefLabel	MTLL	@en
+scheme:MSRL	skos:prefLabel	MS-RL	@en
+scheme:MSPL	skos:prefLabel	MS-PL	@en
+scheme:psutils	skos:prefLabel	psutils	@en
+scheme:psfrag	skos:prefLabel	psfrag	@en
+scheme:PSF2.0	skos:prefLabel	PSF-2.0	@en
+scheme:PostgreSQL	skos:prefLabel	PostgreSQL	@en
+scheme:PolyFormSmallBusiness1.0.0	skos:prefLabel	PolyForm-Small-Business-1.0.0	@en
+scheme:PolyFormNoncommercial1.0.0	skos:prefLabel	PolyForm-Noncommercial-1.0.0	@en
+scheme:Plexus	skos:prefLabel	Plexus	@en
+scheme:PHP3.01	skos:prefLabel	PHP-3.01	@en
+scheme:PHP3.0	skos:prefLabel	PHP-3.0	@en
+scheme:PDDL1.0	skos:prefLabel	PDDL-1.0	@en
+scheme:Parity7.0.0	skos:prefLabel	Parity-7.0.0	@en
+scheme:Parity6.0.0	skos:prefLabel	Parity-6.0.0	@en
+scheme:OSL3.0	skos:prefLabel	OSL-3.0	@en
+scheme:OSL2.1	skos:prefLabel	OSL-2.1	@en
+scheme:OSL2.0	skos:prefLabel	OSL-2.0	@en
+scheme:OSL1.1	skos:prefLabel	OSL-1.1	@en
+scheme:OSL1.0	skos:prefLabel	OSL-1.0	@en
+scheme:OSETPL2.1	skos:prefLabel	OSET-PL-2.1	@en
+scheme:OPL1.0	skos:prefLabel	OPL-1.0	@en
+scheme:OpenSSL	skos:prefLabel	OpenSSL	@en
+scheme:OML	skos:prefLabel	OML	@en
+scheme:OLDAP2.8	skos:prefLabel	OLDAP-2.8	@en
+scheme:OLDAP2.7	skos:prefLabel	OLDAP-2.7	@en
+scheme:OLDAP2.6	skos:prefLabel	OLDAP-2.6	@en
+scheme:OLDAP2.5	skos:prefLabel	OLDAP-2.5	@en
+scheme:OLDAP2.4	skos:prefLabel	OLDAP-2.4	@en
+scheme:OLDAP2.3	skos:prefLabel	OLDAP-2.3	@en
+scheme:OLDAP2.2.2	skos:prefLabel	OLDAP-2.2.2	@en
+scheme:OLDAP2.2.1	skos:prefLabel	OLDAP-2.2.1	@en
+scheme:OLDAP2.2	skos:prefLabel	OLDAP-2.2	@en
+scheme:OLDAP2.1	skos:prefLabel	OLDAP-2.1	@en
+scheme:OLDAP2.0.1	skos:prefLabel	OLDAP-2.0.1	@en
+scheme:OLDAP2.0	skos:prefLabel	OLDAP-2.0	@en
+scheme:OLDAP1.4	skos:prefLabel	OLDAP-1.4	@en
+scheme:OLDAP1.3	skos:prefLabel	OLDAP-1.3	@en
+scheme:OLDAP1.2	skos:prefLabel	OLDAP-1.2	@en
+scheme:OLDAP1.1	skos:prefLabel	OLDAP-1.1	@en
+scheme:OGTSL	skos:prefLabel	OGTSL	@en
+scheme:OGLUK3.0	skos:prefLabel	OGL-UK-3.0	@en
+scheme:OGLUK2.0	skos:prefLabel	OGL-UK-2.0	@en
+scheme:OGLUK1.0	skos:prefLabel	OGL-UK-1.0	@en
+scheme:OGLCanada2.0	skos:prefLabel	OGL-Canada-2.0	@en
+scheme:TORQUE1.1	skos:prefLabel	TORQUE-1.1	@en
+scheme:TMate	skos:prefLabel	TMate	@en
+scheme:TCPwrappers	skos:prefLabel	TCP-wrappers	@en
+scheme:TCL	skos:prefLabel	TCL	@en
+scheme:TAPROHL1.0	skos:prefLabel	TAPR-OHL-1.0	@en
+scheme:SWL	skos:prefLabel	SWL	@en
+scheme:SugarCRM1.1.3	skos:prefLabel	SugarCRM-1.1.3	@en
+scheme:SSPL1.0	skos:prefLabel	SSPL-1.0	@en
+scheme:SSHshort	skos:prefLabel	SSH-short	@en
+scheme:SSHOpenSSH	skos:prefLabel	SSH-OpenSSH	@en
+scheme:SPL1.0	skos:prefLabel	SPL-1.0	@en
+scheme:Spencer99	skos:prefLabel	Spencer-99	@en
+scheme:Spencer94	skos:prefLabel	Spencer-94	@en
+scheme:Spencer86	skos:prefLabel	Spencer-86	@en
+scheme:SNIA	skos:prefLabel	SNIA	@en
+scheme:SMPPL	skos:prefLabel	SMPPL	@en
+scheme:SMLNJ	skos:prefLabel	SMLNJ	@en
+scheme:Sleepycat	skos:prefLabel	Sleepycat	@en
+scheme:SISSL1.2	skos:prefLabel	SISSL-1.2	@en
+scheme:SISSL	skos:prefLabel	SISSL	@en
+scheme:SimPL2.0	skos:prefLabel	SimPL-2.0	@en
+scheme:SHL0.51	skos:prefLabel	SHL-0.51	@en
+scheme:SHL0.5	skos:prefLabel	SHL-0.5	@en
+scheme:SGIB2.0	skos:prefLabel	SGI-B-2.0	@en
+scheme:SGIB1.1	skos:prefLabel	SGI-B-1.1	@en
+scheme:SGIB1.0	skos:prefLabel	SGI-B-1.0	@en
+scheme:Sendmail8.23	skos:prefLabel	Sendmail-8.23	@en
+scheme:Sendmail	skos:prefLabel	Sendmail	@en
+scheme:SCEA	skos:prefLabel	SCEA	@en
+scheme:Saxpath	skos:prefLabel	Saxpath	@en
+scheme:SAXPD	skos:prefLabel	SAX-PD	@en
+scheme:Ruby	skos:prefLabel	Ruby	@en
+scheme:RSCPL	skos:prefLabel	RSCPL	@en
+scheme:RSAMD	skos:prefLabel	RSA-MD	@en
+scheme:RPSL1.0	skos:prefLabel	RPSL-1.0	@en
+scheme:RPL1.5	skos:prefLabel	RPL-1.5	@en
+scheme:RPL1.1	skos:prefLabel	RPL-1.1	@en
+scheme:RHeCos1.1	skos:prefLabel	RHeCos-1.1	@en
+scheme:Rdisc	skos:prefLabel	Rdisc	@en
+scheme:QPL1.0	skos:prefLabel	QPL-1.0	@en
+scheme:Qhull	skos:prefLabel	Qhull	@en
+scheme:Python2.0	skos:prefLabel	Python-2.0	@en
+<https://spdx.org/licenses/>	skos:prefLabel	SPDX	@en
+scheme:LicenseIdentifierScheme	skos:prefLabel	License Identifier Scheme	@en
+scheme:ZPL2.1	skos:prefLabel	ZPL-2.1	@en
+scheme:ZPL2.0	skos:prefLabel	ZPL-2.0	@en
+scheme:ZPL1.1	skos:prefLabel	ZPL-1.1	@en
+scheme:zlibacknowledgement	skos:prefLabel	zlib-acknowledgement	@en
+scheme:Zlib	skos:prefLabel	Zlib	@en
+scheme:Zimbra1.4	skos:prefLabel	Zimbra-1.4	@en
+scheme:Zimbra1.3	skos:prefLabel	Zimbra-1.3	@en
+scheme:Zend2.0	skos:prefLabel	Zend-2.0	@en
+scheme:Zed	skos:prefLabel	Zed	@en
+scheme:YPL1.1	skos:prefLabel	YPL-1.1	@en
+scheme:YPL1.0	skos:prefLabel	YPL-1.0	@en
+scheme:XSkat	skos:prefLabel	XSkat	@en
+scheme:xpp	skos:prefLabel	xpp	@en
+scheme:Xnet	skos:prefLabel	Xnet	@en
+scheme:xinetd	skos:prefLabel	xinetd	@en
+scheme:XFree861.1	skos:prefLabel	XFree86-1.1	@en
+scheme:Xerox	skos:prefLabel	Xerox	@en
+scheme:X11	skos:prefLabel	X11	@en
+scheme:WTFPL	skos:prefLabel	WTFPL	@en
+scheme:Wsuipa	skos:prefLabel	Wsuipa	@en
+scheme:Watcom1.0	skos:prefLabel	Watcom-1.0	@en
+scheme:W3C20150513	skos:prefLabel	W3C-20150513	@en
+scheme:W3C19980720	skos:prefLabel	W3C-19980720	@en
+scheme:W3C	skos:prefLabel	W3C	@en
+scheme:VSL1.0	skos:prefLabel	VSL-1.0	@en
+scheme:VOSTROM	skos:prefLabel	VOSTROM	@en
+scheme:Vim	skos:prefLabel	Vim	@en
+scheme:UPL1.0	skos:prefLabel	UPL-1.0	@en
+scheme:Unlicense	skos:prefLabel	Unlicense	@en
+scheme:UnicodeTOU	skos:prefLabel	Unicode-TOU	@en
+scheme:UnicodeDFS2016	skos:prefLabel	Unicode-DFS-2016	@en
+scheme:UnicodeDFS2015	skos:prefLabel	Unicode-DFS-2015	@en
+scheme:UCL1.0	skos:prefLabel	UCL-1.0	@en
+scheme:TUBerlin2.0	skos:prefLabel	TU-Berlin-2.0	@en
+scheme:TUBerlin1.0	skos:prefLabel	TU-Berlin-1.0	@en
+scheme:TOSL	skos:prefLabel	TOSL	@en
+scheme:application-cdf	skos:prefLabel	application/cdf	@en
+scheme:application-book	skos:prefLabel	application/book	@en
+scheme:application-binhex4	skos:prefLabel	application/binhex4	@en
+scheme:application-binhex	skos:prefLabel	application/binhex	@en
+scheme:application-base64	skos:prefLabel	application/base64	@en
+scheme:application-arj	skos:prefLabel	application/arj	@en
+scheme:application-acad	skos:prefLabel	application/acad	@en
+scheme:application-x-bytecode.python	skos:prefLabel	application/x-bytecode.python	@en
+scheme:MIMEType	skos:prefLabel	MIME Type	@en
+scheme:application-pkix-cert	skos:prefLabel	application/pkix-cert	@en
+scheme:application-pkcs7-signature	skos:prefLabel	application/pkcs7-signature	@en
+scheme:application-pkcs7-mime	skos:prefLabel	application/pkcs7-mime	@en
+scheme:application-pkcs10	skos:prefLabel	application/pkcs10	@en
+scheme:application-pkcs-crl	skos:prefLabel	application/pkcs-crl	@en
+scheme:application-pkcs-12	skos:prefLabel	application/pkcs-12	@en
+scheme:application-pdf	skos:prefLabel	application/pdf	@en
+scheme:application-ogg	skos:prefLabel	application/ogg	@en
+scheme:application-oda	skos:prefLabel	application/oda	@en
+scheme:application-octet-stream	skos:prefLabel	application/octet-stream	@en
+scheme:application-netmc	skos:prefLabel	application/netmc	@en
+scheme:application-mswrite	skos:prefLabel	application/mswrite	@en
+scheme:application-msword	skos:prefLabel	application/msword	@en
+scheme:application-mspowerpoint	skos:prefLabel	application/mspowerpoint	@en
+scheme:application-mime	skos:prefLabel	application/mime	@en
+scheme:application-mcad	skos:prefLabel	application/mcad	@en
+scheme:application-mbedlet	skos:prefLabel	application/mbedlet	@en
+scheme:application-marc	skos:prefLabel	application/marc	@en
+scheme:application-macbinary	skos:prefLabel	application/macbinary	@en
+scheme:application-mac-compactpro	skos:prefLabel	application/mac-compactpro	@en
+scheme:application-mac-binhex40	skos:prefLabel	application/mac-binhex40	@en
+scheme:application-mac-binhex	skos:prefLabel	application/mac-binhex	@en
+scheme:application-mac-binary	skos:prefLabel	application/mac-binary	@en
+scheme:application-lzx	skos:prefLabel	application/lzx	@en
+scheme:application-lha	skos:prefLabel	application/lha	@en
+scheme:application-ld+json	skos:prefLabel	application/ld+json	@en
+scheme:application-json	skos:prefLabel	application/json	@en
+scheme:application-javascript	skos:prefLabel	application/javascript	@en
+scheme:application-java-byte-code	skos:prefLabel	application/java-byte-code	@en
+scheme:application-java-archive	skos:prefLabel	application/java-archive	@en
+scheme:application-java	skos:prefLabel	application/java	@en
+scheme:application-inf	skos:prefLabel	application/inf	@en
+scheme:application-iges	skos:prefLabel	application/iges	@en
+scheme:application-i-deas	skos:prefLabel	application/i-deas	@en
+scheme:application-hta	skos:prefLabel	application/hta	@en
+scheme:application-hlp	skos:prefLabel	application/hlp	@en
+scheme:application-groupwise	skos:prefLabel	application/groupwise	@en
+scheme:application-gnutar	skos:prefLabel	application/gnutar	@en
+scheme:application-futuresplash	skos:prefLabel	application/futuresplash	@en
+scheme:application-freeloader	skos:prefLabel	application/freeloader	@en
+scheme:application-fractals	skos:prefLabel	application/fractals	@en
+scheme:application-excel	skos:prefLabel	application/excel	@en
+scheme:application-epub+zip	skos:prefLabel	application/epub+zip	@en
+scheme:application-envoy	skos:prefLabel	application/envoy	@en
+scheme:application-ecmascript	skos:prefLabel	application/ecmascript	@en
+scheme:application-dxf	skos:prefLabel	application/dxf	@en
+scheme:application-dsptype	skos:prefLabel	application/dsptype	@en
+scheme:application-drafting	skos:prefLabel	application/drafting	@en
+scheme:application-commonground	skos:prefLabel	application/commonground	@en
+scheme:application-clariscad	skos:prefLabel	application/clariscad	@en
+scheme:application-wordperfect	skos:prefLabel	application/wordperfect	@en
+scheme:application-vocaltec-media-file	skos:prefLabel	application/vocaltec-media-file	@en
+scheme:application-vocaltec-media-desc	skos:prefLabel	application/vocaltec-media-desc	@en
+scheme:application-vnd.xara	skos:prefLabel	application/vnd.xara	@en
+scheme:application-vnd.wap.wmlscriptc	skos:prefLabel	application/vnd.wap.wmlscriptc	@en
+scheme:application-vnd.wap.wmlc	skos:prefLabel	application/vnd.wap.wmlc	@en
+scheme:application-vnd.visio	skos:prefLabel	application/vnd.visio	@en
+scheme:application-vnd.rn-realplayer	skos:prefLabel	application/vnd.rn-realplayer	@en
+scheme:application-vnd.rn-realmedia	skos:prefLabel	application/vnd.rn-realmedia	@en
+scheme:application-vnd.openxmlformats-officedocument.wordprocessingml.document	skos:prefLabel	application/vnd.openxmlformats-officedocument.wordprocessingml.document	@en
+scheme:application-vnd.openxmlformats-officedocument.spreadsheetml.sheet	skos:prefLabel	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	@en
+scheme:application-vnd.openxmlformats-officedocument.presentationml.presentation	skos:prefLabel	application/vnd.openxmlformats-officedocument.presentationml.presentation	@en
+scheme:application-vnd.oasis.opendocument.text	skos:prefLabel	application/vnd.oasis.opendocument.text	@en
+scheme:application-vnd.oasis.opendocument.spreadsheet	skos:prefLabel	application/vnd.oasis.opendocument.spreadsheet	@en
+scheme:application-vnd.oasis.opendocument.presentation	skos:prefLabel	application/vnd.oasis.opendocument.presentation	@en
+scheme:application-vnd.nokia.ringing-tone	skos:prefLabel	application/vnd.nokia.ringing-tone	@en
+scheme:application-vnd.nokia.configuration-message	skos:prefLabel	application/vnd.nokia.configuration-message	@en
+scheme:application-vnd.ms-project	skos:prefLabel	application/vnd.ms-project	@en
+scheme:application-vnd.ms-powerpoint	skos:prefLabel	application/vnd.ms-powerpoint	@en
+scheme:application-vnd.ms-pki.stl	skos:prefLabel	application/vnd.ms-pki.stl	@en
+scheme:application-vnd.ms-pki.seccat	skos:prefLabel	application/vnd.ms-pki.seccat	@en
+scheme:application-vnd.ms-pki.pko	skos:prefLabel	application/vnd.ms-pki.pko	@en
+scheme:application-vnd.ms-pki.certstore	skos:prefLabel	application/vnd.ms-pki.certstore	@en
+scheme:application-vnd.ms-fontobject	skos:prefLabel	application/vnd.ms-fontobject	@en
+scheme:application-vnd.ms-excel	skos:prefLabel	application/vnd.ms-excel	@en
+scheme:application-vnd.mozilla.xul+xml	skos:prefLabel	application/vnd.mozilla.xul+xml	@en
+scheme:application-vnd.hp-pcl	skos:prefLabel	application/vnd.hp-pcl	@en
+scheme:application-vnd.hp-hpgl	skos:prefLabel	application/vnd.hp-hpgl	@en
+scheme:application-vnd.fdf	skos:prefLabel	application/vnd.fdf	@en
+scheme:application-vnd.apple.installer+xml	skos:prefLabel	application/vnd.apple.installer+xml	@en
+scheme:application-vnd.android.package-archive	skos:prefLabel	application/vnd.android.package-archive	@en
+scheme:application-vnd.amazon.ebook	skos:prefLabel	application/vnd.amazon.ebook	@en
+scheme:application-vda	skos:prefLabel	application/vda	@en
+scheme:application-toolbook	skos:prefLabel	application/toolbook	@en
+scheme:application-streamingmedia	skos:prefLabel	application/streamingmedia	@en
+scheme:application-step	skos:prefLabel	application/step	@en
+scheme:application-sounder	skos:prefLabel	application/sounder	@en
+scheme:application-solids	skos:prefLabel	application/solids	@en
+scheme:application-smil	skos:prefLabel	application/smil	@en
+scheme:application-sla	skos:prefLabel	application/sla	@en
+scheme:application-set	skos:prefLabel	application/set	@en
+scheme:application-sea	skos:prefLabel	application/sea	@en
+scheme:application-sdp	skos:prefLabel	application/sdp	@en
+scheme:application-rtf	skos:prefLabel	application/rtf	@en
+scheme:application-ringing-tones	skos:prefLabel	application/ringing-tones	@en
+scheme:application-pro_eng	skos:prefLabel	application/pro_eng	@en
+scheme:application-powerpoint	skos:prefLabel	application/powerpoint	@en
+scheme:application-postscript	skos:prefLabel	application/postscript	@en
+scheme:application-plain	skos:prefLabel	application/plain	@en
+scheme:application-pkix-crl	skos:prefLabel	application/pkix-crl	@en
+scheme:application-x-java-class	skos:prefLabel	application/x-java-class	@en
+scheme:application-x-ip2	skos:prefLabel	application/x-ip2	@en
+scheme:application-x-inventor	skos:prefLabel	application/x-inventor	@en
+scheme:application-x-internett-signup	skos:prefLabel	application/x-internett-signup	@en
+scheme:application-x-ima	skos:prefLabel	application/x-ima	@en
+scheme:application-x-httpd-imap	skos:prefLabel	application/x-httpd-imap	@en
+scheme:application-x-helpfile	skos:prefLabel	application/x-helpfile	@en
+scheme:application-x-hdf	skos:prefLabel	application/x-hdf	@en
+scheme:application-x-gzip	skos:prefLabel	application/x-gzip	@en
+scheme:application-x-gtar	skos:prefLabel	application/x-gtar	@en
+scheme:application-x-gss	skos:prefLabel	application/x-gss	@en
+scheme:application-x-gsp	skos:prefLabel	application/x-gsp	@en
+scheme:application-x-freelance	skos:prefLabel	application/x-freelance	@en
+scheme:application-x-freearc	skos:prefLabel	application/x-freearc	@en
+scheme:application-x-frame	skos:prefLabel	application/x-frame	@en
+scheme:application-x-fictionbook	skos:prefLabel	application/x-fictionbook	@en
+scheme:application-x-excel	skos:prefLabel	application/x-excel	@en
+scheme:application-x-esrehber	skos:prefLabel	application/x-esrehber	@en
+scheme:application-x-envoy	skos:prefLabel	application/x-envoy	@en
+scheme:application-x-elc	skos:prefLabel	application/x-elc	@en
+scheme:application-x-dvi	skos:prefLabel	application/x-dvi	@en
+scheme:application-x-director	skos:prefLabel	application/x-director	@en
+scheme:application-x-deepv	skos:prefLabel	application/x-deepv	@en
+scheme:application-x-csh	skos:prefLabel	application/x-csh	@en
+scheme:application-x-cpt	skos:prefLabel	application/x-cpt	@en
+scheme:application-x-cpio	skos:prefLabel	application/x-cpio	@en
+scheme:application-x-conference	skos:prefLabel	application/x-conference	@en
+scheme:application-x-compressed	skos:prefLabel	application/x-compressed	@en
+scheme:application-x-compress	skos:prefLabel	application/x-compress	@en
+scheme:application-x-compactpro	skos:prefLabel	application/x-compactpro	@en
+scheme:application-x-cocoa	skos:prefLabel	application/x-cocoa	@en
+scheme:application-x-cmu-raster	skos:prefLabel	application/x-cmu-raster	@en
+scheme:application-x-chat	skos:prefLabel	application/x-chat	@en
+scheme:application-x-cdlink	skos:prefLabel	application/x-cdlink	@en
+scheme:application-x-cdf	skos:prefLabel	application/x-cdf	@en
+scheme:application-x-bzip2	skos:prefLabel	application/x-bzip2	@en
+scheme:application-x-bzip	skos:prefLabel	application/x-bzip	@en
+scheme:application-x-bytecode.elisp(compiledelisp)	skos:prefLabel	application/x-bytecode.elisp (compiled elisp)	@en
+scheme:application-x-bsh	skos:prefLabel	application/x-bsh	@en
+scheme:application-x-binhex40	skos:prefLabel	application/x-binhex40	@en
+scheme:application-x-binary	skos:prefLabel	application/x-binary	@en
+scheme:application-x-bcpio	skos:prefLabel	application/x-bcpio	@en
+scheme:application-x-authorware-seg	skos:prefLabel	application/x-authorware-seg	@en
+scheme:application-x-authorware-map	skos:prefLabel	application/x-authorware-map	@en
+scheme:application-x-authorware-bin	skos:prefLabel	application/x-authorware-bin	@en
+scheme:application-x-aim	skos:prefLabel	application/x-aim	@en
+scheme:application-x-abiword	skos:prefLabel	application/x-abiword	@en
+scheme:application-x-7z-compressed	skos:prefLabel	application/x-7z-compressed	@en
+scheme:application-x-123	skos:prefLabel	application/x-123	@en
+scheme:application-wordperfect6.1	skos:prefLabel	application/wordperfect6.1	@en
+scheme:application-wordperfect6.0	skos:prefLabel	application/wordperfect6.0	@en
+scheme:application-x-sea	skos:prefLabel	application/x-sea	@en
+scheme:application-x-sdp	skos:prefLabel	application/x-sdp	@en
+scheme:application-x-rtf	skos:prefLabel	application/x-rtf	@en
+scheme:application-x-rar-compressed	skos:prefLabel	application/x-rar-compressed	@en
+scheme:application-x-qpro	skos:prefLabel	application/x-qpro	@en
+scheme:application-x-project	skos:prefLabel	application/x-project	@en
+scheme:application-x-portable-anymap	skos:prefLabel	application/x-portable-anymap	@en
+scheme:application-x-pointplus	skos:prefLabel	application/x-pointplus	@en
+scheme:application-x-pkcs7-signature	skos:prefLabel	application/x-pkcs7-signature	@en
+scheme:application-x-pkcs7-mime	skos:prefLabel	application/x-pkcs7-mime	@en
+scheme:application-x-pkcs7-certreqresp	skos:prefLabel	application/x-pkcs7-certreqresp	@en
+scheme:application-x-pkcs7-certificates	skos:prefLabel	application/x-pkcs7-certificates	@en
+scheme:application-x-pkcs12	skos:prefLabel	application/x-pkcs12	@en
+scheme:application-x-pkcs10	skos:prefLabel	application/x-pkcs10	@en
+scheme:application-x-pixclscript	skos:prefLabel	application/x-pixclscript	@en
+scheme:application-x-pcl	skos:prefLabel	application/x-pcl	@en
+scheme:application-x-pagemaker	skos:prefLabel	application/x-pagemaker	@en
+scheme:application-x-omcregerator	skos:prefLabel	application/x-omcregerator	@en
+scheme:application-x-omcdatamaker	skos:prefLabel	application/x-omcdatamaker	@en
+scheme:application-x-omc	skos:prefLabel	application/x-omc	@en
+scheme:application-x-nokia-9000-communicator-add-on-software	skos:prefLabel	application/x-nokia-9000-communicator-add-on-software	@en
+scheme:application-x-newton-compatible-pkg	skos:prefLabel	application/x-newton-compatible-pkg	@en
+scheme:application-x-netcdf	skos:prefLabel	application/x-netcdf	@en
+scheme:application-x-navistyle	skos:prefLabel	application/x-navistyle	@en
+scheme:application-x-navimap	skos:prefLabel	application/x-navimap	@en
+scheme:application-x-navidoc	skos:prefLabel	application/x-navidoc	@en
+scheme:application-x-navi-animation	skos:prefLabel	application/x-navi-animation	@en
+scheme:application-x-mspowerpoint	skos:prefLabel	application/x-mspowerpoint	@en
+scheme:application-x-msexcel	skos:prefLabel	application/x-msexcel	@en
+scheme:application-x-mplayer2	skos:prefLabel	application/x-mplayer2	@en
+scheme:application-x-mix-transfer	skos:prefLabel	application/x-mix-transfer	@en
+scheme:application-x-mif	skos:prefLabel	application/x-mif	@en
+scheme:application-x-midi	skos:prefLabel	application/x-midi	@en
+scheme:application-x-meme	skos:prefLabel	application/x-meme	@en
+scheme:application-x-mathcad	skos:prefLabel	application/x-mathcad	@en
+scheme:application-x-magic-cap-package-1.0	skos:prefLabel	application/x-magic-cap-package-1.0	@en
+scheme:application-x-macbinary	skos:prefLabel	application/x-macbinary	@en
+scheme:application-x-mac-binhex40	skos:prefLabel	application/x-mac-binhex40	@en
+scheme:application-x-lzx	skos:prefLabel	application/x-lzx	@en
+scheme:application-x-lzh	skos:prefLabel	application/x-lzh	@en
+scheme:application-x-lotusscreencam	skos:prefLabel	application/x-lotusscreencam	@en
+scheme:application-x-lotus	skos:prefLabel	application/x-lotus	@en
+scheme:application-x-livescreen	skos:prefLabel	application/x-livescreen	@en
+scheme:application-x-lisp	skos:prefLabel	application/x-lisp	@en
+scheme:application-x-lha	skos:prefLabel	application/x-lha	@en
+scheme:application-x-latex	skos:prefLabel	application/x-latex	@en
+scheme:application-x-ksh	skos:prefLabel	application/x-ksh	@en
+scheme:application-x-koan	skos:prefLabel	application/x-koan	@en
+scheme:application-x-javascript	skos:prefLabel	application/x-javascript	@en
+scheme:application-x-java-commerce	skos:prefLabel	application/x-java-commerce	@en
+scheme:audio-tsp-audio	skos:prefLabel	audio/tsp-audio	@en
+scheme:audio-s3m	skos:prefLabel	audio/s3m	@en
+scheme:audio-ogg	skos:prefLabel	audio/ogg	@en
+scheme:audio-nspaudio	skos:prefLabel	audio/nspaudio	@en
+scheme:audio-mpeg	skos:prefLabel	audio/mpeg	@en
+scheme:audio-mp3	skos:prefLabel	audio/mp3	@en
+scheme:audio-mod	skos:prefLabel	audio/mod	@en
+scheme:audio-midi	skos:prefLabel	audio/midi	@en
+scheme:audio-mid	skos:prefLabel	audio/mid	@en
+scheme:audio-make.my.funk	skos:prefLabel	audio/make.my.funk	@en
+scheme:audio-make	skos:prefLabel	audio/make	@en
+scheme:audio-it	skos:prefLabel	audio/it	@en
+scheme:audio-basic	skos:prefLabel	audio/basic	@en
+scheme:audio-aiff	skos:prefLabel	audio/aiff	@en
+scheme:audio-aac	skos:prefLabel	audio/aac	@en
+scheme:application-zip	skos:prefLabel	application/zip	@en
+scheme:application-xml	skos:prefLabel	application/xml	@en
+scheme:application-xhtml+xml	skos:prefLabel	application/xhtml+xml	@en
+scheme:application-x-x509-user-cert	skos:prefLabel	application/x-x509-user-cert	@en
+scheme:application-x-x509-ca-cert	skos:prefLabel	application/x-x509-ca-cert	@en
+scheme:application-x-wri	skos:prefLabel	application/x-wri	@en
+scheme:application-x-wpwin	skos:prefLabel	application/x-wpwin	@en
+scheme:application-x-world	skos:prefLabel	application/x-world	@en
+scheme:application-x-wintalk	skos:prefLabel	application/x-wintalk	@en
+scheme:application-x-winhelp	skos:prefLabel	application/x-winhelp	@en
+scheme:application-x-wais-source	skos:prefLabel	application/x-wais-source	@en
+scheme:application-x-vrml	skos:prefLabel	application/x-vrml	@en
+scheme:application-x-vnd.ls-xpix	skos:prefLabel	application/x-vnd.ls-xpix	@en
+scheme:application-x-vnd.audioexplosion.mzz	skos:prefLabel	application/x-vnd.audioexplosion.mzz	@en
+scheme:application-x-visio	skos:prefLabel	application/x-visio	@en
+scheme:application-x-ustar	skos:prefLabel	application/x-ustar	@en
+scheme:application-x-troff-msvideo	skos:prefLabel	application/x-troff-msvideo	@en
+scheme:application-x-troff-ms	skos:prefLabel	application/x-troff-ms	@en
+scheme:application-x-troff-me	skos:prefLabel	application/x-troff-me	@en
+scheme:application-x-troff-man	skos:prefLabel	application/x-troff-man	@en
+scheme:application-x-troff	skos:prefLabel	application/x-troff	@en
+scheme:application-x-texinfo	skos:prefLabel	application/x-texinfo	@en
+scheme:application-x-tex	skos:prefLabel	application/x-tex	@en
+scheme:application-x-tcl	skos:prefLabel	application/x-tcl	@en
+scheme:application-x-tbook	skos:prefLabel	application/x-tbook	@en
+scheme:application-x-tar	skos:prefLabel	application/x-tar	@en
+scheme:application-x-sv4crc	skos:prefLabel	application/x-sv4crc	@en
+scheme:application-x-sv4cpio	skos:prefLabel	application/x-sv4cpio	@en
+scheme:application-x-stuffit	skos:prefLabel	application/x-stuffit	@en
+scheme:application-x-sprite	skos:prefLabel	application/x-sprite	@en
+scheme:application-x-sit	skos:prefLabel	application/x-sit	@en
+scheme:application-x-shockwave-flash	skos:prefLabel	application/x-shockwave-flash	@en
+scheme:application-x-shar	skos:prefLabel	application/x-shar	@en
+scheme:application-x-sh	skos:prefLabel	application/x-sh	@en
+scheme:application-x-seelogo	skos:prefLabel	application/x-seelogo	@en
+scheme:image-tiff	skos:prefLabel	image/tiff	@en
+scheme:image-svg+xml	skos:prefLabel	image/svg+xml	@en
+scheme:image-png	skos:prefLabel	image/png	@en
+scheme:image-pjpeg	skos:prefLabel	image/pjpeg	@en
+scheme:image-pict	skos:prefLabel	image/pict	@en
+scheme:image-naplps	skos:prefLabel	image/naplps	@en
+scheme:image-jutvision	skos:prefLabel	image/jutvision	@en
+scheme:image-jpeg	skos:prefLabel	image/jpeg	@en
+scheme:image-ief	skos:prefLabel	image/ief	@en
+scheme:image-gif	skos:prefLabel	image/gif	@en
+scheme:image-g3fax	skos:prefLabel	image/g3fax	@en
+scheme:image-florian	skos:prefLabel	image/florian	@en
+scheme:image-fif	skos:prefLabel	image/fif	@en
+scheme:image-cmu-raster	skos:prefLabel	image/cmu-raster	@en
+scheme:image-bmp	skos:prefLabel	image/bmp	@en
+scheme:i-world-i-vrml	skos:prefLabel	i-world/i-vrml	@en
+scheme:font-woff2	skos:prefLabel	font/woff2	@en
+scheme:font-woff	skos:prefLabel	font/woff	@en
+scheme:font-ttf	skos:prefLabel	font/ttf	@en
+scheme:font-otf	skos:prefLabel	font/otf	@en
+scheme:drawing-x-dwf(old)	skos:prefLabel	drawing/x-dwf (old)	@en
+scheme:chemical-x-pdb	skos:prefLabel	chemical/x-pdb	@en
+scheme:audio-xm	skos:prefLabel	audio/xm	@en
+scheme:audio-x-wav	skos:prefLabel	audio/x-wav	@en
+scheme:audio-x-voc	skos:prefLabel	audio/x-voc	@en
+scheme:audio-x-vnd.audioexplosion.mjuicemediafile	skos:prefLabel	audio/x-vnd.audioexplosion.mjuicemediafile	@en
+scheme:audio-x-twinvq-plugin	skos:prefLabel	audio/x-twinvq-plugin	@en
+scheme:audio-x-twinvq	skos:prefLabel	audio/x-twinvq	@en
+scheme:audio-x-realaudio	skos:prefLabel	audio/x-realaudio	@en
+scheme:audio-x-psid	skos:prefLabel	audio/x-psid	@en
+scheme:audio-x-pn-realaudio-plugin	skos:prefLabel	audio/x-pn-realaudio-plugin	@en
+scheme:audio-x-pn-realaudio	skos:prefLabel	audio/x-pn-realaudio	@en
+scheme:audio-x-nspaudio	skos:prefLabel	audio/x-nspaudio	@en
+scheme:audio-x-mpequrl	skos:prefLabel	audio/x-mpequrl	@en
+scheme:audio-x-mpeg	skos:prefLabel	audio/x-mpeg	@en
+scheme:audio-x-mod	skos:prefLabel	audio/x-mod	@en
+scheme:audio-x-midi	skos:prefLabel	audio/x-midi	@en
+scheme:audio-x-mid	skos:prefLabel	audio/x-mid	@en
+scheme:audio-x-liveaudio	skos:prefLabel	audio/x-liveaudio	@en
+scheme:audio-x-jam	skos:prefLabel	audio/x-jam	@en
+scheme:audio-x-gsm	skos:prefLabel	audio/x-gsm	@en
+scheme:audio-x-au	skos:prefLabel	audio/x-au	@en
+scheme:audio-x-aiff	skos:prefLabel	audio/x-aiff	@en
+scheme:audio-x-adpcm	skos:prefLabel	audio/x-adpcm	@en
+scheme:audio-webm	skos:prefLabel	audio/webm	@en
+scheme:audio-wav	skos:prefLabel	audio/wav	@en
+scheme:audio-voxware	skos:prefLabel	audio/voxware	@en
+scheme:audio-voc	skos:prefLabel	audio/voc	@en
+scheme:audio-vnd.qcelp	skos:prefLabel	audio/vnd.qcelp	@en
+scheme:audio-tsplayer	skos:prefLabel	audio/tsplayer	@en
+scheme:xgl-movie	skos:prefLabel	xgl/movie	@en
+scheme:xgl-drawing	skos:prefLabel	xgl/drawing	@en
+scheme:x-world-x-vrt	skos:prefLabel	x-world/x-vrt	@en
+scheme:x-world-x-vrml	skos:prefLabel	x-world/x-vrml	@en
+scheme:x-world-x-svr	skos:prefLabel	x-world/x-svr	@en
+scheme:x-world-x-3dmf	skos:prefLabel	x-world/x-3dmf	@en
+scheme:x-music-x-midi	skos:prefLabel	x-music/x-midi	@en
+scheme:x-conference-x-cooltalk	skos:prefLabel	x-conference/x-cooltalk	@en
+scheme:www-mime	skos:prefLabel	www/mime	@en
+scheme:windows-metafile	skos:prefLabel	windows/metafile	@en
+scheme:video-x-sgi-movie	skos:prefLabel	video/x-sgi-movie	@en
+scheme:video-x-scm	skos:prefLabel	video/x-scm	@en
+scheme:video-x-qtc	skos:prefLabel	video/x-qtc	@en
+scheme:video-x-msvideo	skos:prefLabel	video/x-msvideo	@en
+scheme:video-x-ms-asf-plugin	skos:prefLabel	video/x-ms-asf-plugin	@en
+scheme:video-x-ms-asf	skos:prefLabel	video/x-ms-asf	@en
+scheme:video-x-mpeq2a	skos:prefLabel	video/x-mpeq2a	@en
+scheme:video-x-mpeg	skos:prefLabel	video/x-mpeg	@en
+scheme:video-x-motion-jpeg	skos:prefLabel	video/x-motion-jpeg	@en
+scheme:video-x-isvideo	skos:prefLabel	video/x-isvideo	@en
+scheme:video-x-gl	skos:prefLabel	video/x-gl	@en
+scheme:video-x-fli	skos:prefLabel	video/x-fli	@en
+scheme:video-x-dv	skos:prefLabel	video/x-dv	@en
+scheme:video-x-dl	skos:prefLabel	video/x-dl	@en
+scheme:video-x-atomic3d-feature	skos:prefLabel	video/x-atomic3d-feature	@en
+scheme:video-x-amt-showrun	skos:prefLabel	video/x-amt-showrun	@en
+scheme:video-x-amt-demorun	skos:prefLabel	video/x-amt-demorun	@en
+scheme:video-webm	skos:prefLabel	video/webm	@en
+scheme:video-vosaic	skos:prefLabel	video/vosaic	@en
+scheme:video-vnd.vivo	skos:prefLabel	video/vnd.vivo	@en
+scheme:video-vnd.rn-realvideo	skos:prefLabel	video/vnd.rn-realvideo	@en
+scheme:video-vivo	skos:prefLabel	video/vivo	@en
+scheme:video-vdo	skos:prefLabel	video/vdo	@en
+scheme:video-quicktime	skos:prefLabel	video/quicktime	@en
+scheme:video-ogg	skos:prefLabel	video/ogg	@en
+scheme:video-msvideo	skos:prefLabel	video/msvideo	@en
+scheme:video-mpeg	skos:prefLabel	video/mpeg	@en
+scheme:video-mp4	skos:prefLabel	video/mp4	@en
+scheme:video-mp2t	skos:prefLabel	video/mp2t	@en
+scheme:video-gl	skos:prefLabel	video/gl	@en
+scheme:video-fli	skos:prefLabel	video/fli	@en
+scheme:video-dl	skos:prefLabel	video/dl	@en
+scheme:video-avs-video	skos:prefLabel	video/avs-video	@en
+scheme:video-avi	skos:prefLabel	video/avi	@en
+scheme:video-animaflex	skos:prefLabel	video/animaflex	@en
+scheme:video-3gpp2	skos:prefLabel	video/3gpp2	@en
+scheme:video-3gpp	skos:prefLabel	video/3gpp	@en
+scheme:text-xml	skos:prefLabel	text/xml	@en
+scheme:text-x-vcalendar	skos:prefLabel	text/x-vcalendar	@en
+scheme:text-x-uuencode	skos:prefLabel	text/x-uuencode	@en
+scheme:text-x-uil	skos:prefLabel	text/x-uil	@en
+scheme:text-x-speech	skos:prefLabel	text/x-speech	@en
+scheme:text-x-sgml	skos:prefLabel	text/x-sgml	@en
+scheme:text-x-setext	skos:prefLabel	text/x-setext	@en
+scheme:text-x-server-parsed-html	skos:prefLabel	text/x-server-parsed-html	@en
+scheme:text-x-script.zsh	skos:prefLabel	text/x-script.zsh	@en
+scheme:text-x-script.tcsh	skos:prefLabel	text/x-script.tcsh	@en
+scheme:text-x-script.tcl	skos:prefLabel	text/x-script.tcl	@en
+scheme:text-x-script.sh	skos:prefLabel	text/x-script.sh	@en
+scheme:text-x-script.scheme	skos:prefLabel	text/x-script.scheme	@en
+scheme:text-x-script.rexx	skos:prefLabel	text/x-script.rexx	@en
+scheme:text-x-script.phyton	skos:prefLabel	text/x-script.phyton	@en
+scheme:text-x-script.perl-module	skos:prefLabel	text/x-script.perl-module	@en
+scheme:text-x-script.perl	skos:prefLabel	text/x-script.perl	@en
+scheme:text-x-script.lisp	skos:prefLabel	text/x-script.lisp	@en
+scheme:text-x-script.ksh	skos:prefLabel	text/x-script.ksh	@en
+scheme:text-x-script.guile	skos:prefLabel	text/x-script.guile	@en
+scheme:text-x-script.elisp	skos:prefLabel	text/x-script.elisp	@en
+scheme:text-x-script.csh	skos:prefLabel	text/x-script.csh	@en
+scheme:text-x-script	skos:prefLabel	text/x-script	@en
+scheme:text-x-pascal	skos:prefLabel	text/x-pascal	@en
+scheme:text-x-m	skos:prefLabel	text/x-m	@en
+scheme:text-x-la-asf	skos:prefLabel	text/x-la-asf	@en
+scheme:text-x-java-source	skos:prefLabel	text/x-java-source	@en
+scheme:text-x-h	skos:prefLabel	text/x-h	@en
+scheme:text-x-fortran	skos:prefLabel	text/x-fortran	@en
+scheme:text-x-component	skos:prefLabel	text/x-component	@en
+scheme:text-x-c	skos:prefLabel	text/x-c	@en
+scheme:text-x-audiosoft-intra	skos:prefLabel	text/x-audiosoft-intra	@en
+scheme:text-x-asm	skos:prefLabel	text/x-asm	@en
+scheme:text-webviewhtml	skos:prefLabel	text/webviewhtml	@en
+scheme:text-vnd.wap.wmlscript	skos:prefLabel	text/vnd.wap.wmlscript	@en
+scheme:text-vnd.wap.wml	skos:prefLabel	text/vnd.wap.wml	@en
+scheme:text-vnd.rn-realtext	skos:prefLabel	text/vnd.rn-realtext	@en
+scheme:text-vnd.fmi.flexstor	skos:prefLabel	text/vnd.fmi.flexstor	@en
+scheme:text-vnd.abc	skos:prefLabel	text/vnd.abc	@en
+scheme:text-uri-list	skos:prefLabel	text/uri-list	@en
+scheme:text-tab-separated-values	skos:prefLabel	text/tab-separated-values	@en
+scheme:text-sgml	skos:prefLabel	text/sgml	@en
+scheme:text-scriplet	skos:prefLabel	text/scriplet	@en
+scheme:text-richtext	skos:prefLabel	text/richtext	@en
+scheme:text-plain	skos:prefLabel	text/plain	@en
+scheme:text-pascal	skos:prefLabel	text/pascal	@en
+scheme:text-mcf	skos:prefLabel	text/mcf	@en
+scheme:text-javascript	skos:prefLabel	text/javascript	@en
+scheme:text-html	skos:prefLabel	text/html	@en
+scheme:text-fb2	skos:prefLabel	text/fb2	@en
+scheme:text-ecmascript	skos:prefLabel	text/ecmascript	@en
+scheme:text-csv	skos:prefLabel	text/csv	@en
+scheme:text-css	skos:prefLabel	text/css	@en
+scheme:text-calendar	skos:prefLabel	text/calendar	@en
+scheme:text-asp	skos:prefLabel	text/asp	@en
+scheme:paleovu-x-pv	skos:prefLabel	paleovu/x-pv	@en
+scheme:music-x-karaoke	skos:prefLabel	music/x-karaoke	@en
+scheme:music-crescendo	skos:prefLabel	music/crescendo	@en
+scheme:multipart-x-ustar	skos:prefLabel	multipart/x-ustar	@en
+scheme:multipart-x-gzip	skos:prefLabel	multipart/x-gzip	@en
+scheme:model-x-pov	skos:prefLabel	model/x-pov	@en
+scheme:model-vrml	skos:prefLabel	model/vrml	@en
+scheme:model-vnd.dwf	skos:prefLabel	model/vnd.dwf	@en
+scheme:model-iges	skos:prefLabel	model/iges	@en
+scheme:message-rfc822	skos:prefLabel	message/rfc822	@en
+scheme:image-xpm	skos:prefLabel	image/xpm	@en
+scheme:image-xbm	skos:prefLabel	image/xbm	@en
+scheme:image-x-xwindowdump	skos:prefLabel	image/x-xwindowdump	@en
+scheme:image-x-xwd	skos:prefLabel	image/x-xwd	@en
+scheme:image-x-xpixmap	skos:prefLabel	image/x-xpixmap	@en
+scheme:image-x-xbm	skos:prefLabel	image/x-xbm	@en
+scheme:image-x-xbitmap	skos:prefLabel	image/x-xbitmap	@en
+scheme:image-x-windows-bmp	skos:prefLabel	image/x-windows-bmp	@en
+scheme:image-x-tiff	skos:prefLabel	image/x-tiff	@en
+scheme:image-x-rgb	skos:prefLabel	image/x-rgb	@en
+scheme:image-x-quicktime	skos:prefLabel	image/x-quicktime	@en
+scheme:image-x-portable-pixmap	skos:prefLabel	image/x-portable-pixmap	@en
+scheme:image-x-portable-greymap	skos:prefLabel	image/x-portable-greymap	@en
+scheme:image-x-portable-graymap	skos:prefLabel	image/x-portable-graymap	@en
+scheme:image-x-portable-bitmap	skos:prefLabel	image/x-portable-bitmap	@en
+scheme:image-x-portable-anymap	skos:prefLabel	image/x-portable-anymap	@en
+scheme:image-x-pict	skos:prefLabel	image/x-pict	@en
+scheme:image-x-pcx	skos:prefLabel	image/x-pcx	@en
+scheme:image-x-niff	skos:prefLabel	image/x-niff	@en
+scheme:image-x-jps	skos:prefLabel	image/x-jps	@en
+scheme:image-x-jg	skos:prefLabel	image/x-jg	@en
+scheme:image-x-icon	skos:prefLabel	image/x-icon	@en
+scheme:image-x-dwg	skos:prefLabel	image/x-dwg	@en
+scheme:image-x-cmu-raster	skos:prefLabel	image/x-cmu-raster	@en
+scheme:image-webp	skos:prefLabel	image/webp	@en
+scheme:image-vnd.xiff	skos:prefLabel	image/vnd.xiff	@en
+scheme:image-vnd.wap.wbmp	skos:prefLabel	image/vnd.wap.wbmp	@en
+scheme:image-vnd.rn-realpix	skos:prefLabel	image/vnd.rn-realpix	@en
+scheme:image-vnd.rn-realflash	skos:prefLabel	image/vnd.rn-realflash	@en
+scheme:image-vnd.net-fpx	skos:prefLabel	image/vnd.net-fpx	@en
+scheme:image-vnd.microsoft.icon	skos:prefLabel	image/vnd.microsoft.icon	@en
+scheme:image-vnd.fpx	skos:prefLabel	image/vnd.fpx	@en
+scheme:image-vnd.dwg	skos:prefLabel	image/vnd.dwg	@en
+scheme:image-vnd.djvu	skos:prefLabel	image/vnd.djvu	@en
+scheme:image-vasa	skos:prefLabel	image/vasa	@en

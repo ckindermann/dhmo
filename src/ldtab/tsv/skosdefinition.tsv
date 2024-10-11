@@ -1,0 +1,264 @@
+scheme:hasVerticalResolutionInMeters	skos:definition	Minimum vertical separation resolvable in a dataset, measured in meters.	@en
+scheme:hasGeoLocationDescription	skos:definition	The description of a geographical location of dataset collection.	@en
+scheme:hasPolygonPointLongitude	skos:definition	Geographical longitude of a polygon point which represents one vertex of an area of dataset collection.	@en
+scheme:hasPolygonPointLatitude	skos:definition	Geographical latitude of a polygon point which represents one vertex of an area of dataset collection.	@en
+scheme:hasNorthBoundLatitude	skos:definition	The most north latitude of a bounding box representing an area of dataset collection.	@en
+scheme:hasSouthBoundLatitude	skos:definition	The most south latitude of a bounding box representing an area of dataset collection.	@en
+scheme:hasEastBoundLongitude	skos:definition	The most east longitude of a bounding box representing an area of dataset collection.	@en
+scheme:hasWestBoundLongitude	skos:definition	The most west longitude of a bounding box representing an area of dataset collection.	@en
+scheme:hasPointLongitude	skos:definition	Geographic longitude of a point which represents a location of dataset collection.	@en
+scheme:hasPointLatitude	skos:definition	Geographic latitude of a point which represents a location of dataset collection.	@en
+scheme:hasVariableSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Variable Identifier.	@en
+scheme:hasVariableScheme	skos:definition	The name of the scheme or authority used for the Variable Identifier.	@en
+scheme:hasVariableIRI	skos:definition	IRI describing the variable.	@en
+scheme:hasVariable	skos:definition	Human readable name of variable being recorded in datastream.	@en
+scheme:hasDataSourceSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Data Source Identifier.	@en
+scheme:hasDataSourceScheme	skos:definition	The name of the scheme or authority used for the Data Source Identifier.	@en
+scheme:hasDataSourceIRI	skos:definition	IRI describing the data source (e.g., PID of an instrument).	@en
+scheme:hasDataSource	skos:definition	Human readable name of data source from which the variable(s) come(s).	@en
+scheme:hasDataStreamSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Data Stream Identifier.	@en
+scheme:hasDataStreamScheme	skos:definition	The name of the scheme or authority used for the Data Stream Identifier.	@en
+scheme:hasDataStreamIRI	skos:definition	Unique identifier of collection of records coming from a data source.	@en
+scheme:hasDataStream	skos:definition	Human readable name of collection of records coming from a data source.	@en
+scheme:hasDistributorType	skos:definition	The type of the distributor of the described dataset (organization, or person).	@en
+scheme:hasDistributorRole	skos:definition	The role of the distributor in bringing the described dataset into existence.	@en
+scheme:hasDistributorAffiliationIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Distributor Affiliation Identifier.	@en
+scheme:hasDistributorAffiliationIdentifierScheme	skos:definition	The name of the scheme or authority used for the Distributor Affiliation Identifier.	@en
+scheme:hasDistributorAffiliationIdentifier	skos:definition	Globally unique string that identifies the organizational affiliation of the distributor.	@en
+scheme:hasDistributorAffiliation	skos:definition	The organizational or institutional affiliation of the distributor.	@en
+scheme:hasDistributorIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Distributor Identifier.	@en
+scheme:hasDistributorIdentifierScheme	skos:definition	The name of the scheme or authority used for the Distributor Identifier.	@en
+scheme:hasDistributorIdentifier	skos:definition	Globally unique string that identifies the distributor (an individual or legal entity).	@en
+scheme:hasDistributionDate	skos:definition	Date when the dataset was distributed.	@en
+scheme:hasDistributionQueryStatement	skos:definition	Technical statement(s) for querying dataset distribution.	@en
+scheme:hasDistributionAccessConfiguration	skos:definition	The access protocol configuration for quering dataset distribution.	@en
+scheme:hasDistributionAccessProtocol	skos:definition	The protocol used to access the dataset distribution.	@en
+scheme:hasDistributionSize	skos:definition	Total size of dataset distribution.	@en
+scheme:hasDistributionMediaType	skos:definition	A media type, formerly known as a MIME type, of dataset distribution.	@en
+scheme:hasDistributionIdentifierType	skos:definition	The identifier type used to identify the dataset distribution.	@en
+scheme:hasDistributionIdentifier	skos:definition	A globally unique string that identifies the dataset distribution.	@en
+scheme:hasDatasetDateType	skos:definition	Type of the date with respect to the dataset.	@en
+scheme:hasDatasetDate	skos:definition	Date relevant to dataset.	@en
+scheme:hasLicenseIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Rights Identifier.	@en
+scheme:hasLicenseIdentifierScheme	skos:definition	The name of the scheme or authority used for the Rights Identifier.	@en
+scheme:hasLicenseIdentifier	skos:definition	IRI of the license for the dataset being described.	@en
+scheme:hasLicenseName	skos:definition	A standardized version of the license name.	@en
+scheme:hasPublisherAddress	skos:definition	An address of the publisher.	@en
+scheme:hasPublisherIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Publisher Identifier.	@en
+scheme:hasPublisherIdentifierScheme	skos:definition	The name of the scheme or authority used for the Publisher Identifier.	@en
+scheme:hasPublisherIdentifier	skos:definition	Globally unique string that identifies the publisher.	@en
+scheme:hasContributorType	skos:definition	The type of the contributor of the described dataset (organization or person).	@en
+scheme:hasContributorRole	skos:definition	The role of the contributor in bringing the described dataset into existence.	@en
+scheme:hasContributorAffiliationIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Contributor Affiliation Identifier.	@en
+scheme:hasContributorAffiliationIdentifierScheme	skos:definition	The name of the scheme or authority used for the Contributor Affiliation Identifier.	@en
+scheme:hasContributorAffiliationIdentifier	skos:definition	Globally unique string that identifies the organizational affiliation of the contributor.	@en
+scheme:hasContributorAffiliation	skos:definition	The organizational or institutional affiliation of the contributor.	@en
+scheme:hasContributorIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Contributor Identifier.	@en
+scheme:hasContributorIdentifierScheme	skos:definition	The name of the scheme or authority used for the Contributor Identifier.	@en
+scheme:hasContributorIdentifier	skos:definition	Globally unique string that identifies the contributor (an individual or legal entity).	@en
+scheme:hasCreatorType	skos:definition	The type of the creator of the described dataset (organization or person).	@en
+scheme:hasCreatorRole	skos:definition	The role of the creator in bringing the described dataset into existence.	@en
+scheme:hasCreatorAffiliationIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Creator Affiliation Identifier.	@en
+scheme:hasCreatorAffiliationIdentifierScheme	skos:definition	The name of the scheme or authority used for the Creator Affiliation Identifier.	@en
+scheme:hasCreatorAffiliationIdentifier	skos:definition	Globally unique string that identifies the organizational affiliation of the creator.	@en
+scheme:hasCreatorAffiliation	skos:definition	The organizational or institutional affiliation of the creator.	@en
+scheme:hasCreatorIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Creator Identifier.	@en
+scheme:hasCreatorIdentifierScheme	skos:definition	The name of the scheme or authority used for the Creator Identifier.	@en
+scheme:hasCreatorIdentifier	skos:definition	Globally unique string that identifies the creator (an individual or legal entity).	@en
+scheme:hasKeyword	skos:definition	Free text subject, keyword, classification code, or key phrase describing the dataset or purpose for which the dataset can be used.	@en
+scheme:hasSubjectSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Subject Concept IRI.	@en
+scheme:hasSubjectScheme	skos:definition	The name of the scheme or authority used for the Subject Concept IRI.	@en
+scheme:hasSubjectIRI	skos:definition	The IRI of a concept (keyword, classification code, or controlled key phrase) that defines the dataset or indicates for which concepts the dataset can be used.	@en
+scheme:hasPrimaryLanguage	skos:definition	Primary language used to present the dataset (if multiple languages are present). Use a code from IETF BCP 47	@en
+scheme:hasRelatedResourceIdentifierSubType	skos:definition	The subtype of the identifier used to specify the related resource.	@en
+scheme:hasDatasetIdentifierSubType	skos:definition	The subtype of the identifier used to specify the dataset being described.	@en
+scheme:hasFunderInfo	skos:definition	Information about the award funder.	@en
+scheme:hasAwardInfo	skos:definition	Information about the project award.	@en
+scheme:hasFundingInfo	skos:definition	Information about the sources of funding that enabled and drove the creation of the dataset. (Non-monetary sources are described under Contributor.)	@en
+scheme:hasTemporalCoverageInfo	skos:definition	Information about the temporal coverage and resolution of the dataset being described.	@en
+scheme:hasVerticalCoverageInfo	skos:definition	Information about the vertical area (altitude and/or depth) covered by the dataset being described.	@en
+scheme:hasSpatialCoveragePolygonInfo	skos:definition	Information about a geospatial coverage represented using polygon.	@en
+scheme:hasSpatialCoverageBoundingBoxInfo	skos:definition	Information about a geospatial coverage represented using bounding box.	@en
+scheme:hasSpatialCoveragePointInfo	skos:definition	Information about a geospatial coverage represented as a single point.	@en
+scheme:hasSpatialCoverageInfo	skos:definition	Information about the geospatial area (region on Earth) covered by the dataset being described.	@en
+scheme:hasOtherSubject	skos:definition	This property is purely used to capture subjects not yet being defined by controlled vocabulary.	@en
+scheme:hasMeasuredVariable	skos:definition	Variable being directly measured.	@en
+scheme:hasIntendedVariable	skos:definition	Variable intended being computer or indirectly measured.	@en
+scheme:hasOtherVariable	skos:definition	This property is purely used to capture variables not yet being defined by controlled vocabulary.	@en
+scheme:hasVariableInfo	skos:definition	Information about a single entity being measured or computed.	@en
+scheme:hasDataSourceInfo	skos:definition	Information about a Data Source, a physical or conceptual entity that creates the data streams that make up the described dataset. The data source may or may not be associated with a fixed location; for example, a series of discrete sensors deployed over time to a single location may be considered a single data source in some systems.	@en
+scheme:hasDataStreamInfo	skos:definition	Information about a Data Stream, a collection of one or more variable records originating from a single data source (e.g., sensor, process, or person). A data stream can grow over time.	@en
+scheme:hasContentInfo	skos:definition	Information describing the entities that constitute the dataset being described, and their organization and provenance. (The dataset is defined as coming from a single Data Source.)	@en
+scheme:hasDistributorAffiliationInfo	skos:definition	Information about the distributor affiliations.	@en
+scheme:hasDistributorIdentifierInfo	skos:definition	Information about the distributor identifier.	@en
+scheme:hasDistributorNameInfo	skos:definition	Information about the distributor name.	@en
+scheme:hasDistributorInfo	skos:definition	Information about the distributor of this dataset distribution. The Distributor includes persons or legal entities that responsible for distributing the dataset distribution.	@en
+scheme:hasDistributionAccessInfo	skos:definition	Details about the distribution access.	@en
+scheme:hasDistributionInfo	skos:definition	Details about the distribution for this individual public presentation of the dataset (if part of the Distribution metadata), or for all the public presentations of the dataset being described (if part of the Dataset metadata).	@en
+scheme:hasDateInfo	skos:definition	Information about relevant dates related to the resource being described. One instance of date must be of datsetDateType=Published.	@en
+scheme:hasLicenseIdentifierInfo	skos:definition	Information about the license identifier.	@en
+scheme:hasRightsInfo	skos:definition	Information about ways in which the dataset may or may not be accessed and used.	@en
+scheme:hasPublisherIdentifierInfo	skos:definition	Information about the publisher identifier.	@en
+scheme:hasPublisherInfo	skos:definition	Information about the entity that plays the principal role in officially making the dataset public. The role can be to hold, archive, publish, print, distribute, release, issue, or produce the dataset being described. This property is often used to formulate the citation, so consider the prominence of the role and of the entity. For datasets, use the primary repository for serving the data, or the primary organization taking responsibility for serving the data, as the Publisher. The Distribution element can be used to describe the entity(ies) that make the dataset accessible.	@en
+scheme:hasContributorAffiliationInfo	skos:definition	Information about a contributor's affiliations.	@en
+scheme:hasContributorIdentifierInfo	skos:definition	Information about a contributor identifier.	@en
+scheme:hasContributorNameInfo	skos:definition	Information about a contributor name.	@en
+scheme:hasContributorInfo	skos:definition	Information about a Contributor entity that helped bring into existence the dataset being described. Contributors can be people, organizations and/or physical or virtual infrastructure (e.g., sensors, software).	@en
+scheme:hasCreatorAffiliationInfo	skos:definition	Information about the creator affiliations.	@en
+scheme:hasCreatorIdentifierInfo	skos:definition	Information about the creator identifier.	@en
+scheme:hasCreatorNameInfo	skos:definition	Information about the creator name.	@en
+scheme:hasCreatorInfo	skos:definition	Information about the Creator entity that brought into existence the dataset being described. Creators can be people, organizations and/or physical or virtual infrastructure (e.g., sensors, software).	@en
+scheme:hasControlledTermsInfo	skos:definition	Controlled concepts that define the dataset or purpose.	@en
+scheme:hasSubjectAndKeywordInfo	skos:definition	Concepts (keywords, classification, or free text terms) that define the dataset or purpose (subjects which can be addressed) using the dataset.	@en
+scheme:hasSubjectInfo	skos:definition	Topic information that defines the dataset's subject or purpose.	@en
+scheme:hasDescriptionInfo	skos:definition	Detailed information (typically at the level of an abstract) about the dataset being described.	@en
+scheme:hasTitleInfo	skos:definition	Information about a name or title by which the dataset being described is known.	@en
+scheme:hasLanguageInfo	skos:definition	Information about the language in which the dataset being described is provided.	@en
+scheme:hasVersionInfo	skos:definition	Information about the version of the resource being described.	@en
+scheme:hasRelatedResourcesInfo	skos:definition	Information about resource related to the dataset or other entity being described.	@en
+scheme:hasDatasetIdentifierInfo	skos:definition	Information about the globally unique and persistent identifier used to identify and optionally access (meta)data of the dataset being described.	@en
+scheme:hasResourceTypeInfo	skos:definition	Information about the type of the resource being described with metadata.	@en
+scheme:RelatedPerson	skos:definition	A person without a specifically defined role in the development of the resource, but who is someone the author wishes to recognize.	@en
+scheme:RegistrationAuthority	skos:definition	A standards-setting body from which Registration Agencies obtain official recognition and guidance.	@en
+scheme:RegistrationAgency	skos:definition	Institution/organization officially appointed by a Registration Authority to handle specific tasks within a defined area of responsibility.	@en
+scheme:ProjectMember	skos:definition	Person on the membership list of a designated project/project team.	@en
+scheme:ProjectManager	skos:definition	Person officially designated as manager of a project. Project may consist of one or many project teams and sub-teams.	@en
+scheme:ContactPI	skos:definition	Person who is a Principal Investigator for a project and who should be contacted for further information about the project.	@en
+scheme:DataPI	skos:definition	Person who is a Principal Investigator for a project and who is responsible for Data management in the project.	@en
+scheme:ProjectLeader	skos:definition	Person officially designated as head of project team or sub- project team instrumental in the work necessary to development of the resource.	@en
+scheme:Producer	skos:definition	Typically a person or organization responsible for the artistry and form of a media product.	@en
+scheme:HostingInstitution	skos:definition	Typically, the organization allowing the resource to be available on the internet through the provision of its hardware/software/operating support.	@en
+scheme:Editor	skos:definition	A person who oversees the details related to the publication format of the resource.	@en
+scheme:Distributor	skos:definition	Institution tasked with responsibility to generate/disseminate copies of the resource in either electronic or print form.	@en
+scheme:DataManager	skos:definition	Person (or organization with a staff of data managers, such as a data centre) responsible for maintaining the finished resource.	@en
+scheme:DataCurator	skos:definition	Person tasked with reviewing, enhancing, cleaning, or standardizing metadata and the associated data submitted for storage, use, and maintenance within a data centre or repository	@en
+scheme:DataCollector	skos:definition	Person/institution responsible for finding, gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI)	@en
+scheme:ContactPerson	skos:definition	Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource.	@en
+scheme:ContributorRole	skos:definition	The role of the contributor in bringing the described dataset into existence.	@en
+scheme:OtherResource	skos:definition	Uncategorized resource.	@en
+scheme:Workflow	skos:definition	A structured series of steps which can be executed to produce a final outcome, allowing users a means to specify and enact their work in a more reproducible manner.	@en
+scheme:Text	skos:definition	A resource consisting primarily of words for reading.	@en
+scheme:Sound	skos:definition	A resource primarily intended to be heard.	@en
+scheme:Software	skos:definition	A computer program in source code (text) or compiled form. Use this type for all software components supporting scholarly research.	@en
+scheme:Service	skos:definition	An organized system of apparatus, appliances, staff, etc., for supplying some function(s) required by end users.	@en
+scheme:PhysicalObject	skos:definition	An inanimate, three-dimensional object or substance.	@en
+scheme:Model	skos:definition	An abstract, conceptual, graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes.	@en
+scheme:InteractiveResource	skos:definition	A resource requiring interaction from the user to be understood, executed, or experienced	@en
+scheme:Image	skos:definition	A visual representation other than text	@en
+scheme:Event	skos:definition	A non-persistent, time-based occurrence.	@en
+scheme:DataStream	skos:definition	Data stream represent a collection of one or more variable records originating from a single data source (e.g., sensor) which properties remain unchanged during the data stream existence. In some use-cases, the data source location is required to remain unchanged (e.g., sensors attached to a meteorological tower). Data stream can grow over time.	@en
+scheme:Dataset	skos:definition	Dataset is a logical grouping of one or more data streams. It is can be provided in various data distributions. Dataset might be part of (parent) data catalog.	@en
+scheme:DataCatalog	skos:definition	A collection of datasets.	@en
+scheme:DataPaper	skos:definition	A factual and objective publication with a focused intent to identify and describe specific data, sets of data, or data collections to facilitate discoverability.	@en
+scheme:Collection	skos:definition	An aggregation of resources, which may encompass collections of one resourceType as well as those of mixed types. A collection is described as a group; its parts may also be separately described.	@en
+scheme:Audiovisual	skos:definition	A series of visual representations imparting an impression of motion when shown in succession. May or may not include sound.	@en
+scheme:ResourceTypeCategory	skos:definition	This is a set of controlled terms from DataCite/DCMI for the category of resource being described.	@en
+scheme:hasFunderIdentifierSchemeIRI	skos:definition	IRI of the schema for the funder identifier.	@en
+scheme:hasFunderIdentifierScheme	skos:definition	Name of the schema for the funderIdentifier.	@en
+scheme:hasFunderIdentifier	skos:definition	Globally unique string that identifies the funding provider.	@en
+scheme:hasFunderName	skos:definition	Name of the organization providing the funding for the described dataset ('funding provider').	@en
+scheme:hasAwardLocalIdentifier	skos:definition	The code assigned by the funding provider to a sponsored award (grant). (Can be an IRI, but typically is not.)	@en
+scheme:hasAwardPageIRI	skos:definition	The IRI leading to a page provided by the funder for more information about the award (grant).	@en
+scheme:hasAwardTitle	skos:definition	The human readable title of the award, grant, or other specific funding mechanism for the described dataset.	@en
+scheme:hasDuration	skos:definition	The total duration of data temporal coverage.	@en
+scheme:hasTemporalResolution	skos:definition	Interval between two consecutive data records.	@en
+scheme:hasTemporalExtentMaximumValue	skos:definition	The end date of the data.	@en
+scheme:hasTemporalExtentMinimumValue	skos:definition	The start date of the data.	@en
+scheme:hasVerticalExtentDatumIRI	skos:definition	The unique identifier of the Datum (reference frame) used for the Vertical Extent values.	@en
+scheme:hasVerticalExtentDatum	skos:definition	The name of the Datum (reference frame) used for the Vertical Extent values.	@en
+scheme:hasVerticalExtentUnitSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Vertical Extent Unit Identifier.	@en
+scheme:hasVerticalExtentUnitScheme	skos:definition	The name of the scheme or authority used for the Vertical Extent Unit Identifier.	@en
+scheme:hasVerticalExtentUnitIRI	skos:definition	The IRI for the unit used to specify Vertical Extent.	@en
+scheme:hasVerticalExtentUnit	skos:definition	Unit used to specify Vertical Extent.	@en
+scheme:hasVerticalExtentMinimumValue	skos:definition	A minimum vertical extent of dataset collection. In case of depth, this represents a maximum depth of dataset collection.	@en
+scheme:hasVerticalExtentMaximumValue	skos:definition	A maximum vertical extent of dataset collection. In case of depth, this represents a minimum depth of dataset collection.	@en
+scheme:RelationType	skos:definition	Type of relation between two digital resources, interpreted from resource A to resource B.	@en
+scheme:IRI	skos:definition	The Internationalized Resource Identifier (IRI) is an internet protocol standard which builds on the Uniform Resource Identifier (URI) protocol by greatly expanding the set of permitted characters.	@en
+scheme:w3id	skos:definition	Permanent identifier for Web applications. Mostly used to publish vocabularies and ontologies. The letters ‘w3’ stand for “World Wide Web”.	@en
+scheme:URN	skos:definition	Uniform Resource Name; is a unique and persistent identifier of an electronic document. The syntax is: urn:< NID>:<NSS> The leading urn: sequence is case-insensitive, <NID> is the namespace identifier, <NSS> is the namespace-specific string.	@en
+scheme:URL	skos:definition	Uniform Resource Locator, also known as web address, is a specific character string that constitutes a reference to a resource. The syntax is: schema://domain:port/path?qu ery_string#fragment_id	@en
+scheme:URI	skos:definition	Uniform Resource Identifier is a string that provides a unique address (either on the Internet or on another private network, such as a computer filesystem or an Intranet) representing a resource, and implicitly describes where a resource can be found. A resource identification need not suggest the retrieval of resource representations over the Internet, nor need they imply network-based resources at all.	@en
+scheme:UPC	skos:definition	Universal Product Code is a barcode symbology used for tracking trade items in stores. Its most common form, the UPC-A, consists of 12 numerical digits.	@en
+scheme:PURL	skos:definition	Persistent Uniform Resource Locator. A PURL is an IRI, and therefore has three parts: (1) a protocol, (2) a resolver address, and (3) a name.	@en
+scheme:PMID	skos:definition	PubMed identifier; a unique number assigned to each PubMed record.	@en
+scheme:LSID	skos:definition	Life Science Identifiers; a unique identifier for data in the Life Science domain. Format: urn:lsid:authority:namespace:id entifier:revision	@en
+scheme:LISSN	skos:definition	The linking ISSN or ISSN-L enables collocation or linking among different media versions of a continuing resource.	@en
+scheme:ISTC	skos:definition	International Standard Text Code; a unique “number” assigned to a textual work. An ISTC consists of 16 numbers and/or letters.	@en
+scheme:ISSN	skos:definition	International Standard Serial Number; a unique 8-digit number used to identify a print or electronic periodical publication.	@en
+scheme:ISBN	skos:definition	International Standard Book Number; a unique numeric book identifier. There are 2 formats: a 10-digit ISBN format and a 13- digit ISBN.	@en
+scheme:IGSN	skos:definition	International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.	@en
+scheme:Handle	skos:definition	A handle is an abstract reference to a resource.	@en
+scheme:EISSN	skos:definition	Electronic International Standard Serial Number; ISSN used to identify periodicals in electronic form (eISSN or e- ISSN).	@en
+scheme:EAN13	skos:definition	European Article Number, now renamed International Article Number, but retaining the original acronym, is a 13-digit barcoding standard which is a superset of the original 12-digit Universal Product Code (UPC) system.	@en
+scheme:DOI	skos:definition	Digital Object Identifier; a character string used to uniquely identify an object. A DOI name is divided into two parts, a prefix and a suffix, separated by a slash.	@en
+scheme:bibcode	skos:definition	Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa. See http://info- uri.info/registry/OAIHandler?ve rb=GetRecord&metadataPrefix= reg&identifier=info:bibcode/	@en
+scheme:arXiv	skos:definition	arXiv identifier; arXiv.org is a repository of preprints of scientific papers in the fields of mathematics, physics, astronomy, computer science, quantitative biology, statistics, and quantitative finance.	@en
+scheme:ARK	skos:definition	Archival Resource Key; URL designed to support long-term access to information objects. In general, ARK syntax is of the form (brackets indicate [optional] elements: [http://NMA/]ark:/NAAN/Name [Qualifier]	@en
+scheme:IdentifierType	skos:definition	The type of internet identifier used for the resource. Note many of these identifier types are *not* IRIs.	@en
+scheme:Withdrawn	skos:definition	The date the resource is removed.	@en
+scheme:Valid	skos:definition	The date or date range during which the dataset or resource is accurate.	@en
+scheme:Updated	skos:definition	The date of the last update to the resource, when the resource is being added to. May be a range.	@en
+scheme:Submitted	skos:definition	The date the creator submits the resource to the publisher. This could be different from Accepted if the publisher then applies a selection process.	@en
+scheme:Issued	skos:definition	The date that the resource is published or distributed e.g. to a data centre	@en
+scheme:Created	skos:definition	The date the resource itself was put together; this could refer to a timeframe in ancient history, be a date range or a single date for a final component, e.g. the finalised file with all of the data.	@en
+scheme:Collected	skos:definition	The date or date range in which the resource content was collected.	@en
+scheme:Copyrighted	skos:definition	The specific, documented date at which the resource receives a copyrighted status, if applicable.	@en
+scheme:Available	skos:definition	The date the resource is made publicly available. May be a range.	@en
+scheme:Accepted	skos:definition	The date that the publisher accepted the resource into their system.	@en
+scheme:Published	skos:definition	The date when dataset was first time made publicaly available.	@en
+scheme:DateType	skos:definition	The type( or role) of the date being provided.	@en
+scheme:OtherRole	skos:definition	Any person or institution making a significant contribution to the development and/or maintenance of the resource, but whose contribution does not “fit” other controlled vocabulary for contributorType.	@en
+scheme:WorkPackageLeader	skos:definition	A Work Package is a recognized data product, not all of which is included in publication. The package, instead, may include notes, discarded documents, etc. The Work Package Leader is responsible for ensuring the comprehensive contents, versioning, and availability of the Work Package during the development of the resource.	@en
+scheme:Supervisor	skos:definition	Designated administrator over one or more groups/teams working to produce a resource or over one or more steps of a development process.	@en
+scheme:Sponsor	skos:definition	Person or organization that issued a contract or under the auspices of which a work has been written, printed, published, developed, etc.	@en
+scheme:RightsHolder	skos:definition	Person or institution owning or managing property rights, including intellectual property rights over the resource.	@en
+scheme:ResearchGroup	skos:definition	Typically refers to a group of individuals with a lab, department, or division; the group has a particular, defined focus of activity.	@en
+scheme:Researcher	skos:definition	A person involved in analyzing data or the results of an experiment or formal study. May indicate an intern or assistant to one of the authors who helped with research but who was not so “key” as to be listed as an author.	@en
+scheme:LicenseIdentifier	skos:definition	Information about the license identifier.	@en
+<https://isni.org>	skos:definition	ISNI (International Standard Name Identifier) is an ISO standard, in use by numerous libraries, publishers, databases, and rights management organizations around the world. It is used to uniquely identify persons and organizations involved in creative activities, as well as public personas of both, such as pseudonyms, stage names, record labels or publishing imprints.	@en
+<https://www.grid.ac>	skos:definition	GRID (Global Research Identifier Database) is a free and openly available global database of research-related organisations, cataloging research-related organisations and providing each with a unique and persistent identifier.	@en
+<https://ror.org>	skos:definition	ROR is the Research Organization Registry, a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world.	@en
+<https://www.linkedin.com>	skos:definition	The LinkedIn ID is a permanent number assigned to person's LinkedIn profile.	@en
+<http://www.researcherid.com>	skos:definition	ResearcherID is an identifying system for scientific authors.	@en
+<https://www.scopus.com>	skos:definition	The Scopus author identifier distinguishes authors among themselves by assigning a unique number to each author.	@en
+<https://orcid.org>	skos:definition	The ORCID (Open Researcher and Contributor ID) is a nonproprietary alphanumeric code to uniquely identify scientific and other academic authors and contributors.	@en
+scheme:IdentifierScheme	skos:definition	Identifier scheme used for identifying person, organization, system, physical or digital object.	@en
+scheme:Organization	skos:definition	An organization is an entity - such as a company, an institution, or an association - comprising one or more people and having a particular purpose.	@en
+scheme:Person	skos:definition	A person (plural people or persons) is a being that has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility.	@en
+scheme:ResourceCreatorType	skos:definition	Types of creator responsiple for the ressource creation.	@en
+scheme:IsObsoletedBy	skos:definition	Indicates A is replaced by B	@en
+scheme:Obsoletes	skos:definition	Indicates A replaces B	@en
+scheme:Requires	skos:definition	Indicates A requires B	@en
+scheme:IsRequiredBy	skos:definition	Indicates A is required by B	@en
+scheme:IsSourceOf	skos:definition	indicates A is a source upon which B is based	@en
+scheme:IsDerivedFrom	skos:definition	indicates B is a source upon which A is based	@en
+scheme:Reviews	skos:definition	indicates that A is a review of B	@en
+scheme:IsReviewedBy	skos:definition	indicates that A is reviewed by B	@en
+scheme:IsIdenticalTo	skos:definition	indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource	@en
+scheme:IsOriginalFormOf	skos:definition	indicates A is the original form of B	@en
+scheme:IsVariantFormOf	skos:definition	indicates A is a variant or different form of B	@en
+scheme:Compiles	skos:definition	indicates B is the result of a compile or creation event using A	@en
+scheme:IsCompiledBy	skos:definition	indicates B is used to compile or create A	@en
+scheme:Documents	skos:definition	indicates A is documentation about B; e.g. points to software documentation	@en
+scheme:IsDocumentedBy	skos:definition	indicates B is documentation about/ explaining A; e.g. points to software documentation	@en
+scheme:References	skos:definition	indicates B is used as a source of information for A	@en
+scheme:IsReferencedBy	skos:definition	indicates A is used as a source of information by B	@en
+scheme:HasPart	skos:definition	indicates A includes the part B	@en
+scheme:IsPartOf	skos:definition	indicates A is a portion of B; may be used for elements of a series	@en
+scheme:IsPreviousVersionOf	skos:definition	indicates A is a previous edition of B	@en
+scheme:IsNewVersionOf	skos:definition	indicates A is a new edition of B, where the new edition has been modified or updated	@en
+scheme:IsVersionOf	skos:definition	indicates A is a version of B	@en
+scheme:HasVersion	skos:definition	indicates A has a version (B)	@en
+scheme:IsMetadataFor	skos:definition	indicates additional metadata A for a resource B	@en
+scheme:HasMetadata	skos:definition	indicates resource A has additional metadata B	@en
+scheme:IsDescribedBy	skos:definition	indicates A is described by B	@en
+scheme:Describes	skos:definition	indicates A describes B	@en
+scheme:Continues	skos:definition	indicates A is a continuation of the work B	@en
+scheme:IsContinuedBy	skos:definition	indicates A is continued by the work B	@en
+scheme:IsSupplementedBy	skos:definition	indicates that B is a supplement to A	@en
+scheme:IsSupplementTo	skos:definition	indicates that A is a supplement to B	@en
+scheme:Cites	skos:definition	indicates that A includes B in a citation	@en
+scheme:IsCitedBy	skos:definition	indicates that B includes A in a citation	@en
+scheme:MIMEType	skos:definition	MIME type of the digital object	@en
+<https://spdx.org/licenses/>	skos:definition	The Software Package Data Exchange (SPDX), an open standard for communicating software bill of material information, including components, licenses, copyrights, and security references.	@en
+scheme:LicenseIdentifierScheme	skos:definition	Identifier scheme used for defining licenses.	@en
