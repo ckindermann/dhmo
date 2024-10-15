@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibary.org/obo/dhmo/definitions.owl#>)
+Prefix(:=<https://github.com/bmir-radx/rxow/dhmo/patterns/definitions.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,6 +6,10 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibary.org/obo/dhmo/definitions.owl>
+Ontology(<https://github.com/bmir-radx/rxow/dhmo/patterns/definitions.owl>
+<https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-10-15")
+
+
 
 )
