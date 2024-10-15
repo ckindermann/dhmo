@@ -5,6 +5,7 @@
   
   
   <uri name="https://github.com/bmir-radx/rxow/dhmo/imports/symp_import.owl" uri="imports/symp_import.owl"/>
+  <uri name="https://github.com/bmir-radx/rxow/dhmo/ldtab/ldtab.ttl" uri="../ldtab/ldtab.ttl"/>
   
   
 

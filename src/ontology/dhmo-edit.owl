@@ -13,6 +13,7 @@ Ontology(<https://github.com/bmir-radx/rxow/dhmo.owl>
 
 
 Import(<https://github.com/bmir-radx/rxow/dhmo/imports/symp_import.owl>)
+Import(<https://github.com/bmir-radx/rxow/dhmo/ldtab/ldtab.ttl>)
 
 
 
@@ -44,4 +45,3 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/rxow/DHMO_0000000> 
 
 
 )
-
