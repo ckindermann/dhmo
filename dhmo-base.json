@@ -16,9 +16,9 @@
         "val" : "RADx Data Hub Metadata Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-09-18"
+        "val" : "2024-10-15"
       } ],
-      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-09-18/dhmo-base.json"
+      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/dhmo-base.json"
     },
     "nodes" : [ {
       "id" : "https://github.com/bmir-radx/rxow/DHMO_0000000",

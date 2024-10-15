@@ -13,14 +13,18 @@
         "val" : "RADx Data Hub Metadata Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-09-18"
+        "val" : "2024-10-15"
       } ],
-      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-09-18/dhmo-simple.json"
+      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/dhmo-simple.json"
     },
     "nodes" : [ {
       "id" : "https://github.com/bmir-radx/rxow/DHMO_0000000",
       "lbl" : "root node",
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.org/dc/terms/creator",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.org/dc/terms/description",
       "lbl" : "description",
@@ -34,6 +38,54 @@
     }, {
       "id" : "http://purl.org/dc/terms/title",
       "lbl" : "title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/pav/createdOn",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/pav/lastUpdatedOn",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/pav/version",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#definition",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     } ]

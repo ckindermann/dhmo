@@ -1,15 +1,389 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-09-18/dhmo.owl
+data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/dhmo.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: pav http://purl.org/pav/ 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
 ontology: https://github.com/bmir-radx/rxow/dhmo.owl
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "RADx Data Hub Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2024-09-18" xsd:string
+property_value: owl:versionInfo "2024-10-15" xsd:string
 
 [Term]
 id: DHMO:0000000
 name: root node
+
+[Typedef]
+id: https://w3id.org/gdmt/hasAwardInfo
+name: has Award Info
+property_value: skos:definition "Information about the project award." xsd:string
+property_value: skos:prefLabel "has Award Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContentInfo
+name: has Content Info
+property_value: skos:definition "Information describing the entities that constitute the dataset being described, and their organization and provenance. (The dataset is defined as coming from a single Data Source.)" xsd:string
+property_value: skos:prefLabel "has Content Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorAffiliation
+name: has Contributor Affiliation
+property_value: skos:definition "The organizational or institutional affiliation of the contributor." xsd:string
+property_value: skos:prefLabel "has Contributor Affiliation" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorAffiliationInfo
+name: has Contributor Affiliation Info
+property_value: skos:definition "Information about a contributor's affiliations." xsd:string
+property_value: skos:prefLabel "has Contributor Affiliation Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorIdentifierInfo
+name: has Contributor Identifier Info
+property_value: skos:definition "Information about a contributor identifier." xsd:string
+property_value: skos:prefLabel "has Contributor Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorInfo
+name: has Contributor Info
+property_value: skos:definition "Information about a Contributor entity that helped bring into existence the dataset being described. Contributors can be people, organizations and/or physical or virtual infrastructure (e.g., sensors, software)." xsd:string
+property_value: skos:prefLabel "has Contributor Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorNameInfo
+name: has Contributor Name Info
+property_value: skos:definition "Information about a contributor name." xsd:string
+property_value: skos:prefLabel "has Contributor Name Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorRole
+name: has Contributor Role
+property_value: skos:definition "The role of the contributor in bringing the described dataset into existence." xsd:string
+property_value: skos:prefLabel "has Contributor Role" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasContributorType
+name: has Contributor Type
+property_value: skos:definition "The type of the contributor of the described dataset (organization or person)." xsd:string
+property_value: skos:prefLabel "has Contributor Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasControlledTermsInfo
+name: has Controlled Terms Info
+property_value: skos:definition "Controlled concepts that define the dataset or purpose." xsd:string
+property_value: skos:prefLabel "has Controlled Terms Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorAffiliation
+name: has Creator Affiliation
+property_value: skos:definition "The organizational or institutional affiliation of the creator." xsd:string
+property_value: skos:prefLabel "has Creator Affiliation" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorAffiliationIdentifierSchemeIRI
+name: has Creator Affiliation Identifier Scheme IRI
+property_value: skos:definition "The IRI of the scheme or authority used for the Creator Affiliation Identifier." xsd:string
+property_value: skos:prefLabel "has Creator Affiliation Identifier Scheme IRI" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorAffiliationInfo
+name: has Creator Affiliation Info
+property_value: skos:definition "Information about the creator affiliations." xsd:string
+property_value: skos:prefLabel "has Creator Affiliation Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorIdentifierInfo
+name: has Creator Identifier Info
+property_value: skos:definition "Information about the creator identifier." xsd:string
+property_value: skos:prefLabel "has Creator Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorInfo
+name: has Creator Info
+property_value: skos:definition "Information about the Creator entity that brought into existence the dataset being described. Creators can be people, organizations and/or physical or virtual infrastructure (e.g., sensors, software)." xsd:string
+property_value: skos:prefLabel "has Creator Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorNameInfo
+name: has Creator Name Info
+property_value: skos:definition "Information about the creator name." xsd:string
+property_value: skos:prefLabel "has Creator Name Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorRole
+name: has Creator Role
+property_value: skos:definition "The role of the creator in bringing the described dataset into existence." xsd:string
+property_value: skos:prefLabel "has Creator Role" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasCreatorType
+name: has Creator Type
+property_value: skos:definition "The type of the creator of the described dataset (organization or person)." xsd:string
+property_value: skos:prefLabel "has Creator Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDataSourceInfo
+name: has Data Source Info
+property_value: skos:definition "Information about a Data Source, a physical or conceptual entity that creates the data streams that make up the described dataset. The data source may or may not be associated with a fixed location; for example, a series of discrete sensors deployed over time to a single location may be considered a single data source in some systems." xsd:string
+property_value: skos:prefLabel "has Data Source Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDataStreamInfo
+name: has Data Stream Info
+property_value: skos:definition "Information about a Data Stream, a collection of one or more variable records originating from a single data source (e.g., sensor, process, or person). A data stream can grow over time." xsd:string
+property_value: skos:prefLabel "has Data Stream Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDatasetDateType
+name: has Dataset Date Type
+property_value: skos:definition "Type of the date with respect to the dataset." xsd:string
+property_value: skos:prefLabel "has Dataset Date Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDatasetIdentifierInfo
+name: has Dataset Identifier Info
+property_value: skos:definition "Information about the globally unique and persistent identifier used to identify and optionally access (meta)data of the dataset being described." xsd:string
+property_value: skos:prefLabel "has Dataset Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDatasetIdentifierSubType
+name: has Dataset Identifier Sub Type
+property_value: skos:definition "The subtype of the identifier used to specify the dataset being described." xsd:string
+property_value: skos:prefLabel "has Dataset Identifier Sub Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDateInfo
+name: has Date Info
+property_value: skos:definition "Information about relevant dates related to the resource being described. One instance of date must be of datsetDateType=Published." xsd:string
+property_value: skos:prefLabel "has Date Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDescriptionInfo
+name: has Description Info
+property_value: skos:definition "Detailed information (typically at the level of an abstract) about the dataset being described." xsd:string
+property_value: skos:prefLabel "has Description Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributionAccessInfo
+name: has Distribution Access Info
+property_value: skos:definition "Details about the distribution access." xsd:string
+property_value: skos:prefLabel "has Distribution Access Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributionIdentifierType
+name: has Distribution Identifier Type
+property_value: skos:definition "The identifier type used to identify the dataset distribution." xsd:string
+property_value: skos:prefLabel "has Distribution Identifier Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributionInfo
+name: has Distribution Info
+property_value: skos:definition "Details about the distribution for this individual public presentation of the dataset (if part of the Distribution metadata), or for all the public presentations of the dataset being described (if part of the Dataset metadata)." xsd:string
+property_value: skos:prefLabel "has Distribution Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributionMediaType
+name: has Distribution Media Type
+property_value: skos:definition "A media type, formerly known as a MIME type, of dataset distribution." xsd:string
+property_value: skos:prefLabel "has Distribution Media Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorAffiliationInfo
+name: has Distributor Affiliation Info
+property_value: skos:definition "Information about the distributor affiliations." xsd:string
+property_value: skos:prefLabel "has Distributor Affiliation Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorIdentifierInfo
+name: has Distributor Identifier Info
+property_value: skos:definition "Information about the distributor identifier." xsd:string
+property_value: skos:prefLabel "has Distributor Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorInfo
+name: has Distributor Info
+property_value: skos:definition "Information about the distributor of this dataset distribution. The Distributor includes persons or legal entities that responsible for distributing the dataset distribution." xsd:string
+property_value: skos:prefLabel "has Distributor Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorNameInfo
+name: has Distributor Name Info
+property_value: skos:definition "Information about the distributor name." xsd:string
+property_value: skos:prefLabel "has Distributor Name Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorRole
+name: has Distributor Role
+property_value: skos:definition "The role of the distributor in bringing the described dataset into existence." xsd:string
+property_value: skos:prefLabel "has Distributor Role" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasDistributorType
+name: has Distributor Type
+property_value: skos:definition "The type of the distributor of the described dataset (organization, or person)." xsd:string
+property_value: skos:prefLabel "has Distributor Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasFunderInfo
+name: has Funder Info
+property_value: skos:definition "Information about the award funder." xsd:string
+property_value: skos:prefLabel "has Funder Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasFundingInfo
+name: has Funding Info
+property_value: skos:definition "Information about the sources of funding that enabled and drove the creation of the dataset. (Non-monetary sources are described under Contributor.)" xsd:string
+property_value: skos:prefLabel "has Funding Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasIntendedVariable
+name: has Intended Variable
+property_value: skos:definition "Variable intended being computer or indirectly measured." xsd:string
+property_value: skos:prefLabel "has Intended Variable" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasLanguageInfo
+name: has Language Info
+property_value: skos:definition "Information about the language in which the dataset being described is provided." xsd:string
+property_value: skos:prefLabel "has Language Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasLicenseIdentifierInfo
+name: has License Identifier Info
+property_value: skos:definition "Information about the license identifier." xsd:string
+property_value: skos:prefLabel "has License Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasMeasuredVariable
+name: has Measured Variable
+property_value: skos:definition "Variable being directly measured." xsd:string
+property_value: skos:prefLabel "has Measured Variable" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasOtherSubject
+name: has Other Subject
+property_value: skos:definition "This property is purely used to capture subjects not yet being defined by controlled vocabulary." xsd:string
+property_value: skos:prefLabel "has Other Subject" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasOtherVariable
+name: has Other Variable
+property_value: skos:definition "This property is purely used to capture variables not yet being defined by controlled vocabulary." xsd:string
+property_value: skos:prefLabel "has Other Variable" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasPrimaryLanguage
+name: has Primary Language
+property_value: skos:definition "Primary language used to present the dataset (if multiple languages are present). Use a code from IETF BCP 47" xsd:string
+property_value: skos:prefLabel "has Primary Language" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasPublisherIdentifierInfo
+name: has Publisher Identifier Info
+property_value: skos:definition "Information about the publisher identifier." xsd:string
+property_value: skos:prefLabel "has Publisher Identifier Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasPublisherInfo
+name: has Publisher Info
+property_value: skos:definition "Information about the entity that plays the principal role in officially making the dataset public. The role can be to hold, archive, publish, print, distribute, release, issue, or produce the dataset being described. This property is often used to formulate the citation, so consider the prominence of the role and of the entity. For datasets, use the primary repository for serving the data, or the primary organization taking responsibility for serving the data, as the Publisher. The Distribution element can be used to describe the entity(ies) that make the dataset accessible." xsd:string
+property_value: skos:prefLabel "has Publisher Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasRelatedResourceIdentifierSubType
+name: has Related Resource Identifier Sub Type
+property_value: skos:definition "The subtype of the identifier used to specify the related resource." xsd:string
+property_value: skos:prefLabel "has Related Resource Identifier Sub Type" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasRelatedResourcesInfo
+name: has Related Resources Info
+property_value: skos:definition "Information about resource related to the dataset or other entity being described." xsd:string
+property_value: skos:prefLabel "has Related Resources Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasResourceTypeInfo
+name: has Resource Type Info
+property_value: skos:definition "Information about the type of the resource being described with metadata." xsd:string
+property_value: skos:prefLabel "has Resource Type Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasRightsInfo
+name: has Rights Info
+property_value: skos:definition "Information about ways in which the dataset may or may not be accessed and used." xsd:string
+property_value: skos:prefLabel "has Rights Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSpatialCoverageBoundingBoxInfo
+name: has Spatial Coverage Bounding Box Info
+property_value: skos:definition "Information about a geospatial coverage represented using bounding box." xsd:string
+property_value: skos:prefLabel "has Spatial Coverage Bounding Box Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSpatialCoverageInfo
+name: has Spatial Coverage Info
+property_value: skos:definition "Information about the geospatial area (region on Earth) covered by the dataset being described." xsd:string
+property_value: skos:prefLabel "has Spatial Coverage Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSpatialCoveragePointInfo
+name: has Spatial Coverage Point Info
+property_value: skos:definition "Information about a geospatial coverage represented as a single point." xsd:string
+property_value: skos:prefLabel "has Spatial Coverage Point Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSpatialCoveragePolygonInfo
+name: has Spatial Coverage Polygon Info
+property_value: skos:definition "Information about a geospatial coverage represented using polygon." xsd:string
+property_value: skos:prefLabel "has Spatial Coverage Polygon Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSubjectAndKeywordInfo
+name: has Subject And Keyword Info
+property_value: skos:definition "Concepts (keywords, classification, or free text terms) that define the dataset or purpose (subjects which can be addressed) using the dataset." xsd:string
+property_value: skos:prefLabel "has Subject And Keyword Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasSubjectInfo
+name: has Subject Info
+property_value: skos:definition "Topic information that defines the dataset's subject or purpose." xsd:string
+property_value: skos:prefLabel "has Subject Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasTemporalCoverageInfo
+name: has Temporal Coverage Info
+property_value: skos:definition "Information about the temporal coverage and resolution of the dataset being described." xsd:string
+property_value: skos:prefLabel "has Temporal Coverage Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasTitleInfo
+name: has Title Info
+property_value: skos:definition "Information about a name or title by which the dataset being described is known." xsd:string
+property_value: skos:prefLabel "has Title Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasVariableInfo
+name: has Variable Info
+property_value: skos:definition "Information about a single entity being measured or computed." xsd:string
+property_value: skos:prefLabel "has Variable Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasVersionInfo
+name: has Version Info
+property_value: skos:definition "Information about the version of the resource being described." xsd:string
+property_value: skos:prefLabel "has Version Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasVerticalCoverageInfo
+name: has Vertical Coverage Info
+property_value: skos:definition "Information about the vertical area (altitude and/or depth) covered by the dataset being described." xsd:string
+property_value: skos:prefLabel "has Vertical Coverage Info" xsd:string
+
+[Typedef]
+id: https://w3id.org/gdmt/hasVerticalExtentUnit
+name: has Vertical Extent Unit
+property_value: skos:definition "Unit used to specify Vertical Extent." xsd:string
+property_value: skos:prefLabel "has Vertical Extent Unit" xsd:string
 
