@@ -10,11 +10,11 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://github.com/bmir-radx/rxow/dhmo/dhmo-simple.owl">
-        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/dhmo-simple.owl"/>
+        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>RADx Data Hub Metadata Ontology</terms:title>
-        <owl:versionInfo>2024-10-15</owl:versionInfo>
+        <owl:versionInfo>2024-10-16</owl:versionInfo>
     </owl:Ontology>
     
 

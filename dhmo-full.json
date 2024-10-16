@@ -13,9 +13,9 @@
         "val" : "RADx Data Hub Metadata Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-10-15"
+        "val" : "2024-10-16"
       } ],
-      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-15/dhmo-full.json"
+      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-full.json"
     },
     "nodes" : [ {
       "id" : "http://www.w3.org/2004/02/skos/core#Concept",
@@ -26984,6 +26984,9 @@
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "https://w3id.org/gdmt/ProjectLeader"
         }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "Person who is a Principal Investigator for a project.\n\t\n\tA Principal Investigator (PI) is a primary individual responsible for the preparation, conduct, and administration of a research grant, research study, or other grant-funded projects. The role of a PI typically involves several key responsibilities, including:\n\n\t1. **Designing the Research:** Developing the research questions, hypotheses, and methodology. The PI plans the study's design and selects the appropriate research methods to address the specific objectives of the project.\n\n\t2. **Writing Proposals:** Applying for funding to support the research. This involves writing detailed proposals that outline the research plan, objectives, significance, methodology, and budget. These proposals are submitted to funding agencies or bodies, such as government departments, charities, or private organizations.\n\n\t3. **Managing the Project:** Once funding is secured, the PI is responsible for managing the project's timeline, budget, and resources. This includes hiring and supervising research staff, managing project finances, and ensuring that the project adheres to its planned scope and timelines.\n\n\t4. **Conducting the Research:** Leading and overseeing the research activities. This involves coordinating the research team, ensuring the research is conducted ethically and to high standards, and troubleshooting any issues that arise during the research process.\n\n\t5. **Analyzing Data and Reporting Results:** The PI is responsible for analyzing the collected data, interpreting the results, and disseminating the findings. This often involves writing reports, publishing papers in academic journals, and presenting the research at conferences and seminars.\n\n\t6. **Compliance and Ethics:** Ensuring that the research complies with all ethical standards, legal requirements, and safety protocols. This includes obtaining approval from institutional review boards (IRBs) or ethics committees, managing conflicts of interest, and ensuring the confidentiality and welfare of research participants.\n\n\t7. **Financial Management:** Overseeing the project's budget, including allocating resources, monitoring expenditures, and ensuring the project remains within its financial limits.\n\n\tPrincipal Investigators are typically experienced researchers with a strong background in their field of study. They are often faculty members at universities or senior researchers in research institutions, government agencies, or industry. The role of a PI is crucial for the success of a research project, as they provide the vision, leadership, and expertise needed to advance knowledge in their field.\n\t"
+        }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
           "val" : "https://w3id.org/gdmt/"
         }, {
@@ -29026,6 +29029,9 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "https://w3id.org/gdmt/IdentifierType"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "\nA UEI (Unique Entity Identifier) is a unique identifier assigned to entities (such as businesses, nonprofits, or government agencies) that want to receive federal funding, contracts, or grants in the United States. The UEI was implemented by the U.S. government as part of its efforts to streamline and modernize its procurement and grant management processes.\n\nPreviously, organizations used the DUNS number (provided by Dun & Bradstreet) for similar purposes, but starting in April 2022, the UEI replaced the DUNS number as the standard identifier for entities registered in the U.S. federal government's System for Award Management (SAM)."
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
           "val" : "https://w3id.org/gdmt/"
