@@ -16,7 +16,7 @@ Ontology: <https://github.com/bmir-radx/rxow/dhmo/dhmo-idranges.owl>
 
 Annotations: 
     idsfor: "DHMO",
-    idprefix: "https://github.com/bmir-radx/rxow/DHMO_",
+    idprefix: "https://github.com/bmir-radx/dhmo/DHMO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:
@@ -33,21 +33,113 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "BAH"
+        idsfor: "HAS DATA FILES value set"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= 0 , <= 999]
 
     
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
+        allocatedto: "BAH"
+        idsfor: "MULTI-CENTER STUDY value set"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= 1000 , <= 1999]
+
+Datatype: idrange:3
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "STUDY PROGRAM value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 2000 , <= 2999]
+
+Datatype: idrange:4
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "STUDY PROGRAM value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 3000 , <= 3999]
+
+Datatype: idrange:5
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "STUDY DESIGN value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 4000 , <= 4999]
+
+Datatype: idrange:6
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "DATA TYPES value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 5000 , <= 5999]
+
+Datatype: idrange:7
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "DATA COLLECTION METHODS value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 6000 , <= 6999]
+
+Datatype: idrange:8
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "SPECIES value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 7000 , <= 7999]
+
+Datatype: idrange:9
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "NIH INSTITUTE OR CENTER value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 8000 , <= 8999]
+
+Datatype: idrange:10
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "CONSENT/DATA USE LIMITATION value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 9000 , <= 9999]
+
+Datatype: idrange:11
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "STUDY DOMAIN value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 10000 , <= 10999]
+
+Datatype: idrange:12
+
+    Annotations: 
+        allocatedto: "BAH"
+        idsfor: "STUDY POPULATION FOCUS value set"
+    
+    EquivalentTo: 
+        xsd:integer[>= 11000 , <= 11999]
+
     
     
 Datatype: xsd:integer
 Datatype: rdf:PlainLiteral
-
