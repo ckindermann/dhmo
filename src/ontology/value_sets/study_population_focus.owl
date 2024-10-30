@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:study_population_focus.owl#"
+     xml:base="urn:absolute:study_population_focus.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dhmo="https://github.com/bmir-radx/dhmo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="urn:absolute:study_population_focus.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_1000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/dhmo/DHMO_1000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011001 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011001">
+        <rdfs:label>Racial and Ethnic Minorities</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011002 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011002">
+        <rdfs:label>Immigrants</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011003 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011003">
+        <rdfs:label>African American</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011004 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011004">
+        <rdfs:label>Hispanic and Latino</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011005 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011005">
+        <rdfs:label>Native Hawaiian or other Pacific Islander</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011006 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011006">
+        <rdfs:label>Asian</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011007 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011007">
+        <rdfs:label>Children</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011008 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011008">
+        <rdfs:label>School Community Members</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011009 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011009">
+        <rdfs:label>Essential Workers</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011010 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011010">
+        <rdfs:label>Pregnant (or Nursing) Women</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011011 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011011">
+        <rdfs:label>Intellectual and Developmental Disabilities</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011012 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011012">
+        <rdfs:label>Homeless/Unhoused</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011013 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011013">
+        <rdfs:label>Incarcerated/Institutionalized (or Criminal Legal System Involvement)</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011014 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011014">
+        <rdfs:label>People Living with HIV/AIDs</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011015 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011015">
+        <rdfs:label>Dialysis Patients</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011016 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011016">
+        <rdfs:label>Sexual and Gender Minorities</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011017 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011017">
+        <rdfs:label>Rural Communities</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011018 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011018">
+        <rdfs:label>Underserved/Vulnerable Population</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011019 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011019">
+        <rdfs:label>Lower Socioeconomic Status (SES) Population</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011020 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011020">
+        <rdfs:label>Older Adults or Elderly</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011021 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011021">
+        <rdfs:label>Adults</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011022 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011022">
+        <rdfs:label>N/A</rdfs:label>
+        <skos:broader>DHMO:0011000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

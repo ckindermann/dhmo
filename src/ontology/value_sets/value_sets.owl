@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:value_sets.owl#"
+     xml:base="urn:absolute:value_sets.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dhmo="https://github.com/bmir-radx/dhmo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:value_sets.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000000"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_1000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/dhmo/DHMO_1000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000002 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0001000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0001000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>MULTI-CENTER STUDY?</rdfs:label>
+        <dhmo:DHMO_0000000>No</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0002000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0002000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>STUDY PROGRAM</rdfs:label>
+        <dhmo:DHMO_0000000>No</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0003000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0003000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>HAS DATA FILES?</rdfs:label>
+        <dhmo:DHMO_0000000>No</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>STUDY DESIGN</rdfs:label>
+        <dhmo:DHMO_0000000>No</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>DATA TYPES</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0006000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0006000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>DATA COLLECTION METHODS</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0007000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0007000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>SPECIES</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0008000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0008000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>NIH INSTITUTE OR CENTER</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0009000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0009000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>CONSENT/DATA USE LIMITATION</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0010000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0010000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>STUDY DOMAIN</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0011000 -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0011000">
+        <rdf:type rdf:resource="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+        <rdfs:label>STUDY POPULATION FOCUS</rdfs:label>
+        <dhmo:DHMO_0000000>Yes</dhmo:DHMO_0000000>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:study_design.owl#"
+     xml:base="urn:absolute:study_design.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dhmo="https://github.com/bmir-radx/dhmo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="urn:absolute:study_design.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_1000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/dhmo/DHMO_1000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004001 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004001">
+        <rdfs:label>Case-Control</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004002 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004002">
+        <rdfs:label>Clinical Genetic Testing</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004003 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004003">
+        <rdfs:label>Cross-Sectional</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004004 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004004">
+        <rdfs:label>Device Validation Study</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004005 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004005">
+        <rdfs:label>Device Verification Study</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004006 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004006">
+        <rdfs:label>Family/Twins/Trios</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004007 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004007">
+        <rdfs:label>Interventional/Clinical Trial</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004008 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004008">
+        <rdfs:label>Longitudinal Cohort</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004009 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004009">
+        <rdfs:label>Mendelian</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004010 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004010">
+        <rdfs:label>Metagenomics</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004011 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004011">
+        <rdfs:label>Mixed Methods</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004012 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004012">
+        <rdfs:label>Observational</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004013 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004013">
+        <rdfs:label>Open Cohort</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004014 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004014">
+        <rdfs:label>Qualitative</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004015 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004015">
+        <rdfs:label>Time-Series</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0004016 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0004016">
+        <rdfs:label>Xenograft</rdfs:label>
+        <skos:broader>DHMO:0001000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

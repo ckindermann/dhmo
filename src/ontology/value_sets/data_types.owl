@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:data_types.owl#"
+     xml:base="urn:absolute:data_types.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dhmo="https://github.com/bmir-radx/dhmo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="urn:absolute:data_types.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_1000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/dhmo/DHMO_1000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005001 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005001">
+        <rdfs:label>Behavioral</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005002 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005002">
+        <rdfs:label>Clinical</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005003 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005003">
+        <rdfs:label>Cognitive</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005004 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005004">
+        <rdfs:label>Electronic Medical Records</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005005 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005005">
+        <rdfs:label>Environmental (Physical)</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005006 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005006">
+        <rdfs:label>Family History</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005007 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005007">
+        <rdfs:label>Genomic</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005008 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005008">
+        <rdfs:label>Genotyping</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005009 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005009">
+        <rdfs:label>Imaging</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005010 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005010">
+        <rdfs:label>Immunological</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005011 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005011">
+        <rdfs:label>Individual Genotype</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005012 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005012">
+        <rdfs:label>Individual Phenotype</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005013 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005013">
+        <rdfs:label>Individual Sequencing</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005014 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005014">
+        <rdfs:label>Metabolomic</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005015 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005015">
+        <rdfs:label>Metagenomic</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005016 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005016">
+        <rdfs:label>Physical Activity</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005017 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005017">
+        <rdfs:label>Proteomic</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005018 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005018">
+        <rdfs:label>Psychological</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005019 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005019">
+        <rdfs:label>Questionnaires/Surveys</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005020 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005020">
+        <rdfs:label>Social</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005021 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005021">
+        <rdfs:label>Supporting Documents</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0005022 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0005022">
+        <rdfs:label>Other</rdfs:label>
+        <skos:broader>DHMO:0005000</skos:broader>
+        <dhmo:DHMO_1000000 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</dhmo:DHMO_1000000>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
