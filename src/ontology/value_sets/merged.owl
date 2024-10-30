@@ -58,12 +58,6 @@
     
 
 
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
-
-    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#Collection -->
 
     <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Collection"/>
@@ -79,6 +73,24 @@
     <!-- https://github.com/bmir-radx/dhmo/DHMO_0000002 -->
 
     <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000002"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000004 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000004">
+        <rdfs:label>isProvisional</rdfs:label>
+        <skos:definition>An annotation property to indicate that an entity is provisional and subject to change in the future.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000005 -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000005">
+        <rdfs:label>allowsMultipleValues</rdfs:label>
+        <skos:definition>An annotation property to indicate that an attribute allows for multiple values.</skos:definition>
+    </owl:Class>
     
 
 
@@ -1512,24 +1524,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:label>Value</rdfs:label>
         <skos:definition>An element of a value set.</skos:definition>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000004 -->
-
-    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000004">
-        <rdfs:label>isProvisional</rdfs:label>
-        <skos:definition>An annotation property to indicate that an entity is provisional and subject to change in the future.</skos:definition>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://github.com/bmir-radx/dhmo/DHMO_0000005 -->
-
-    <owl:NamedIndividual rdf:about="https://github.com/bmir-radx/dhmo/DHMO_0000005">
-        <rdfs:label>allowsMultipleValues</rdfs:label>
-        <skos:definition>An annotation property to indicate that an attribute allows for multiple values.</skos:definition>
     </owl:NamedIndividual>
     
 

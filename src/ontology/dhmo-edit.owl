@@ -14,6 +14,7 @@ Ontology(<https://github.com/bmir-radx/rxow/dhmo.owl>
 
 Import(<https://github.com/bmir-radx/rxow/dhmo/imports/symp_import.owl>)
 Import(<https://github.com/bmir-radx/rxow/dhmo/ldtab/ldtab.ttl>)
+Import(<https://github.com/bmir-radx/rxow/dhmo/value_sets/merged.owl>)
 
 
 
