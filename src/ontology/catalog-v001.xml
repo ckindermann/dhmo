@@ -6,7 +6,7 @@
   
   <uri name="https://github.com/bmir-radx/rxow/dhmo/imports/symp_import.owl" uri="imports/symp_import.owl"/>
   <uri name="https://github.com/bmir-radx/rxow/dhmo/ldtab/ldtab.ttl" uri="../ldtab/ldtab.ttl"/>
-  <uri name="https://github.com/bmir-radx/rxow/dhmo/value_sets/merged.owl" uri="./value_sets/merged.owl"/>
+  <uri name="https://github.com/bmir-radx/rxow/dhmo/value_sets/merged.owl" uri="../robot/value_sets/merged.owl"/>
   
   
 
