@@ -3,5 +3,5 @@ ID	LABEL	TYPE	A skos:definition	A skos:broader
 DHMO:0000001	Metadata Attribute	skos:Concept	An attribute describing some information about data.	
 DHMO:0000002	Value Set	skos:Collection	A finite set of values for a metadata attribute.	
 DHMO:0000003	Value	skos:Concept	An element of a value set.	
-DHMO:0000004	isProvisional	rdf:Property	An annotation property to indicate that an entity is provisional and subject to change in the future.	
-DHMO:0000005	allowsMultipleValues	rdf:Property	An annotation property to indicate that an attribute allows for multiple values.	
+DHMO:0000004	isProvisional		An annotation property to indicate that an entity is provisional and subject to change in the future.	
+DHMO:0000005	allowsMultipleValues		An annotation property to indicate that an attribute allows for multiple values.	
