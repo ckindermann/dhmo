@@ -33,8 +33,8 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "BAH"
-        idsfor: "HAS DATA FILES value set"
+        allocatedto: "BMIR"
+        idsfor: "Content Management in DHMO"
     
     EquivalentTo: 
         xsd:integer[>= 0 , <= 999]
@@ -62,7 +62,7 @@ Datatype: idrange:4
 
     Annotations: 
         allocatedto: "BAH"
-        idsfor: "STUDY PROGRAM value set"
+        idsfor: "HAS DATA  FILES value set"
     
     EquivalentTo: 
         xsd:integer[>= 3000 , <= 3999]
@@ -138,6 +138,7 @@ Datatype: idrange:12
     
     EquivalentTo: 
         xsd:integer[>= 11000 , <= 11999]
+
 
     
     
