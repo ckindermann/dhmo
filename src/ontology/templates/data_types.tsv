@@ -1,0 +1,24 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0005001	Behavioral	DHMO:0005000	true
+DHMO:0005002	Clinical	DHMO:0005000	true
+DHMO:0005003	Cognitive	DHMO:0005000	true
+DHMO:0005004	Electronic Medical Records	DHMO:0005000	true
+DHMO:0005005	Environmental (Physical)	DHMO:0005000	true
+DHMO:0005006	Family History	DHMO:0005000	true
+DHMO:0005007	Genomic	DHMO:0005000	true
+DHMO:0005008	Genotyping	DHMO:0005000	true
+DHMO:0005009	Imaging	DHMO:0005000	true
+DHMO:0005010	Immunological	DHMO:0005000	true
+DHMO:0005011	Individual Genotype	DHMO:0005000	true
+DHMO:0005012	Individual Phenotype	DHMO:0005000	true
+DHMO:0005013	Individual Sequencing	DHMO:0005000	true
+DHMO:0005014	Metabolomic	DHMO:0005000	true
+DHMO:0005015	Metagenomic	DHMO:0005000	true
+DHMO:0005016	Physical Activity	DHMO:0005000	true
+DHMO:0005017	Proteomic	DHMO:0005000	true
+DHMO:0005018	Psychological	DHMO:0005000	true
+DHMO:0005019	Questionnaires/Surveys	DHMO:0005000	true
+DHMO:0005020	Social	DHMO:0005000	true
+DHMO:0005021	Supporting Documents	DHMO:0005000	true
+DHMO:0005022	Other	DHMO:0005000	true

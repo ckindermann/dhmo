@@ -1,0 +1,38 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0010001	Artificial Intelligence and Machine Learning	DHMO:0010000	true
+DHMO:0010002	Biosensor Technology	DHMO:0010000	true
+DHMO:0010003	Community Outreach Programs	DHMO:0010000	true
+DHMO:0010004	Comorbidities	DHMO:0010000	true
+DHMO:0010005	COVID Hotspots	DHMO:0010000	true
+DHMO:0010006	COVID in School Settings	DHMO:0010000	true
+DHMO:0010007	COVID Testing Deserts	DHMO:0010000	true
+DHMO:0010008	Diagnostic Testing	DHMO:0010000	true
+DHMO:0010009	Digital Health Applications	DHMO:0010000	true
+DHMO:0010010	Disease Surveillance	DHMO:0010000	true
+DHMO:0010011	Health Behaviors	DHMO:0010000	true
+DHMO:0010012	Immune Responses	DHMO:0010000	true
+DHMO:0010013	Influenza 	DHMO:0010000	true
+DHMO:0010014	Long COVID	DHMO:0010000	true
+DHMO:0010015	Medical Device/Tool Development	DHMO:0010000	true
+DHMO:0010016	Mental Health	DHMO:0010000	true
+DHMO:0010017	Mobile Unit Testing	DHMO:0010000	true
+DHMO:0010018	Multimodal Surveillance	DHMO:0010000	true
+DHMO:0010019	Multisystem Inflammatory Syndrome (MIS)	DHMO:0010000	true
+DHMO:0010020	Multisystem Inflammatory Syndrome in Children (MIS-C)	DHMO:0010000	true
+DHMO:0010021	Next Generation Sequencing (NGS)	DHMO:0010000	true
+DHMO:0010022	Novel Biosensing and VOC	DHMO:0010000	true
+DHMO:0010023	Pandemic Perceptions and Decision-Making	DHMO:0010000	true
+DHMO:0010024	Point-of-Care (POC) Testing	DHMO:0010000	true
+DHMO:0010025	Rapid Diagnostic Test (RDT)	DHMO:0010000	true
+DHMO:0010026	Screening Testing	DHMO:0010000	true
+DHMO:0010027	Self-Testing (At-Home or OTC)	DHMO:0010000	true
+DHMO:0010028	Serological (Antibody) Testing	DHMO:0010000	true
+DHMO:0010029	Seroprevalence	DHMO:0010000	true
+DHMO:0010030	Social Determinants of Health	DHMO:0010000	true
+DHMO:0010031	Substance Use	DHMO:0010000	true
+DHMO:0010032	Testing Rate/Uptake	DHMO:0010000	true
+DHMO:0010033	Vaccination Rate/Uptake	DHMO:0010000	true
+DHMO:0010034	Variants	DHMO:0010000	true
+DHMO:0010035	Virological Testing	DHMO:0010000	true
+DHMO:0010036	Wastewater Surveillance	DHMO:0010000	true

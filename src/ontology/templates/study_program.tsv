@@ -1,0 +1,6 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0002001	RADx DHT	DHM:0002000	true
+DHMO:0002002	RADx-rad	DHM:0002000	true
+DHMO:0002003	RADx Tech	DHM:0002000	true
+DHMO:0002004	RADx-UP	DHM:0002000	true

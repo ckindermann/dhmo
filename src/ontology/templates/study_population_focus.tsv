@@ -1,0 +1,24 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0011001	Racial and Ethnic Minorities	DHMO:0011000	true
+DHMO:0011002	Immigrants	DHMO:0011000	true
+DHMO:0011003	African American	DHMO:0011000	true
+DHMO:0011004	Hispanic and Latino	DHMO:0011000	true
+DHMO:0011005	Native Hawaiian or other Pacific Islander	DHMO:0011000	true
+DHMO:0011006	Asian	DHMO:0011000	true
+DHMO:0011007	Children	DHMO:0011000	true
+DHMO:0011008	School Community Members	DHMO:0011000	true
+DHMO:0011009	Essential Workers	DHMO:0011000	true
+DHMO:0011010	Pregnant (or Nursing) Women	DHMO:0011000	true
+DHMO:0011011	Intellectual and Developmental Disabilities	DHMO:0011000	true
+DHMO:0011012	Homeless/Unhoused	DHMO:0011000	true
+DHMO:0011013	Incarcerated/Institutionalized (or Criminal Legal System Involvement)	DHMO:0011000	true
+DHMO:0011014	People Living with HIV/AIDs	DHMO:0011000	true
+DHMO:0011015	Dialysis Patients	DHMO:0011000	true
+DHMO:0011016	Sexual and Gender Minorities	DHMO:0011000	true
+DHMO:0011017	Rural Communities	DHMO:0011000	true
+DHMO:0011018	Underserved/Vulnerable Population	DHMO:0011000	true
+DHMO:0011019	Lower Socioeconomic Status (SES) Population	DHMO:0011000	true
+DHMO:0011020	Older Adults or Elderly	DHMO:0011000	true
+DHMO:0011021	Adults	DHMO:0011000	true
+DHMO:0011022	N/A	DHMO:0011000	true

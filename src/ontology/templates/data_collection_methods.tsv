@@ -1,0 +1,18 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0006001	Survey	DHMO:0006000	true
+DHMO:0006001	Interview or Focus Group	DHMO:0006000	true
+DHMO:0006001	Wearable	DHMO:0006000	true
+DHMO:0006001	Smartphone	DHMO:0006000	true
+DHMO:0006001	Contact Tracing	DHMO:0006000	true
+DHMO:0006001	Antigen Testing Device	DHMO:0006000	true
+DHMO:0006001	Molecular (Nucleic Acid/PCR) Testing Device	DHMO:0006000	true
+DHMO:0006001	Antibody Testing / Other Adaptive Immune Response Test	DHMO:0006000	true
+DHMO:0006001	Breath Analysis Device / Airborne Detection Device	DHMO:0006000	true
+DHMO:0006001	Chemosensory Testing Device	DHMO:0006000	true
+DHMO:0006001	Electrochemical Testing Device	DHMO:0006000	true
+DHMO:0006001	Unspecified COVID Testing Device	DHMO:0006000	true
+DHMO:0006001	Wastewater Sampling	DHMO:0006000	true
+DHMO:0006001	Disease Registry	DHMO:0006000	true
+DHMO:0006001	Biobank Samples	DHMO:0006000	true
+DHMO:0006001	Real-World Data	DHMO:0006000	true

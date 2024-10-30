@@ -1,0 +1,7 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0009001	General Research Use	DHMO:0009000^^xsd:boolean	true
+DHMO:0009002	Use of the data is limited to health/medical/biomedical purposes	DHMO:0009000^^xsd:boolean	true
+DHMO:0009003	IRB required	DHMO:0009000^^xsd:boolean	true
+DHMO:0009004	Use of the data is limited to not-for-profit organizations	DHMO:0009000^^xsd:boolean	true
+DHMO:0009005	Disease-Specific for COVID-19	DHMO:0009000^^xsd:boolean	true

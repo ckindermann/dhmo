@@ -1,0 +1,4 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0003001	Yes	DHMO:0003000	true
+DHMO:0003002	No	DHMO:0003000	true

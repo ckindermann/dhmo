@@ -1,0 +1,18 @@
+Value	Label	Hierarchy Relation	Provisional
+ID	LABEL	A skos:broader	AT DHMO:1000000^^xsd:boolean
+DHMO:0004001	Case-Control	DHMO:0001000	true
+DHMO:0004002	Clinical Genetic Testing	DHMO:0001000	true
+DHMO:0004003	Cross-Sectional	DHMO:0001000	true
+DHMO:0004004	Device Validation Study	DHMO:0001000	true
+DHMO:0004005	Device Verification Study	DHMO:0001000	true
+DHMO:0004006	Family/Twins/Trios	DHMO:0001000	true
+DHMO:0004007	Interventional/Clinical Trial	DHMO:0001000	true
+DHMO:0004008	Longitudinal Cohort	DHMO:0001000	true
+DHMO:0004009	Mendelian	DHMO:0001000	true
+DHMO:0004010	Metagenomics	DHMO:0001000	true
+DHMO:0004011	Mixed Methods	DHMO:0001000	true
+DHMO:0004012	Observational	DHMO:0001000	true
+DHMO:0004013	Open Cohort	DHMO:0001000	true
+DHMO:0004014	Qualitative	DHMO:0001000	true
+DHMO:0004015	Time-Series	DHMO:0001000	true
+DHMO:0004016	Xenograft	DHMO:0001000	true
