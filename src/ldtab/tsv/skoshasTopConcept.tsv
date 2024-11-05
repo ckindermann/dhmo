@@ -1,6 +1,5 @@
 scheme:	skos:hasTopConcept	scheme:ResourceTypeCategory	_IRI
 scheme:	skos:hasTopConcept	scheme:ResourceCreatorType	_IRI
-scheme:	skos:hasTopConcept	scheme:RelationType	_IRI
 scheme:	skos:hasTopConcept	scheme:MIMEType	_IRI
 scheme:	skos:hasTopConcept	scheme:LicenseIdentifierScheme	_IRI
 scheme:	skos:hasTopConcept	scheme:LicenseIdentifier	_IRI

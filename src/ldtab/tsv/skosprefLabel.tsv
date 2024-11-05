@@ -227,40 +227,6 @@ scheme:IdentifierScheme	skos:prefLabel	Identifier Scheme	@en
 scheme:Organization	skos:prefLabel	Organization	@en
 scheme:Person	skos:prefLabel	Person	@en
 scheme:ResourceCreatorType	skos:prefLabel	Resource Creator Type	@en
-scheme:IsObsoletedBy	skos:prefLabel	Is Obsoleted By	@en
-scheme:Obsoletes	skos:prefLabel	Obsoletes	@en
-scheme:Requires	skos:prefLabel	Requires	@en
-scheme:IsRequiredBy	skos:prefLabel	Is Required By	@en
-scheme:IsSourceOf	skos:prefLabel	Is Source Of	@en
-scheme:IsDerivedFrom	skos:prefLabel	Is Derived From	@en
-scheme:Reviews	skos:prefLabel	Reviews	@en
-scheme:IsReviewedBy	skos:prefLabel	Is Reviewed By	@en
-scheme:IsIdenticalTo	skos:prefLabel	Is Identical To	@en
-scheme:IsOriginalFormOf	skos:prefLabel	Is Original Form Of	@en
-scheme:IsVariantFormOf	skos:prefLabel	Is Variant Form Of	@en
-scheme:Compiles	skos:prefLabel	Compiles	@en
-scheme:IsCompiledBy	skos:prefLabel	Is Compiled By	@en
-scheme:Documents	skos:prefLabel	Documents	@en
-scheme:IsDocumentedBy	skos:prefLabel	Is Documented By	@en
-scheme:References	skos:prefLabel	References	@en
-scheme:IsReferencedBy	skos:prefLabel	Is Referenced By	@en
-scheme:HasPart	skos:prefLabel	Has Part	@en
-scheme:IsPartOf	skos:prefLabel	Is Part Of	@en
-scheme:IsPreviousVersionOf	skos:prefLabel	Is Previous Version Of	@en
-scheme:IsNewVersionOf	skos:prefLabel	Is New Version Of	@en
-scheme:IsVersionOf	skos:prefLabel	Is Version Of	@en
-scheme:HasVersion	skos:prefLabel	Has Version	@en
-scheme:IsMetadataFor	skos:prefLabel	Is Metadata For	@en
-scheme:HasMetadata	skos:prefLabel	Has Metadata	@en
-scheme:IsDescribedBy	skos:prefLabel	Is Described By	@en
-scheme:Describes	skos:prefLabel	Describes	@en
-scheme:Continues	skos:prefLabel	Continues	@en
-scheme:IsContinuedBy	skos:prefLabel	Is Continued By	@en
-scheme:IsSupplementedBy	skos:prefLabel	Is Supplemented By	@en
-scheme:IsSupplementTo	skos:prefLabel	Is Supplement To	@en
-scheme:Cites	skos:prefLabel	Cites	@en
-scheme:IsCitedBy	skos:prefLabel	Is Cited By	@en
-scheme:RelationType	skos:prefLabel	Relation Type	@en
 scheme:AFL1.1	skos:prefLabel	AFL-1.1	@en
 scheme:ADSL	skos:prefLabel	ADSL	@en
 scheme:AdobeGlyph	skos:prefLabel	Adobe-Glyph	@en

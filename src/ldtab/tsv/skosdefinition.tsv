@@ -172,7 +172,6 @@ scheme:hasVerticalExtentUnitIRI	skos:definition	The IRI for the unit used to spe
 scheme:hasVerticalExtentUnit	skos:definition	Unit used to specify Vertical Extent.	@en
 scheme:hasVerticalExtentMinimumValue	skos:definition	A minimum vertical extent of dataset collection. In case of depth, this represents a maximum depth of dataset collection.	@en
 scheme:hasVerticalExtentMaximumValue	skos:definition	A maximum vertical extent of dataset collection. In case of depth, this represents a minimum depth of dataset collection.	@en
-scheme:RelationType	skos:definition	Type of relation between two digital resources, interpreted from resource A to resource B.	@en
 scheme:IRI	skos:definition	The Internationalized Resource Identifier (IRI) is an internet protocol standard which builds on the Uniform Resource Identifier (URI) protocol by greatly expanding the set of permitted characters.	@en
 scheme:w3id	skos:definition	Permanent identifier for Web applications. Mostly used to publish vocabularies and ontologies. The letters ‘w3’ stand for “World Wide Web”.	@en
 scheme:URN	skos:definition	Uniform Resource Name; is a unique and persistent identifier of an electronic document. The syntax is: urn:< NID>:<NSS> The leading urn: sequence is case-insensitive, <NID> is the namespace identifier, <NSS> is the namespace-specific string.	@en
@@ -226,39 +225,6 @@ scheme:IdentifierScheme	skos:definition	Identifier scheme used for identifying p
 scheme:Organization	skos:definition	An organization is an entity - such as a company, an institution, or an association - comprising one or more people and having a particular purpose.	@en
 scheme:Person	skos:definition	A person (plural people or persons) is a being that has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility.	@en
 scheme:ResourceCreatorType	skos:definition	Types of creator responsiple for the ressource creation.	@en
-scheme:IsObsoletedBy	skos:definition	Indicates A is replaced by B	@en
-scheme:Obsoletes	skos:definition	Indicates A replaces B	@en
-scheme:Requires	skos:definition	Indicates A requires B	@en
-scheme:IsRequiredBy	skos:definition	Indicates A is required by B	@en
-scheme:IsSourceOf	skos:definition	indicates A is a source upon which B is based	@en
-scheme:IsDerivedFrom	skos:definition	indicates B is a source upon which A is based	@en
-scheme:Reviews	skos:definition	indicates that A is a review of B	@en
-scheme:IsReviewedBy	skos:definition	indicates that A is reviewed by B	@en
-scheme:IsIdenticalTo	skos:definition	indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource	@en
-scheme:IsOriginalFormOf	skos:definition	indicates A is the original form of B	@en
-scheme:IsVariantFormOf	skos:definition	indicates A is a variant or different form of B	@en
-scheme:Compiles	skos:definition	indicates B is the result of a compile or creation event using A	@en
-scheme:IsCompiledBy	skos:definition	indicates B is used to compile or create A	@en
-scheme:Documents	skos:definition	indicates A is documentation about B; e.g. points to software documentation	@en
-scheme:IsDocumentedBy	skos:definition	indicates B is documentation about/ explaining A; e.g. points to software documentation	@en
-scheme:References	skos:definition	indicates B is used as a source of information for A	@en
-scheme:IsReferencedBy	skos:definition	indicates A is used as a source of information by B	@en
-scheme:HasPart	skos:definition	indicates A includes the part B	@en
-scheme:IsPartOf	skos:definition	indicates A is a portion of B; may be used for elements of a series	@en
-scheme:IsPreviousVersionOf	skos:definition	indicates A is a previous edition of B	@en
-scheme:IsNewVersionOf	skos:definition	indicates A is a new edition of B, where the new edition has been modified or updated	@en
-scheme:IsVersionOf	skos:definition	indicates A is a version of B	@en
-scheme:HasVersion	skos:definition	indicates A has a version (B)	@en
-scheme:IsMetadataFor	skos:definition	indicates additional metadata A for a resource B	@en
-scheme:HasMetadata	skos:definition	indicates resource A has additional metadata B	@en
-scheme:IsDescribedBy	skos:definition	indicates A is described by B	@en
-scheme:Describes	skos:definition	indicates A describes B	@en
-scheme:Continues	skos:definition	indicates A is a continuation of the work B	@en
-scheme:IsContinuedBy	skos:definition	indicates A is continued by the work B	@en
-scheme:IsSupplementedBy	skos:definition	indicates that B is a supplement to A	@en
-scheme:IsSupplementTo	skos:definition	indicates that A is a supplement to B	@en
-scheme:Cites	skos:definition	indicates that A includes B in a citation	@en
-scheme:IsCitedBy	skos:definition	indicates that B includes A in a citation	@en
 scheme:MIMEType	skos:definition	MIME type of the digital object	@en
 <https://spdx.org/licenses/>	skos:definition	The Software Package Data Exchange (SPDX), an open standard for communicating software bill of material information, including components, licenses, copyrights, and security references.	@en
 scheme:LicenseIdentifierScheme	skos:definition	Identifier scheme used for defining licenses.	@en
