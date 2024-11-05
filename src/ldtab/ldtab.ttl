@@ -99,8 +99,6 @@ fdc:Audiovisual  owl:deprecated  true .
 fdc:ResourceTypeCategory
         owl:deprecated  true .
 
-fdc:RelationType  owl:deprecated  true .
-
 fdc:IRI  owl:deprecated  true .
 
 fdc:w3id  owl:deprecated  true .
@@ -195,73 +193,6 @@ fdc:Person  owl:deprecated  true .
 
 fdc:ResourceCreatorType
         owl:deprecated  true .
-
-fdc:IsObsoletedBy  owl:deprecated  true .
-
-fdc:Obsoletes  owl:deprecated  true .
-
-fdc:Requires  owl:deprecated  true .
-
-fdc:IsRequiredBy  owl:deprecated  true .
-
-fdc:IsSourceOf  owl:deprecated  true .
-
-fdc:IsDerivedFrom  owl:deprecated  true .
-
-fdc:Reviews  owl:deprecated  true .
-
-fdc:IsReviewedBy  owl:deprecated  true .
-
-fdc:IsIdenticalTo  owl:deprecated  true .
-
-fdc:IsOriginalFormOf  owl:deprecated  true .
-
-fdc:IsVariantFormOf  owl:deprecated  true .
-
-fdc:Compiles  owl:deprecated  true .
-
-fdc:IsCompiledBy  owl:deprecated  true .
-
-fdc:Documents  owl:deprecated  true .
-
-fdc:IsDocumentedBy  owl:deprecated  true .
-
-fdc:References  owl:deprecated  true .
-
-fdc:IsReferencedBy  owl:deprecated  true .
-
-fdc:HasPart  owl:deprecated  true .
-
-fdc:IsPartOf  owl:deprecated  true .
-
-fdc:IsPreviousVersionOf
-        owl:deprecated  true .
-
-fdc:IsNewVersionOf  owl:deprecated  true .
-
-fdc:IsVersionOf  owl:deprecated  true .
-
-fdc:HasVersion  owl:deprecated  true .
-
-fdc:IsMetadataFor  owl:deprecated  true .
-
-fdc:HasMetadata  owl:deprecated  true .
-
-fdc:IsDescribedBy  owl:deprecated  true .
-
-fdc:Describes  owl:deprecated  true .
-
-fdc:Continues  owl:deprecated  true .
-
-fdc:IsContinuedBy  owl:deprecated  true .
-
-fdc:IsSupplementedBy  owl:deprecated  true .
-
-fdc:IsSupplementTo  owl:deprecated  true .
-
-fdc:Cites  owl:deprecated  true .
-
-fdc:IsCitedBy  owl:deprecated  true .
 
 fdc:AFL1.1  owl:deprecated  true .
 
@@ -1053,9 +984,6 @@ fdc:Qhull  owl:deprecated  true .
 fdc:Python2.0  owl:deprecated  true .
 
 fdc:MIMEType  owl:deprecated  true .
-
-fdc:LicenseIdentifierScheme
-        owl:deprecated  true .
 
 fdc:ZPL2.1  owl:deprecated  true .
 
@@ -2427,12 +2355,6 @@ gdmt:hasDatasetDateType
 
 gdmt:hasDatasetDate  rdfs:label  "has Dataset Date"@en .
 
-gdmt:hasLicenseIdentifierSchemeIRI
-        rdfs:label  "has License Identifier Scheme IRI"@en .
-
-gdmt:hasLicenseIdentifierScheme
-        rdfs:label  "has License Identifier Scheme"@en .
-
 gdmt:hasLicenseIdentifier
         rdfs:label  "has License Identifier"@en .
 
@@ -2770,8 +2692,6 @@ fdc:Audiovisual  rdfs:seeAlso  gdmt:Audiovisual .
 fdc:ResourceTypeCategory
         rdfs:seeAlso  gdmt:ResourceTypeCategory .
 
-fdc:RelationType  rdfs:seeAlso  gdmt:RelationType .
-
 fdc:IRI  rdfs:seeAlso  gdmt:IRI .
 
 fdc:w3id  rdfs:seeAlso  gdmt:w3id .
@@ -2866,73 +2786,6 @@ fdc:Person  rdfs:seeAlso  gdmt:Person .
 
 fdc:ResourceCreatorType
         rdfs:seeAlso  gdmt:ResourceCreatorType .
-
-fdc:IsObsoletedBy  rdfs:seeAlso  gdmt:IsObsoletedBy .
-
-fdc:Obsoletes  rdfs:seeAlso  gdmt:Obsoletes .
-
-fdc:Requires  rdfs:seeAlso  gdmt:Requires .
-
-fdc:IsRequiredBy  rdfs:seeAlso  gdmt:IsRequiredBy .
-
-fdc:IsSourceOf  rdfs:seeAlso  gdmt:IsSourceOf .
-
-fdc:IsDerivedFrom  rdfs:seeAlso  gdmt:IsDerivedFrom .
-
-fdc:Reviews  rdfs:seeAlso  gdmt:Reviews .
-
-fdc:IsReviewedBy  rdfs:seeAlso  gdmt:IsReviewedBy .
-
-fdc:IsIdenticalTo  rdfs:seeAlso  gdmt:IsIdenticalTo .
-
-fdc:IsOriginalFormOf  rdfs:seeAlso  gdmt:IsOriginalFormOf .
-
-fdc:IsVariantFormOf  rdfs:seeAlso  gdmt:IsVariantFormOf .
-
-fdc:Compiles  rdfs:seeAlso  gdmt:Compiles .
-
-fdc:IsCompiledBy  rdfs:seeAlso  gdmt:IsCompiledBy .
-
-fdc:Documents  rdfs:seeAlso  gdmt:Documents .
-
-fdc:IsDocumentedBy  rdfs:seeAlso  gdmt:IsDocumentedBy .
-
-fdc:References  rdfs:seeAlso  gdmt:References .
-
-fdc:IsReferencedBy  rdfs:seeAlso  gdmt:IsReferencedBy .
-
-fdc:HasPart  rdfs:seeAlso  gdmt:HasPart .
-
-fdc:IsPartOf  rdfs:seeAlso  gdmt:IsPartOf .
-
-fdc:IsPreviousVersionOf
-        rdfs:seeAlso  gdmt:IsPreviousVersionOf .
-
-fdc:IsNewVersionOf  rdfs:seeAlso  gdmt:IsNewVersionOf .
-
-fdc:IsVersionOf  rdfs:seeAlso  gdmt:IsVersionOf .
-
-fdc:HasVersion  rdfs:seeAlso  gdmt:HasVersion .
-
-fdc:IsMetadataFor  rdfs:seeAlso  gdmt:IsMetadataFor .
-
-fdc:HasMetadata  rdfs:seeAlso  gdmt:HasMetadata .
-
-fdc:IsDescribedBy  rdfs:seeAlso  gdmt:IsDescribedBy .
-
-fdc:Describes  rdfs:seeAlso  gdmt:Describes .
-
-fdc:Continues  rdfs:seeAlso  gdmt:Continues .
-
-fdc:IsContinuedBy  rdfs:seeAlso  gdmt:IsContinuedBy .
-
-fdc:IsSupplementedBy  rdfs:seeAlso  gdmt:IsSupplementedBy .
-
-fdc:IsSupplementTo  rdfs:seeAlso  gdmt:IsSupplementTo .
-
-fdc:Cites  rdfs:seeAlso  gdmt:Cites .
-
-fdc:IsCitedBy  rdfs:seeAlso  gdmt:IsCitedBy .
 
 fdc:AFL1.1  rdfs:seeAlso  gdmt:AFL1.1 .
 
@@ -3724,9 +3577,6 @@ fdc:QPL1.0  rdfs:seeAlso  gdmt:QPL1.0 .
 fdc:Qhull  rdfs:seeAlso  gdmt:Qhull .
 
 fdc:MIMEType  rdfs:seeAlso  gdmt:MIMEType .
-
-fdc:LicenseIdentifierScheme
-        rdfs:seeAlso  gdmt:LicenseIdentifierScheme .
 
 fdc:ZPL2.1  rdfs:seeAlso  gdmt:ZPL2.1 .
 
@@ -5094,12 +4944,6 @@ gdmt:hasDatasetDateType
 
 gdmt:hasDatasetDate  rdf:type  owl:DatatypeProperty .
 
-gdmt:hasLicenseIdentifierSchemeIRI
-        rdf:type  owl:DatatypeProperty .
-
-gdmt:hasLicenseIdentifierScheme
-        rdf:type  owl:DatatypeProperty .
-
 gdmt:hasLicenseIdentifier
         rdf:type  owl:DatatypeProperty .
 
@@ -5516,10 +5360,6 @@ gdmt:hasVerticalExtentMinimumValue
 gdmt:hasVerticalExtentMaximumValue
         rdf:type  owl:DatatypeProperty .
 
-gdmt:RelationType  rdf:type  skos:Concept .
-
-fdc:RelationType  rdf:type  skos:Concept .
-
 gdmt:IRI  rdf:type  skos:Concept .
 
 fdc:IRI  rdf:type  skos:Concept .
@@ -5730,142 +5570,6 @@ gdmt:ResourceCreatorType
 
 fdc:ResourceCreatorType
         rdf:type  skos:Concept .
-
-gdmt:IsObsoletedBy  rdf:type  skos:Concept .
-
-fdc:IsObsoletedBy  rdf:type  skos:Concept .
-
-gdmt:Obsoletes  rdf:type  skos:Concept .
-
-fdc:Obsoletes  rdf:type  skos:Concept .
-
-gdmt:Requires  rdf:type  skos:Concept .
-
-fdc:Requires  rdf:type  skos:Concept .
-
-gdmt:IsRequiredBy  rdf:type  skos:Concept .
-
-fdc:IsRequiredBy  rdf:type  skos:Concept .
-
-gdmt:IsSourceOf  rdf:type  skos:Concept .
-
-fdc:IsSourceOf  rdf:type  skos:Concept .
-
-gdmt:IsDerivedFrom  rdf:type  skos:Concept .
-
-fdc:IsDerivedFrom  rdf:type  skos:Concept .
-
-gdmt:Reviews  rdf:type  skos:Concept .
-
-fdc:Reviews  rdf:type  skos:Concept .
-
-gdmt:IsReviewedBy  rdf:type  skos:Concept .
-
-fdc:IsReviewedBy  rdf:type  skos:Concept .
-
-gdmt:IsIdenticalTo  rdf:type  skos:Concept .
-
-fdc:IsIdenticalTo  rdf:type  skos:Concept .
-
-gdmt:IsOriginalFormOf
-        rdf:type  skos:Concept .
-
-fdc:IsOriginalFormOf  rdf:type  skos:Concept .
-
-gdmt:IsVariantFormOf  rdf:type  skos:Concept .
-
-fdc:IsVariantFormOf  rdf:type  skos:Concept .
-
-gdmt:Compiles  rdf:type  skos:Concept .
-
-fdc:Compiles  rdf:type  skos:Concept .
-
-gdmt:IsCompiledBy  rdf:type  skos:Concept .
-
-fdc:IsCompiledBy  rdf:type  skos:Concept .
-
-gdmt:Documents  rdf:type  skos:Concept .
-
-fdc:Documents  rdf:type  skos:Concept .
-
-gdmt:IsDocumentedBy  rdf:type  skos:Concept .
-
-fdc:IsDocumentedBy  rdf:type  skos:Concept .
-
-gdmt:References  rdf:type  skos:Concept .
-
-fdc:References  rdf:type  skos:Concept .
-
-gdmt:IsReferencedBy  rdf:type  skos:Concept .
-
-fdc:IsReferencedBy  rdf:type  skos:Concept .
-
-gdmt:HasPart  rdf:type  skos:Concept .
-
-fdc:HasPart  rdf:type  skos:Concept .
-
-gdmt:IsPartOf  rdf:type  skos:Concept .
-
-fdc:IsPartOf  rdf:type  skos:Concept .
-
-gdmt:IsPreviousVersionOf
-        rdf:type  skos:Concept .
-
-fdc:IsPreviousVersionOf
-        rdf:type  skos:Concept .
-
-gdmt:IsNewVersionOf  rdf:type  skos:Concept .
-
-fdc:IsNewVersionOf  rdf:type  skos:Concept .
-
-gdmt:IsVersionOf  rdf:type  skos:Concept .
-
-fdc:IsVersionOf  rdf:type  skos:Concept .
-
-gdmt:HasVersion  rdf:type  skos:Concept .
-
-fdc:HasVersion  rdf:type  skos:Concept .
-
-gdmt:IsMetadataFor  rdf:type  skos:Concept .
-
-fdc:IsMetadataFor  rdf:type  skos:Concept .
-
-gdmt:HasMetadata  rdf:type  skos:Concept .
-
-fdc:HasMetadata  rdf:type  skos:Concept .
-
-gdmt:IsDescribedBy  rdf:type  skos:Concept .
-
-fdc:IsDescribedBy  rdf:type  skos:Concept .
-
-gdmt:Describes  rdf:type  skos:Concept .
-
-fdc:Describes  rdf:type  skos:Concept .
-
-gdmt:Continues  rdf:type  skos:Concept .
-
-fdc:Continues  rdf:type  skos:Concept .
-
-gdmt:IsContinuedBy  rdf:type  skos:Concept .
-
-fdc:IsContinuedBy  rdf:type  skos:Concept .
-
-gdmt:IsSupplementedBy
-        rdf:type  skos:Concept .
-
-fdc:IsSupplementedBy  rdf:type  skos:Concept .
-
-gdmt:IsSupplementTo  rdf:type  skos:Concept .
-
-fdc:IsSupplementTo  rdf:type  skos:Concept .
-
-gdmt:Cites  rdf:type  skos:Concept .
-
-fdc:Cites  rdf:type  skos:Concept .
-
-gdmt:IsCitedBy  rdf:type  skos:Concept .
-
-fdc:IsCitedBy  rdf:type  skos:Concept .
 
 gdmt:AFL1.1  rdf:type  skos:Concept .
 
@@ -7449,15 +7153,6 @@ gdmt:Python2.0  rdf:type  skos:Concept .
 gdmt:MIMEType  rdf:type  skos:Concept .
 
 fdc:MIMEType  rdf:type  skos:Concept .
-
-<https://spdx.org/licenses/>
-        rdf:type  skos:Concept .
-
-gdmt:LicenseIdentifierScheme
-        rdf:type  skos:Concept .
-
-fdc:LicenseIdentifierScheme
-        rdf:type  skos:Concept .
 
 gdmt:ZPL2.1  rdf:type  skos:Concept .
 
@@ -10993,8 +10688,6 @@ fdc:Audiovisual  skos:broader  fdc:Deprecated .
 fdc:ResourceTypeCategory
         skos:broader  fdc:Deprecated .
 
-fdc:RelationType  skos:broader  fdc:Deprecated .
-
 gdmt:IRI  skos:broader  gdmt:IdentifierType .
 
 fdc:IRI  skos:broader  fdc:Deprecated .
@@ -11192,142 +10885,6 @@ fdc:Person  skos:broader  fdc:Deprecated .
 
 fdc:ResourceCreatorType
         skos:broader  fdc:Deprecated .
-
-gdmt:IsObsoletedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsObsoletedBy  skos:broader  fdc:Deprecated .
-
-gdmt:Obsoletes  skos:broader  gdmt:RelationType .
-
-fdc:Obsoletes  skos:broader  fdc:Deprecated .
-
-gdmt:Requires  skos:broader  gdmt:RelationType .
-
-fdc:Requires  skos:broader  fdc:Deprecated .
-
-gdmt:IsRequiredBy  skos:broader  gdmt:RelationType .
-
-fdc:IsRequiredBy  skos:broader  fdc:Deprecated .
-
-gdmt:IsSourceOf  skos:broader  gdmt:RelationType .
-
-fdc:IsSourceOf  skos:broader  fdc:Deprecated .
-
-gdmt:IsDerivedFrom  skos:broader  gdmt:RelationType .
-
-fdc:IsDerivedFrom  skos:broader  fdc:Deprecated .
-
-gdmt:Reviews  skos:broader  gdmt:RelationType .
-
-fdc:Reviews  skos:broader  fdc:Deprecated .
-
-gdmt:IsReviewedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsReviewedBy  skos:broader  fdc:Deprecated .
-
-gdmt:IsIdenticalTo  skos:broader  gdmt:RelationType .
-
-fdc:IsIdenticalTo  skos:broader  fdc:Deprecated .
-
-gdmt:IsOriginalFormOf
-        skos:broader  gdmt:RelationType .
-
-fdc:IsOriginalFormOf  skos:broader  fdc:Deprecated .
-
-gdmt:IsVariantFormOf  skos:broader  gdmt:RelationType .
-
-fdc:IsVariantFormOf  skos:broader  fdc:Deprecated .
-
-gdmt:Compiles  skos:broader  gdmt:RelationType .
-
-fdc:Compiles  skos:broader  fdc:Deprecated .
-
-gdmt:IsCompiledBy  skos:broader  gdmt:RelationType .
-
-fdc:IsCompiledBy  skos:broader  fdc:Deprecated .
-
-gdmt:Documents  skos:broader  gdmt:RelationType .
-
-fdc:Documents  skos:broader  fdc:Deprecated .
-
-gdmt:IsDocumentedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsDocumentedBy  skos:broader  fdc:Deprecated .
-
-gdmt:References  skos:broader  gdmt:RelationType .
-
-fdc:References  skos:broader  fdc:Deprecated .
-
-gdmt:IsReferencedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsReferencedBy  skos:broader  fdc:Deprecated .
-
-gdmt:HasPart  skos:broader  gdmt:RelationType .
-
-fdc:HasPart  skos:broader  fdc:Deprecated .
-
-gdmt:IsPartOf  skos:broader  gdmt:RelationType .
-
-fdc:IsPartOf  skos:broader  fdc:Deprecated .
-
-gdmt:IsPreviousVersionOf
-        skos:broader  gdmt:RelationType .
-
-fdc:IsPreviousVersionOf
-        skos:broader  fdc:Deprecated .
-
-gdmt:IsNewVersionOf  skos:broader  gdmt:RelationType .
-
-fdc:IsNewVersionOf  skos:broader  fdc:Deprecated .
-
-gdmt:IsVersionOf  skos:broader  gdmt:RelationType .
-
-fdc:IsVersionOf  skos:broader  fdc:Deprecated .
-
-gdmt:HasVersion  skos:broader  gdmt:RelationType .
-
-fdc:HasVersion  skos:broader  fdc:Deprecated .
-
-gdmt:IsMetadataFor  skos:broader  gdmt:RelationType .
-
-fdc:IsMetadataFor  skos:broader  fdc:Deprecated .
-
-gdmt:HasMetadata  skos:broader  gdmt:RelationType .
-
-fdc:HasMetadata  skos:broader  fdc:Deprecated .
-
-gdmt:IsDescribedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsDescribedBy  skos:broader  fdc:Deprecated .
-
-gdmt:Describes  skos:broader  gdmt:RelationType .
-
-fdc:Describes  skos:broader  fdc:Deprecated .
-
-gdmt:Continues  skos:broader  gdmt:RelationType .
-
-fdc:Continues  skos:broader  fdc:Deprecated .
-
-gdmt:IsContinuedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsContinuedBy  skos:broader  fdc:Deprecated .
-
-gdmt:IsSupplementedBy
-        skos:broader  gdmt:RelationType .
-
-fdc:IsSupplementedBy  skos:broader  fdc:Deprecated .
-
-gdmt:IsSupplementTo  skos:broader  gdmt:RelationType .
-
-fdc:IsSupplementTo  skos:broader  fdc:Deprecated .
-
-gdmt:Cites  skos:broader  gdmt:RelationType .
-
-fdc:Cites  skos:broader  fdc:Deprecated .
-
-gdmt:IsCitedBy  skos:broader  gdmt:RelationType .
-
-fdc:IsCitedBy  skos:broader  fdc:Deprecated .
 
 gdmt:AFL1.1  skos:broader  gdmt:LicenseIdentifier .
 
@@ -12909,12 +12466,6 @@ fdc:Qhull  skos:broader  fdc:Deprecated .
 gdmt:Python2.0  skos:broader  gdmt:LicenseIdentifier .
 
 fdc:MIMEType  skos:broader  fdc:Deprecated .
-
-<https://spdx.org/licenses/>
-        skos:broader  gdmt:LicenseIdentifierScheme .
-
-fdc:LicenseIdentifierScheme
-        skos:broader  fdc:Deprecated .
 
 gdmt:ZPL2.1  skos:broader  gdmt:LicenseIdentifier .
 
@@ -15553,12 +15104,6 @@ gdmt:hasDatasetDateType
 
 gdmt:hasDatasetDate  skos:definition  "Date relevant to dataset."@en .
 
-gdmt:hasLicenseIdentifierSchemeIRI
-        skos:definition  "The IRI of the scheme or authority used for the Rights Identifier."@en .
-
-gdmt:hasLicenseIdentifierScheme
-        skos:definition  "The name of the scheme or authority used for the Rights Identifier."@en .
-
 gdmt:hasLicenseIdentifier
         skos:definition  "IRI of the license for the dataset being described."@en .
 
@@ -15900,8 +15445,6 @@ gdmt:hasVerticalExtentMinimumValue
 gdmt:hasVerticalExtentMaximumValue
         skos:definition  "A maximum vertical extent of dataset collection. In case of depth, this represents a minimum depth of dataset collection."@en .
 
-gdmt:RelationType  skos:definition  "Type of relation between two digital resources, interpreted from resource A to resource B."@en .
-
 gdmt:IRI  skos:definition  "The Internationalized Resource Identifier (IRI) is an internet protocol standard which builds on the Uniform Resource Identifier (URI) protocol by greatly expanding the set of permitted characters."@en .
 
 gdmt:w3id  skos:definition  "Permanent identifier for Web applications. Mostly used to publish vocabularies and ontologies. The letters ‘w3’ stand for “World Wide Web”."@en .
@@ -16016,82 +15559,7 @@ gdmt:Person  skos:definition  "A person (plural people or persons) is a being th
 gdmt:ResourceCreatorType
         skos:definition  "Types of creator responsiple for the ressource creation."@en .
 
-gdmt:IsObsoletedBy  skos:definition  "Indicates A is replaced by B"@en .
-
-gdmt:Obsoletes  skos:definition  "Indicates A replaces B"@en .
-
-gdmt:Requires  skos:definition  "Indicates A requires B"@en .
-
-gdmt:IsRequiredBy  skos:definition  "Indicates A is required by B"@en .
-
-gdmt:IsSourceOf  skos:definition  "indicates A is a source upon which B is based"@en .
-
-gdmt:IsDerivedFrom  skos:definition  "indicates B is a source upon which A is based"@en .
-
-gdmt:Reviews  skos:definition  "indicates that A is a review of B"@en .
-
-gdmt:IsReviewedBy  skos:definition  "indicates that A is reviewed by B"@en .
-
-gdmt:IsIdenticalTo  skos:definition  "indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource"@en .
-
-gdmt:IsOriginalFormOf
-        skos:definition  "indicates A is the original form of B"@en .
-
-gdmt:IsVariantFormOf  skos:definition  "indicates A is a variant or different form of B"@en .
-
-gdmt:Compiles  skos:definition  "indicates B is the result of a compile or creation event using A"@en .
-
-gdmt:IsCompiledBy  skos:definition  "indicates B is used to compile or create A"@en .
-
-gdmt:Documents  skos:definition  "indicates A is documentation about B; e.g. points to software documentation"@en .
-
-gdmt:IsDocumentedBy  skos:definition  "indicates B is documentation about/ explaining A; e.g. points to software documentation"@en .
-
-gdmt:References  skos:definition  "indicates B is used as a source of information for A"@en .
-
-gdmt:IsReferencedBy  skos:definition  "indicates A is used as a source of information by B"@en .
-
-gdmt:HasPart  skos:definition  "indicates A includes the part B"@en .
-
-gdmt:IsPartOf  skos:definition  "indicates A is a portion of B; may be used for elements of a series"@en .
-
-gdmt:IsPreviousVersionOf
-        skos:definition  "indicates A is a previous edition of B"@en .
-
-gdmt:IsNewVersionOf  skos:definition  "indicates A is a new edition of B, where the new edition has been modified or updated"@en .
-
-gdmt:IsVersionOf  skos:definition  "indicates A is a version of B"@en .
-
-gdmt:HasVersion  skos:definition  "indicates A has a version (B)"@en .
-
-gdmt:IsMetadataFor  skos:definition  "indicates additional metadata A for a resource B"@en .
-
-gdmt:HasMetadata  skos:definition  "indicates resource A has additional metadata B"@en .
-
-gdmt:IsDescribedBy  skos:definition  "indicates A is described by B"@en .
-
-gdmt:Describes  skos:definition  "indicates A describes B"@en .
-
-gdmt:Continues  skos:definition  "indicates A is a continuation of the work B"@en .
-
-gdmt:IsContinuedBy  skos:definition  "indicates A is continued by the work B"@en .
-
-gdmt:IsSupplementedBy
-        skos:definition  "indicates that B is a supplement to A"@en .
-
-gdmt:IsSupplementTo  skos:definition  "indicates that A is a supplement to B"@en .
-
-gdmt:Cites  skos:definition  "indicates that A includes B in a citation"@en .
-
-gdmt:IsCitedBy  skos:definition  "indicates that B includes A in a citation"@en .
-
 gdmt:MIMEType  skos:definition  "MIME type of the digital object"@en .
-
-<https://spdx.org/licenses/>
-        skos:definition  "The Software Package Data Exchange (SPDX), an open standard for communicating software bill of material information, including components, licenses, copyrights, and security references."@en .
-
-gdmt:LicenseIdentifierScheme
-        skos:definition  "Identifier scheme used for defining licenses."@en .
 
 gdmt:RelatedPerson  skos:exactMatch  fdc:RelatedPerson .
 
@@ -16163,8 +15631,6 @@ gdmt:Audiovisual  skos:exactMatch  fdc:Audiovisual .
 
 gdmt:ResourceTypeCategory
         skos:exactMatch  fdc:ResourceTypeCategory .
-
-gdmt:RelationType  skos:exactMatch  fdc:RelationType .
 
 gdmt:IRI  skos:exactMatch  fdc:IRI .
 
@@ -16265,75 +15731,6 @@ gdmt:Person  skos:exactMatch  <https://en.wikipedia.org/wiki/Person> ;
 
 gdmt:ResourceCreatorType
         skos:exactMatch  fdc:ResourceCreatorType .
-
-gdmt:IsObsoletedBy  skos:exactMatch  fdc:IsObsoletedBy .
-
-gdmt:Obsoletes  skos:exactMatch  fdc:Obsoletes .
-
-gdmt:Requires  skos:exactMatch  fdc:Requires .
-
-gdmt:IsRequiredBy  skos:exactMatch  fdc:IsRequiredBy .
-
-gdmt:IsSourceOf  skos:exactMatch  fdc:IsSourceOf .
-
-gdmt:IsDerivedFrom  skos:exactMatch  fdc:IsDerivedFrom .
-
-gdmt:Reviews  skos:exactMatch  fdc:Reviews .
-
-gdmt:IsReviewedBy  skos:exactMatch  fdc:IsReviewedBy .
-
-gdmt:IsIdenticalTo  skos:exactMatch  fdc:IsIdenticalTo .
-
-gdmt:IsOriginalFormOf
-        skos:exactMatch  fdc:IsOriginalFormOf .
-
-gdmt:IsVariantFormOf  skos:exactMatch  fdc:IsVariantFormOf .
-
-gdmt:Compiles  skos:exactMatch  fdc:Compiles .
-
-gdmt:IsCompiledBy  skos:exactMatch  fdc:IsCompiledBy .
-
-gdmt:Documents  skos:exactMatch  fdc:Documents .
-
-gdmt:IsDocumentedBy  skos:exactMatch  fdc:IsDocumentedBy .
-
-gdmt:References  skos:exactMatch  fdc:References .
-
-gdmt:IsReferencedBy  skos:exactMatch  fdc:IsReferencedBy .
-
-gdmt:HasPart  skos:exactMatch  fdc:HasPart .
-
-gdmt:IsPartOf  skos:exactMatch  fdc:IsPartOf .
-
-gdmt:IsPreviousVersionOf
-        skos:exactMatch  fdc:IsPreviousVersionOf .
-
-gdmt:IsNewVersionOf  skos:exactMatch  fdc:IsNewVersionOf .
-
-gdmt:IsVersionOf  skos:exactMatch  fdc:IsVersionOf .
-
-gdmt:HasVersion  skos:exactMatch  fdc:HasVersion .
-
-gdmt:IsMetadataFor  skos:exactMatch  fdc:IsMetadataFor .
-
-gdmt:HasMetadata  skos:exactMatch  fdc:HasMetadata .
-
-gdmt:IsDescribedBy  skos:exactMatch  fdc:IsDescribedBy .
-
-gdmt:Describes  skos:exactMatch  fdc:Describes .
-
-gdmt:Continues  skos:exactMatch  fdc:Continues .
-
-gdmt:IsContinuedBy  skos:exactMatch  fdc:IsContinuedBy .
-
-gdmt:IsSupplementedBy
-        skos:exactMatch  fdc:IsSupplementedBy .
-
-gdmt:IsSupplementTo  skos:exactMatch  fdc:IsSupplementTo .
-
-gdmt:Cites  skos:exactMatch  fdc:Cites .
-
-gdmt:IsCitedBy  skos:exactMatch  fdc:IsCitedBy .
 
 gdmt:AFL1.1  skos:exactMatch  <https://spdx.org/licenses/AFL-1.1> ;
         skos:exactMatch  fdc:AFL1.1 .
@@ -17512,9 +16909,6 @@ gdmt:Python2.0  skos:exactMatch  <https://spdx.org/licenses/Python-2.0> ;
         skos:exactMatch  fdc:Python2.0 .
 
 gdmt:MIMEType  skos:exactMatch  fdc:MIMEType .
-
-gdmt:LicenseIdentifierScheme
-        skos:exactMatch  fdc:LicenseIdentifierScheme .
 
 gdmt:ZPL2.1  skos:exactMatch  <https://spdx.org/licenses/ZPL-2.1> ;
         skos:exactMatch  fdc:ZPL2.1 .
@@ -18801,9 +18195,7 @@ gdmt:image-vnd.djvu  skos:exactMatch  fdc:image-vnd.djvu .
 
 gdmt:   skos:hasTopConcept  gdmt:ResourceTypeCategory ;
         skos:hasTopConcept  gdmt:ResourceCreatorType ;
-        skos:hasTopConcept  gdmt:RelationType ;
         skos:hasTopConcept  gdmt:MIMEType ;
-        skos:hasTopConcept  gdmt:LicenseIdentifierScheme ;
         skos:hasTopConcept  gdmt:LicenseIdentifier ;
         skos:hasTopConcept  gdmt:IdentifierType ;
         skos:hasTopConcept  gdmt:IdentifierScheme ;
@@ -18886,8 +18278,6 @@ gdmt:Audiovisual  skos:inScheme  gdmt: .
 
 gdmt:ResourceTypeCategory
         skos:inScheme  gdmt: .
-
-gdmt:RelationType  skos:inScheme  gdmt: .
 
 gdmt:IRI  skos:inScheme  gdmt: .
 
@@ -19001,75 +18391,6 @@ gdmt:Person  skos:inScheme  gdmt: .
 
 gdmt:ResourceCreatorType
         skos:inScheme  gdmt: .
-
-gdmt:IsObsoletedBy  skos:inScheme  gdmt: .
-
-gdmt:Obsoletes  skos:inScheme  gdmt: .
-
-gdmt:Requires  skos:inScheme  gdmt: .
-
-gdmt:IsRequiredBy  skos:inScheme  gdmt: .
-
-gdmt:IsSourceOf  skos:inScheme  gdmt: .
-
-gdmt:IsDerivedFrom  skos:inScheme  gdmt: .
-
-gdmt:Reviews  skos:inScheme  gdmt: .
-
-gdmt:IsReviewedBy  skos:inScheme  gdmt: .
-
-gdmt:IsIdenticalTo  skos:inScheme  gdmt: .
-
-gdmt:IsOriginalFormOf
-        skos:inScheme  gdmt: .
-
-gdmt:IsVariantFormOf  skos:inScheme  gdmt: .
-
-gdmt:Compiles  skos:inScheme  gdmt: .
-
-gdmt:IsCompiledBy  skos:inScheme  gdmt: .
-
-gdmt:Documents  skos:inScheme  gdmt: .
-
-gdmt:IsDocumentedBy  skos:inScheme  gdmt: .
-
-gdmt:References  skos:inScheme  gdmt: .
-
-gdmt:IsReferencedBy  skos:inScheme  gdmt: .
-
-gdmt:HasPart  skos:inScheme  gdmt: .
-
-gdmt:IsPartOf  skos:inScheme  gdmt: .
-
-gdmt:IsPreviousVersionOf
-        skos:inScheme  gdmt: .
-
-gdmt:IsNewVersionOf  skos:inScheme  gdmt: .
-
-gdmt:IsVersionOf  skos:inScheme  gdmt: .
-
-gdmt:HasVersion  skos:inScheme  gdmt: .
-
-gdmt:IsMetadataFor  skos:inScheme  gdmt: .
-
-gdmt:HasMetadata  skos:inScheme  gdmt: .
-
-gdmt:IsDescribedBy  skos:inScheme  gdmt: .
-
-gdmt:Describes  skos:inScheme  gdmt: .
-
-gdmt:Continues  skos:inScheme  gdmt: .
-
-gdmt:IsContinuedBy  skos:inScheme  gdmt: .
-
-gdmt:IsSupplementedBy
-        skos:inScheme  gdmt: .
-
-gdmt:IsSupplementTo  skos:inScheme  gdmt: .
-
-gdmt:Cites  skos:inScheme  gdmt: .
-
-gdmt:IsCitedBy  skos:inScheme  gdmt: .
 
 gdmt:AFL1.1  skos:inScheme  gdmt: .
 
@@ -19863,12 +19184,6 @@ gdmt:QPL1.0  skos:inScheme  gdmt: .
 gdmt:Qhull  skos:inScheme  gdmt: .
 
 gdmt:Python2.0  skos:inScheme  gdmt: .
-
-<https://spdx.org/licenses/>
-        skos:inScheme  gdmt: .
-
-gdmt:LicenseIdentifierScheme
-        skos:inScheme  gdmt: .
 
 gdmt:ZPL2.1  skos:inScheme  gdmt: .
 
@@ -21227,12 +20542,7 @@ gdmt:ResourceTypeCategory
         skos:narrower  gdmt:Collection ;
         skos:narrower  gdmt:Audiovisual .
 
-fdc:Deprecated  skos:narrower  fdc:ResourceTypeCategory .
-
-gdmt:RelationType  skos:narrower  gdmt:Compiles ;
-        skos:narrower  gdmt:Cites .
-
-fdc:Deprecated  skos:narrower  fdc:RelationType ;
+fdc:Deprecated  skos:narrower  fdc:ResourceTypeCategory ;
         skos:narrower  fdc:IRI ;
         skos:narrower  fdc:w3id ;
         skos:narrower  fdc:URN ;
@@ -21338,73 +20648,7 @@ gdmt:ResourceCreatorType
         skos:narrower  gdmt:Organization .
 
 fdc:Deprecated  skos:narrower  fdc:ResourceCreatorType ;
-        skos:narrower  fdc:IsObsoletedBy ;
-        skos:narrower  fdc:Obsoletes ;
-        skos:narrower  fdc:Requires ;
-        skos:narrower  fdc:IsRequiredBy ;
-        skos:narrower  fdc:IsSourceOf ;
-        skos:narrower  fdc:IsDerivedFrom ;
-        skos:narrower  fdc:Reviews ;
-        skos:narrower  fdc:IsReviewedBy ;
-        skos:narrower  fdc:IsIdenticalTo ;
-        skos:narrower  fdc:IsOriginalFormOf ;
-        skos:narrower  fdc:IsVariantFormOf ;
-        skos:narrower  fdc:Compiles ;
-        skos:narrower  fdc:IsCompiledBy ;
-        skos:narrower  fdc:Documents ;
-        skos:narrower  fdc:IsDocumentedBy ;
-        skos:narrower  fdc:References ;
-        skos:narrower  fdc:IsReferencedBy ;
-        skos:narrower  fdc:HasPart ;
-        skos:narrower  fdc:IsPartOf ;
-        skos:narrower  fdc:IsPreviousVersionOf ;
-        skos:narrower  fdc:IsNewVersionOf ;
-        skos:narrower  fdc:IsVersionOf ;
-        skos:narrower  fdc:HasVersion ;
-        skos:narrower  fdc:IsMetadataFor ;
-        skos:narrower  fdc:HasMetadata ;
-        skos:narrower  fdc:IsDescribedBy ;
-        skos:narrower  fdc:Describes ;
-        skos:narrower  fdc:Continues ;
-        skos:narrower  fdc:IsContinuedBy ;
-        skos:narrower  fdc:IsSupplementedBy ;
-        skos:narrower  fdc:IsSupplementTo ;
-        skos:narrower  fdc:Cites ;
-        skos:narrower  fdc:IsCitedBy .
-
-gdmt:RelationType  skos:narrower  gdmt:Reviews ;
-        skos:narrower  gdmt:Requires ;
-        skos:narrower  gdmt:References ;
-        skos:narrower  gdmt:Obsoletes ;
-        skos:narrower  gdmt:IsVersionOf ;
-        skos:narrower  gdmt:IsVariantFormOf ;
-        skos:narrower  gdmt:IsSupplementedBy ;
-        skos:narrower  gdmt:IsSupplementTo ;
-        skos:narrower  gdmt:IsSourceOf ;
-        skos:narrower  gdmt:IsReviewedBy ;
-        skos:narrower  gdmt:IsRequiredBy ;
-        skos:narrower  gdmt:IsReferencedBy ;
-        skos:narrower  gdmt:IsPreviousVersionOf ;
-        skos:narrower  gdmt:IsPartOf ;
-        skos:narrower  gdmt:IsOriginalFormOf ;
-        skos:narrower  gdmt:IsObsoletedBy ;
-        skos:narrower  gdmt:IsNewVersionOf ;
-        skos:narrower  gdmt:IsMetadataFor ;
-        skos:narrower  gdmt:IsIdenticalTo ;
-        skos:narrower  gdmt:IsDocumentedBy ;
-        skos:narrower  gdmt:IsDescribedBy ;
-        skos:narrower  gdmt:IsDerivedFrom ;
-        skos:narrower  gdmt:IsContinuedBy ;
-        skos:narrower  gdmt:IsCompiledBy ;
-        skos:narrower  gdmt:IsCitedBy ;
-        skos:narrower  gdmt:HasVersion ;
-        skos:narrower  gdmt:HasPart ;
-        skos:narrower  gdmt:HasMetadata ;
-        skos:narrower  gdmt:Documents ;
-        skos:narrower  gdmt:Describes ;
-        skos:narrower  gdmt:Continues .
-
-fdc:Deprecated  skos:narrower  fdc:AFL1.1 ;
+        skos:narrower  fdc:AFL1.1 ;
         skos:narrower  fdc:ADSL ;
         skos:narrower  fdc:AdobeGlyph ;
         skos:narrower  fdc:Adobe2006 ;
@@ -22247,12 +21491,7 @@ gdmt:MIMEType  skos:narrower  gdmt:application-mime ;
         skos:narrower  gdmt:application-arj ;
         skos:narrower  gdmt:application-acad .
 
-fdc:Deprecated  skos:narrower  fdc:MIMEType .
-
-gdmt:LicenseIdentifierScheme
-        skos:narrower  <https://spdx.org/licenses/> .
-
-fdc:Deprecated  skos:narrower  fdc:LicenseIdentifierScheme ;
+fdc:Deprecated  skos:narrower  fdc:MIMEType ;
         skos:narrower  fdc:ZPL2.1 ;
         skos:narrower  fdc:ZPL2.0 ;
         skos:narrower  fdc:ZPL1.1 ;
@@ -23278,12 +22517,6 @@ gdmt:hasDatasetDateType
 
 gdmt:hasDatasetDate  skos:prefLabel  "has Dataset Date"@en .
 
-gdmt:hasLicenseIdentifierSchemeIRI
-        skos:prefLabel  "has License Identifier Scheme IRI"@en .
-
-gdmt:hasLicenseIdentifierScheme
-        skos:prefLabel  "has License Identifier Scheme"@en .
-
 gdmt:hasLicenseIdentifier
         skos:prefLabel  "has License Identifier"@en .
 
@@ -23741,77 +22974,6 @@ gdmt:Person  skos:prefLabel  "Person"@en .
 
 gdmt:ResourceCreatorType
         skos:prefLabel  "Resource Creator Type"@en .
-
-gdmt:IsObsoletedBy  skos:prefLabel  "Is Obsoleted By"@en .
-
-gdmt:Obsoletes  skos:prefLabel  "Obsoletes"@en .
-
-gdmt:Requires  skos:prefLabel  "Requires"@en .
-
-gdmt:IsRequiredBy  skos:prefLabel  "Is Required By"@en .
-
-gdmt:IsSourceOf  skos:prefLabel  "Is Source Of"@en .
-
-gdmt:IsDerivedFrom  skos:prefLabel  "Is Derived From"@en .
-
-gdmt:Reviews  skos:prefLabel  "Reviews"@en .
-
-gdmt:IsReviewedBy  skos:prefLabel  "Is Reviewed By"@en .
-
-gdmt:IsIdenticalTo  skos:prefLabel  "Is Identical To"@en .
-
-gdmt:IsOriginalFormOf
-        skos:prefLabel  "Is Original Form Of"@en .
-
-gdmt:IsVariantFormOf  skos:prefLabel  "Is Variant Form Of"@en .
-
-gdmt:Compiles  skos:prefLabel  "Compiles"@en .
-
-gdmt:IsCompiledBy  skos:prefLabel  "Is Compiled By"@en .
-
-gdmt:Documents  skos:prefLabel  "Documents"@en .
-
-gdmt:IsDocumentedBy  skos:prefLabel  "Is Documented By"@en .
-
-gdmt:References  skos:prefLabel  "References"@en .
-
-gdmt:IsReferencedBy  skos:prefLabel  "Is Referenced By"@en .
-
-gdmt:HasPart  skos:prefLabel  "Has Part"@en .
-
-gdmt:IsPartOf  skos:prefLabel  "Is Part Of"@en .
-
-gdmt:IsPreviousVersionOf
-        skos:prefLabel  "Is Previous Version Of"@en .
-
-gdmt:IsNewVersionOf  skos:prefLabel  "Is New Version Of"@en .
-
-gdmt:IsVersionOf  skos:prefLabel  "Is Version Of"@en .
-
-gdmt:HasVersion  skos:prefLabel  "Has Version"@en .
-
-gdmt:IsMetadataFor  skos:prefLabel  "Is Metadata For"@en .
-
-gdmt:HasMetadata  skos:prefLabel  "Has Metadata"@en .
-
-gdmt:IsDescribedBy  skos:prefLabel  "Is Described By"@en .
-
-gdmt:Describes  skos:prefLabel  "Describes"@en .
-
-gdmt:Continues  skos:prefLabel  "Continues"@en .
-
-gdmt:IsContinuedBy  skos:prefLabel  "Is Continued By"@en .
-
-gdmt:IsSupplementedBy
-        skos:prefLabel  "Is Supplemented By"@en .
-
-gdmt:IsSupplementTo  skos:prefLabel  "Is Supplement To"@en .
-
-gdmt:Cites  skos:prefLabel  "Cites"@en .
-
-gdmt:IsCitedBy  skos:prefLabel  "Is Cited By"@en .
-
-gdmt:RelationType  skos:prefLabel  "Relation Type"@en .
 
 gdmt:AFL1.1  skos:prefLabel  "AFL-1.1"@en .
 
@@ -24605,12 +23767,6 @@ gdmt:QPL1.0  skos:prefLabel  "QPL-1.0"@en .
 gdmt:Qhull  skos:prefLabel  "Qhull"@en .
 
 gdmt:Python2.0  skos:prefLabel  "Python-2.0"@en .
-
-<https://spdx.org/licenses/>
-        skos:prefLabel  "SPDX"@en .
-
-gdmt:LicenseIdentifierScheme
-        skos:prefLabel  "License Identifier Scheme"@en .
 
 gdmt:ZPL2.1  skos:prefLabel  "ZPL-2.1"@en .
 
@@ -25900,12 +25056,7 @@ gdmt:IdentifierScheme
 gdmt:ResourceCreatorType
         skos:topConceptOf  gdmt: .
 
-gdmt:RelationType  skos:topConceptOf  gdmt: .
-
 gdmt:LicenseIdentifier
-        skos:topConceptOf  gdmt: .
-
-gdmt:LicenseIdentifierScheme
         skos:topConceptOf  gdmt: .
 
 gdmt:MIMEType  skos:topConceptOf  gdmt: .
