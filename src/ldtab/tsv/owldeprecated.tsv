@@ -460,7 +460,6 @@ fdc:QPL1.0	owl:deprecated	true	xsd:boolean
 fdc:Qhull	owl:deprecated	true	xsd:boolean
 fdc:Python2.0	owl:deprecated	true	xsd:boolean
 fdc:MIMEType	owl:deprecated	true	xsd:boolean
-fdc:LicenseIdentifierScheme	owl:deprecated	true	xsd:boolean
 fdc:ZPL2.1	owl:deprecated	true	xsd:boolean
 fdc:ZPL2.0	owl:deprecated	true	xsd:boolean
 fdc:ZPL1.1	owl:deprecated	true	xsd:boolean

@@ -39,8 +39,6 @@ scheme:hasDistributionIdentifierType	rdfs:label	has Distribution Identifier Type
 scheme:hasDistributionIdentifier	rdfs:label	has Distribution Identifier	@en
 scheme:hasDatasetDateType	rdfs:label	has Dataset Date Type	@en
 scheme:hasDatasetDate	rdfs:label	has Dataset Date	@en
-scheme:hasLicenseIdentifierSchemeIRI	rdfs:label	has License Identifier Scheme IRI	@en
-scheme:hasLicenseIdentifierScheme	rdfs:label	has License Identifier Scheme	@en
 scheme:hasLicenseIdentifier	rdfs:label	has License Identifier	@en
 scheme:hasLicenseName	rdfs:label	has License Name	@en
 scheme:hasPublisherAddress	rdfs:label	has Publisher Address	@en

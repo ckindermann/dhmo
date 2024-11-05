@@ -845,7 +845,6 @@ scheme:Qhull	skos:exactMatch	fdc:Qhull	_IRI
 scheme:Python2.0	skos:exactMatch	<https://spdx.org/licenses/Python-2.0>	_IRI
 scheme:Python2.0	skos:exactMatch	fdc:Python2.0	_IRI
 scheme:MIMEType	skos:exactMatch	fdc:MIMEType	_IRI
-scheme:LicenseIdentifierScheme	skos:exactMatch	fdc:LicenseIdentifierScheme	_IRI
 scheme:ZPL2.1	skos:exactMatch	<https://spdx.org/licenses/ZPL-2.1>	_IRI
 scheme:ZPL2.1	skos:exactMatch	fdc:ZPL2.1	_IRI
 scheme:ZPL2.0	skos:exactMatch	<https://spdx.org/licenses/ZPL-2.0>	_IRI

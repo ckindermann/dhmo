@@ -5,5 +5,4 @@ scheme:DateType	skos:topConceptOf	scheme:	_IRI
 scheme:IdentifierScheme	skos:topConceptOf	scheme:	_IRI
 scheme:ResourceCreatorType	skos:topConceptOf	scheme:	_IRI
 scheme:LicenseIdentifier	skos:topConceptOf	scheme:	_IRI
-scheme:LicenseIdentifierScheme	skos:topConceptOf	scheme:	_IRI
 scheme:MIMEType	skos:topConceptOf	scheme:	_IRI

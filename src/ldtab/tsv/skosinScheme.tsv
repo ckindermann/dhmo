@@ -470,8 +470,6 @@ scheme:Rdisc	skos:inScheme	scheme:	_IRI
 scheme:QPL1.0	skos:inScheme	scheme:	_IRI
 scheme:Qhull	skos:inScheme	scheme:	_IRI
 scheme:Python2.0	skos:inScheme	scheme:	_IRI
-<https://spdx.org/licenses/>	skos:inScheme	scheme:	_IRI
-scheme:LicenseIdentifierScheme	skos:inScheme	scheme:	_IRI
 scheme:ZPL2.1	skos:inScheme	scheme:	_IRI
 scheme:ZPL2.0	skos:inScheme	scheme:	_IRI
 scheme:ZPL1.1	skos:inScheme	scheme:	_IRI

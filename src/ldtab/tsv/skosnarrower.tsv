@@ -1004,8 +1004,6 @@ scheme:MIMEType	skos:narrower	scheme:application-base64	_IRI
 scheme:MIMEType	skos:narrower	scheme:application-arj	_IRI
 scheme:MIMEType	skos:narrower	scheme:application-acad	_IRI
 fdc:Deprecated	skos:narrower	fdc:MIMEType	_IRI
-scheme:LicenseIdentifierScheme	skos:narrower	<https://spdx.org/licenses/>	_IRI
-fdc:Deprecated	skos:narrower	fdc:LicenseIdentifierScheme	_IRI
 fdc:Deprecated	skos:narrower	fdc:ZPL2.1	_IRI
 fdc:Deprecated	skos:narrower	fdc:ZPL2.0	_IRI
 fdc:Deprecated	skos:narrower	fdc:ZPL1.1	_IRI

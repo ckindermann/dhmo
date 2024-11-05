@@ -460,7 +460,6 @@ fdc:Rdisc	rdfs:seeAlso	scheme:Rdisc	_IRI
 fdc:QPL1.0	rdfs:seeAlso	scheme:QPL1.0	_IRI
 fdc:Qhull	rdfs:seeAlso	scheme:Qhull	_IRI
 fdc:MIMEType	rdfs:seeAlso	scheme:MIMEType	_IRI
-fdc:LicenseIdentifierScheme	rdfs:seeAlso	scheme:LicenseIdentifierScheme	_IRI
 fdc:ZPL2.1	rdfs:seeAlso	scheme:ZPL2.1	_IRI
 fdc:ZPL2.0	rdfs:seeAlso	scheme:ZPL2.0	_IRI
 fdc:ZPL1.1	rdfs:seeAlso	scheme:ZPL1.1	_IRI

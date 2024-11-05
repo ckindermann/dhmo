@@ -39,8 +39,6 @@ scheme:hasDistributionIdentifierType	skos:prefLabel	has Distribution Identifier 
 scheme:hasDistributionIdentifier	skos:prefLabel	has Distribution Identifier	@en
 scheme:hasDatasetDateType	skos:prefLabel	has Dataset Date Type	@en
 scheme:hasDatasetDate	skos:prefLabel	has Dataset Date	@en
-scheme:hasLicenseIdentifierSchemeIRI	skos:prefLabel	has License Identifier Scheme IRI	@en
-scheme:hasLicenseIdentifierScheme	skos:prefLabel	has License Identifier Scheme	@en
 scheme:hasLicenseIdentifier	skos:prefLabel	has License Identifier	@en
 scheme:hasLicenseName	skos:prefLabel	has License Name	@en
 scheme:hasPublisherAddress	skos:prefLabel	has Publisher Address	@en
@@ -610,8 +608,6 @@ scheme:Rdisc	skos:prefLabel	Rdisc	@en
 scheme:QPL1.0	skos:prefLabel	QPL-1.0	@en
 scheme:Qhull	skos:prefLabel	Qhull	@en
 scheme:Python2.0	skos:prefLabel	Python-2.0	@en
-<https://spdx.org/licenses/>	skos:prefLabel	SPDX	@en
-scheme:LicenseIdentifierScheme	skos:prefLabel	License Identifier Scheme	@en
 scheme:ZPL2.1	skos:prefLabel	ZPL-2.1	@en
 scheme:ZPL2.0	skos:prefLabel	ZPL-2.0	@en
 scheme:ZPL1.1	skos:prefLabel	ZPL-1.1	@en

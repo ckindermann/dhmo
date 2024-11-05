@@ -39,8 +39,6 @@ scheme:hasDistributionIdentifierType	skos:definition	The identifier type used to
 scheme:hasDistributionIdentifier	skos:definition	A globally unique string that identifies the dataset distribution.	@en
 scheme:hasDatasetDateType	skos:definition	Type of the date with respect to the dataset.	@en
 scheme:hasDatasetDate	skos:definition	Date relevant to dataset.	@en
-scheme:hasLicenseIdentifierSchemeIRI	skos:definition	The IRI of the scheme or authority used for the Rights Identifier.	@en
-scheme:hasLicenseIdentifierScheme	skos:definition	The name of the scheme or authority used for the Rights Identifier.	@en
 scheme:hasLicenseIdentifier	skos:definition	IRI of the license for the dataset being described.	@en
 scheme:hasLicenseName	skos:definition	A standardized version of the license name.	@en
 scheme:hasPublisherAddress	skos:definition	An address of the publisher.	@en
@@ -226,5 +224,3 @@ scheme:Organization	skos:definition	An organization is an entity - such as a com
 scheme:Person	skos:definition	A person (plural people or persons) is a being that has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility.	@en
 scheme:ResourceCreatorType	skos:definition	Types of creator responsiple for the ressource creation.	@en
 scheme:MIMEType	skos:definition	MIME type of the digital object	@en
-<https://spdx.org/licenses/>	skos:definition	The Software Package Data Exchange (SPDX), an open standard for communicating software bill of material information, including components, licenses, copyrights, and security references.	@en
-scheme:LicenseIdentifierScheme	skos:definition	Identifier scheme used for defining licenses.	@en

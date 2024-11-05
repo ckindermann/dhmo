@@ -926,8 +926,6 @@ scheme:Qhull	skos:broader	scheme:LicenseIdentifier	_IRI
 fdc:Qhull	skos:broader	fdc:Deprecated	_IRI
 scheme:Python2.0	skos:broader	scheme:LicenseIdentifier	_IRI
 fdc:MIMEType	skos:broader	fdc:Deprecated	_IRI
-<https://spdx.org/licenses/>	skos:broader	scheme:LicenseIdentifierScheme	_IRI
-fdc:LicenseIdentifierScheme	skos:broader	fdc:Deprecated	_IRI
 scheme:ZPL2.1	skos:broader	scheme:LicenseIdentifier	_IRI
 fdc:ZPL2.1	skos:broader	fdc:Deprecated	_IRI
 scheme:ZPL2.0	skos:broader	scheme:LicenseIdentifier	_IRI

@@ -39,8 +39,6 @@ scheme:hasDistributionIdentifierType	rdf:type	owl:ObjectProperty	_IRI
 scheme:hasDistributionIdentifier	rdf:type	owl:DatatypeProperty	_IRI
 scheme:hasDatasetDateType	rdf:type	owl:ObjectProperty	_IRI
 scheme:hasDatasetDate	rdf:type	owl:DatatypeProperty	_IRI
-scheme:hasLicenseIdentifierSchemeIRI	rdf:type	owl:DatatypeProperty	_IRI
-scheme:hasLicenseIdentifierScheme	rdf:type	owl:DatatypeProperty	_IRI
 scheme:hasLicenseIdentifier	rdf:type	owl:DatatypeProperty	_IRI
 scheme:hasLicenseName	rdf:type	owl:DatatypeProperty	_IRI
 scheme:hasPublisherAddress	rdf:type	owl:DatatypeProperty	_IRI
@@ -1073,9 +1071,6 @@ fdc:Qhull	rdf:type	skos:Concept	_IRI
 scheme:Python2.0	rdf:type	skos:Concept	_IRI
 scheme:MIMEType	rdf:type	skos:Concept	_IRI
 fdc:MIMEType	rdf:type	skos:Concept	_IRI
-<https://spdx.org/licenses/>	rdf:type	skos:Concept	_IRI
-scheme:LicenseIdentifierScheme	rdf:type	skos:Concept	_IRI
-fdc:LicenseIdentifierScheme	rdf:type	skos:Concept	_IRI
 scheme:ZPL2.1	rdf:type	skos:Concept	_IRI
 fdc:ZPL2.1	rdf:type	skos:Concept	_IRI
 scheme:ZPL2.0	rdf:type	skos:Concept	_IRI
