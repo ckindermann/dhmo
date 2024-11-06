@@ -13,9 +13,9 @@
         "val" : "RADx Data Hub Metadata Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-10-16"
+        "val" : "2024-11-06"
       } ],
-      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-simple.json"
+      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-11-06/dhmo-simple.json"
     },
     "nodes" : [ {
       "id" : "https://github.com/bmir-radx/rxow/DHMO_0000000",
@@ -54,10 +54,6 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://www.w3.org/2004/02/skos/core#altLabel",
-      "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
-    }, {
-      "id" : "http://www.w3.org/2004/02/skos/core#broader",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {

@@ -13,16 +13,1843 @@
         "val" : "RADx Data Hub Metadata Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-10-16"
+        "val" : "2024-11-06"
       } ],
-      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-full.json"
+      "version" : "https://github.com/bmir-radx/rxow/dhmo/releases/2024-11-06/dhmo-full.json"
     },
     "nodes" : [ {
+      "id" : "http://www.w3.org/2004/02/skos/core#Collection",
+      "type" : "CLASS"
+    }, {
       "id" : "http://www.w3.org/2004/02/skos/core#Concept",
       "type" : "CLASS"
     }, {
       "id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
       "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000002",
+      "lbl" : "Value Set",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "A finite set of values for a metadata attribute."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000004",
+      "lbl" : "isProvisional",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "An annotation property to indicate that an entity is provisional and subject to change in the future."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000005",
+      "lbl" : "allowsMultipleValues",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "An annotation property to indicate that an attribute allows for multiple values."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0001001",
+      "lbl" : "TRUE",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0001002",
+      "lbl" : "FALSE",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0002001",
+      "lbl" : "RADx DHT",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHM:0002000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0002002",
+      "lbl" : "RADx-rad",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHM:0002000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0002003",
+      "lbl" : "RADx Tech",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHM:0002000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0002004",
+      "lbl" : "RADx-UP",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHM:0002000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0003001",
+      "lbl" : "Yes",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0003000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0003002",
+      "lbl" : "No",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0003000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004001",
+      "lbl" : "Case-Control",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004002",
+      "lbl" : "Clinical Genetic Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004003",
+      "lbl" : "Cross-Sectional",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004004",
+      "lbl" : "Device Validation Study",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004005",
+      "lbl" : "Device Verification Study",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004006",
+      "lbl" : "Family/Twins/Trios",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004007",
+      "lbl" : "Interventional/Clinical Trial",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004008",
+      "lbl" : "Longitudinal Cohort",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004009",
+      "lbl" : "Mendelian",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004010",
+      "lbl" : "Metagenomics",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004011",
+      "lbl" : "Mixed Methods",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004012",
+      "lbl" : "Observational",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004013",
+      "lbl" : "Open Cohort",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004014",
+      "lbl" : "Qualitative",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004015",
+      "lbl" : "Time-Series",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004016",
+      "lbl" : "Xenograft",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0001000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005001",
+      "lbl" : "Behavioral",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005002",
+      "lbl" : "Clinical",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005003",
+      "lbl" : "Cognitive",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005004",
+      "lbl" : "Electronic Medical Records",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005005",
+      "lbl" : "Environmental (Physical)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005006",
+      "lbl" : "Family History",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005007",
+      "lbl" : "Genomic",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005008",
+      "lbl" : "Genotyping",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005009",
+      "lbl" : "Imaging",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005010",
+      "lbl" : "Immunological",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005011",
+      "lbl" : "Individual Genotype",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005012",
+      "lbl" : "Individual Phenotype",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005013",
+      "lbl" : "Individual Sequencing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005014",
+      "lbl" : "Metabolomic",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005015",
+      "lbl" : "Metagenomic",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005016",
+      "lbl" : "Physical Activity",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005017",
+      "lbl" : "Proteomic",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005018",
+      "lbl" : "Psychological",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005019",
+      "lbl" : "Questionnaires/Surveys",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005020",
+      "lbl" : "Social",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005021",
+      "lbl" : "Supporting Documents",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005022",
+      "lbl" : "Other",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0005000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0006001",
+      "lbl" : "Wearable",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0006000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0007001",
+      "lbl" : "Human Data",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0007000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0007002",
+      "lbl" : "Non-Human Data",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0007000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009001",
+      "lbl" : "General Research Use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0009000^^xsd:boolean"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009002",
+      "lbl" : "Use of the data is limited to health/medical/biomedical purposes",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0009000^^xsd:boolean"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009003",
+      "lbl" : "IRB required",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0009000^^xsd:boolean"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009004",
+      "lbl" : "Use of the data is limited to not-for-profit organizations",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0009000^^xsd:boolean"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009005",
+      "lbl" : "Disease-Specific for COVID-19",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0009000^^xsd:boolean"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010001",
+      "lbl" : "Artificial Intelligence and Machine Learning",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010002",
+      "lbl" : "Biosensor Technology",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010003",
+      "lbl" : "Community Outreach Programs",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010004",
+      "lbl" : "Comorbidities",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010005",
+      "lbl" : "COVID Hotspots",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010006",
+      "lbl" : "COVID in School Settings",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010007",
+      "lbl" : "COVID Testing Deserts",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010008",
+      "lbl" : "Diagnostic Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010009",
+      "lbl" : "Digital Health Applications",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010010",
+      "lbl" : "Disease Surveillance",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010011",
+      "lbl" : "Health Behaviors",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010012",
+      "lbl" : "Immune Responses",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010013",
+      "lbl" : "Influenza ",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010014",
+      "lbl" : "Long COVID",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010015",
+      "lbl" : "Medical Device/Tool Development",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010016",
+      "lbl" : "Mental Health",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010017",
+      "lbl" : "Mobile Unit Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010018",
+      "lbl" : "Multimodal Surveillance",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010019",
+      "lbl" : "Multisystem Inflammatory Syndrome (MIS)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010020",
+      "lbl" : "Multisystem Inflammatory Syndrome in Children (MIS-C)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010021",
+      "lbl" : "Next Generation Sequencing (NGS)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010022",
+      "lbl" : "Novel Biosensing and VOC",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010023",
+      "lbl" : "Pandemic Perceptions and Decision-Making",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010024",
+      "lbl" : "Point-of-Care (POC) Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010025",
+      "lbl" : "Rapid Diagnostic Test (RDT)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010026",
+      "lbl" : "Screening Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010027",
+      "lbl" : "Self-Testing (At-Home or OTC)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010028",
+      "lbl" : "Serological (Antibody) Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010029",
+      "lbl" : "Seroprevalence",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010030",
+      "lbl" : "Social Determinants of Health",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010031",
+      "lbl" : "Substance Use",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010032",
+      "lbl" : "Testing Rate/Uptake",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010033",
+      "lbl" : "Vaccination Rate/Uptake",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010034",
+      "lbl" : "Variants",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010035",
+      "lbl" : "Virological Testing",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010036",
+      "lbl" : "Wastewater Surveillance",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0010000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011001",
+      "lbl" : "Racial and Ethnic Minorities",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011002",
+      "lbl" : "Immigrants",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011003",
+      "lbl" : "African American",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011004",
+      "lbl" : "Hispanic and Latino",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011005",
+      "lbl" : "Native Hawaiian or other Pacific Islander",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011006",
+      "lbl" : "Asian",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011007",
+      "lbl" : "Children",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011008",
+      "lbl" : "School Community Members",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011009",
+      "lbl" : "Essential Workers",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011010",
+      "lbl" : "Pregnant (or Nursing) Women",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011011",
+      "lbl" : "Intellectual and Developmental Disabilities",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011012",
+      "lbl" : "Homeless/Unhoused",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011013",
+      "lbl" : "Incarcerated/Institutionalized (or Criminal Legal System Involvement)",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011014",
+      "lbl" : "People Living with HIV/AIDs",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011015",
+      "lbl" : "Dialysis Patients",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011016",
+      "lbl" : "Sexual and Gender Minorities",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011017",
+      "lbl" : "Rural Communities",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011018",
+      "lbl" : "Underserved/Vulnerable Population",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011019",
+      "lbl" : "Lower Socioeconomic Status (SES) Population",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011020",
+      "lbl" : "Older Adults or Elderly",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011021",
+      "lbl" : "Adults",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011022",
+      "lbl" : "N/A",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0011000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008001",
+      "lbl" : "NCATS",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008002",
+      "lbl" : "NCCIH",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008003",
+      "lbl" : "NCI",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008004",
+      "lbl" : "NDA",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008005",
+      "lbl" : "NEI",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008006",
+      "lbl" : "NHGRI",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008007",
+      "lbl" : "NHLBI",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008008",
+      "lbl" : "NIA",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008009",
+      "lbl" : "NIAAA",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008010",
+      "lbl" : "NIAID",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008011",
+      "lbl" : "NIAMS",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008012",
+      "lbl" : "NIBIB",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008013",
+      "lbl" : "NICHD",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008014",
+      "lbl" : "NIDA",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008015",
+      "lbl" : "NIDCD",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008016",
+      "lbl" : "NIDCR",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008017",
+      "lbl" : "NIDDK",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008018",
+      "lbl" : "NIEHS",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008019",
+      "lbl" : "NIGMS",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008020",
+      "lbl" : "NIH OD",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008021",
+      "lbl" : "NIMH",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008022",
+      "lbl" : "NIMHD",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008023",
+      "lbl" : "NINDS",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008024",
+      "lbl" : "NINR",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008025",
+      "lbl" : "NIH CC",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_008026",
+      "lbl" : "NLM",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
+          "val" : "DHMO:0008000"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
     }, {
       "id" : "https://github.com/bmir-radx/rxow/DHMO_0000000",
       "lbl" : "root node",
@@ -1523,34 +3350,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "has License Identifier"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/hasLicenseIdentifierScheme",
-      "lbl" : "has License Identifier Scheme",
-      "type" : "PROPERTY",
-      "propertyType" : "DATA",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "The name of the scheme or authority used for the Rights Identifier."
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "has License Identifier Scheme"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/hasLicenseIdentifierSchemeIRI",
-      "lbl" : "has License Identifier Scheme IRI",
-      "type" : "PROPERTY",
-      "propertyType" : "DATA",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "The IRI of the scheme or authority used for the Rights Identifier."
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "has License Identifier Scheme IRI"
         } ]
       }
     }, {
@@ -3721,19 +5520,6 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Cites",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Cites"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/ClArtistic",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -3773,19 +5559,6 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Compiles",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Compiles"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/Condor1.1",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -3805,19 +5578,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/ContactPerson"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Continues",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Continues"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -4059,38 +5819,12 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Describes",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Describes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/Distributor",
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/Distributor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Documents",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Documents"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -4865,45 +6599,6 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/HasMetadata",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/HasMetadata"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/HasPart",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/HasPart"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/HasVersion",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/HasVersion"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/HaskellReport",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -5209,279 +6904,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/Interbase1.0"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsCitedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsCitedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsCompiledBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsCompiledBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsContinuedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsContinuedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsDerivedFrom",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsDerivedFrom"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsDescribedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsDescribedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsDocumentedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsDocumentedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsIdenticalTo",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsIdenticalTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsMetadataFor",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsMetadataFor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsNewVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsNewVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsObsoletedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsObsoletedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsOriginalFormOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsOriginalFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsPartOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsPartOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsPreviousVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsPreviousVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsReferencedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsReferencedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsRequiredBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsRequiredBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsReviewedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsReviewedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsSourceOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsSourceOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementTo",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsSupplementTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsSupplementedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsVariantFormOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsVariantFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/IsVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/IsVersionOf"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -5859,19 +7281,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/LicenseIdentifier"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifierScheme",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/LicenseIdentifierScheme"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -7023,19 +8432,6 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Obsoletes",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Obsoletes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/OpenSSL",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -7465,19 +8861,6 @@
         "deprecated" : true
       }
     }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/References",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/References"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/RegistrationAgency",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -7510,32 +8893,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/RelatedPerson"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/RelationType",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Requires",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Requires"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -7588,19 +8945,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "https://w3id.org/gdmt/ResourceTypeCategory"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
-        } ],
-        "deprecated" : true
-      }
-    }, {
-      "id" : "http://vocab.fairdatacollective.org/gdmt/Reviews",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "https://w3id.org/gdmt/Reviews"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#broader",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Deprecated"
@@ -14947,21 +16291,166 @@
         } ]
       }
     }, {
-      "id" : "https://spdx.org/licenses/",
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000001",
+      "lbl" : "Metadata Attribute",
       "type" : "INDIVIDUAL",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/LicenseIdentifierScheme"
-        }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "The Software Package Data Exchange (SPDX), an open standard for communicating software bill of material information, including components, licenses, copyrights, and security references."
+          "val" : "An attribute describing some information about data."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000003",
+      "lbl" : "Value",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
+          "val" : "An element of a value set."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0001000",
+      "lbl" : "MULTI-CENTER STUDY?",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "No"
         }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0002000",
+      "lbl" : "STUDY PROGRAM",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "No"
         }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "SPDX"
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0003000",
+      "lbl" : "HAS DATA FILES?",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "No"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0004000",
+      "lbl" : "STUDY DESIGN",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "No"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0005000",
+      "lbl" : "DATA TYPES",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0006000",
+      "lbl" : "DATA COLLECTION METHODS",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0007000",
+      "lbl" : "SPECIES",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0008000",
+      "lbl" : "NIH INSTITUTE OR CENTER",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0009000",
+      "lbl" : "CONSENT/DATA USE LIMITATION",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0010000",
+      "lbl" : "STUDY DOMAIN",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0011000",
+      "lbl" : "STUDY POPULATION FOCUS",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+          "val" : "Yes"
+        }, {
+          "pred" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+          "val" : "true"
         } ]
       }
     }, {
@@ -15009,13 +16498,7 @@
           "val" : "https://w3id.org/gdmt/LicenseIdentifier"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-          "val" : "https://w3id.org/gdmt/LicenseIdentifierScheme"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
           "val" : "https://w3id.org/gdmt/MIMEType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-          "val" : "https://w3id.org/gdmt/RelationType"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
           "val" : "https://w3id.org/gdmt/ResourceCreatorType"
@@ -18040,27 +19523,6 @@
         } ]
       }
     }, {
-      "id" : "https://w3id.org/gdmt/Cites",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that A includes B in a citation"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Cites"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Cites"
-        } ]
-      }
-    }, {
       "id" : "https://w3id.org/gdmt/ClArtistic",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -18124,27 +19586,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Collection"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/Compiles",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates B is the result of a compile or creation event using A"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Compiles"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Compiles"
         } ]
       }
     }, {
@@ -18217,27 +19658,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Contact Person"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/Continues",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a continuation of the work B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Continues"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Continues"
         } ]
       }
     }, {
@@ -18754,27 +20174,6 @@
         } ]
       }
     }, {
-      "id" : "https://w3id.org/gdmt/Describes",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A describes B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Describes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Describes"
-        } ]
-      }
-    }, {
       "id" : "https://w3id.org/gdmt/Distributor",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -18793,27 +20192,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Distributor"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/Documents",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is documentation about B; e.g. points to software documentation"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Documents"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Documents"
         } ]
       }
     }, {
@@ -20218,69 +21596,6 @@
         } ]
       }
     }, {
-      "id" : "https://w3id.org/gdmt/HasMetadata",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates resource A has additional metadata B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasMetadata"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Has Metadata"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/HasPart",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A includes the part B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasPart"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Has Part"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/HasVersion",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A has a version (B)"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasVersion"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Has Version"
-        } ]
-      }
-    }, {
       "id" : "https://w3id.org/gdmt/HaskellReport",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -20911,447 +22226,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Interbase-1.0"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsCitedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that B includes A in a citation"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsCitedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Cited By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsCompiledBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates B is used to compile or create A"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsCompiledBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Compiled By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsContinuedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is continued by the work B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsContinuedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Continued By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsDerivedFrom",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates B is a source upon which A is based"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDerivedFrom"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Derived From"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsDescribedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is described by B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDescribedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Described By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsDocumentedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates B is documentation about/ explaining A; e.g. points to software documentation"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDocumentedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Documented By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsIdenticalTo",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsIdenticalTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Identical To"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsMetadataFor",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates additional metadata A for a resource B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsMetadataFor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Metadata For"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsNewVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a new edition of B, where the new edition has been modified or updated"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsNewVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is New Version Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsObsoletedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Indicates A is replaced by B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsObsoletedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Obsoleted By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsOriginalFormOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is the original form of B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsOriginalFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Original Form Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsPartOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a portion of B; may be used for elements of a series"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsPartOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Part Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsPreviousVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a previous edition of B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsPreviousVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Previous Version Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsReferencedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is used as a source of information by B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsReferencedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Referenced By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsRequiredBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Indicates A is required by B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsRequiredBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Required By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsReviewedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that A is reviewed by B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsReviewedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Reviewed By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsSourceOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a source upon which B is based"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSourceOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Source Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsSupplementTo",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that A is a supplement to B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Supplement To"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsSupplementedBy",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that B is a supplement to A"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Supplemented By"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsVariantFormOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a variant or different form of B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsVariantFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Variant Form Of"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/IsVersionOf",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates A is a version of B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Is Version Of"
         } ]
       }
     }, {
@@ -23287,30 +24161,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "License Identifier"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
-          "val" : "https://w3id.org/gdmt/"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/LicenseIdentifierScheme",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Identifier scheme used for defining licenses."
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifierScheme"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://spdx.org/licenses/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "License Identifier Scheme"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
           "val" : "https://w3id.org/gdmt/"
@@ -26791,27 +27641,6 @@
         } ]
       }
     }, {
-      "id" : "https://w3id.org/gdmt/Obsoletes",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Indicates A replaces B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Obsoletes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Obsoletes"
-        } ]
-      }
-    }, {
       "id" : "https://w3id.org/gdmt/OpenSSL",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -27601,27 +28430,6 @@
         } ]
       }
     }, {
-      "id" : "https://w3id.org/gdmt/References",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates B is used as a source of information for A"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/References"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "References"
-        } ]
-      }
-    }, {
       "id" : "https://w3id.org/gdmt/RegistrationAgency",
       "type" : "INDIVIDUAL",
       "meta" : {
@@ -27682,147 +28490,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Related Person"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/RelationType",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Type of relation between two digital resources, interpreted from resource A to resource B."
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Cites"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Compiles"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Continues"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Describes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Documents"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/HasMetadata"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/HasPart"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/HasVersion"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsCitedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsCompiledBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsContinuedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsDerivedFrom"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsDescribedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsDocumentedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsIdenticalTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsMetadataFor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsNewVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsObsoletedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsOriginalFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsPartOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsPreviousVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsReferencedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsRequiredBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsReviewedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsSourceOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsSupplementTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsSupplementedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsVariantFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/IsVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Obsoletes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/References"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Requires"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "https://w3id.org/gdmt/Reviews"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Relation Type"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
-          "val" : "https://w3id.org/gdmt/"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/Requires",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "Indicates A requires B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Requires"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Requires"
         } ]
       }
     }, {
@@ -27964,27 +28631,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
           "val" : "https://w3id.org/gdmt/"
-        } ]
-      }
-    }, {
-      "id" : "https://w3id.org/gdmt/Reviews",
-      "type" : "INDIVIDUAL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#broader",
-          "val" : "https://w3id.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#definition",
-          "val" : "indicates that A is a review of B"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Reviews"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#inScheme",
-          "val" : "https://w3id.org/gdmt/"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "Reviews"
         } ]
       }
     }, {
@@ -38824,6 +39470,14 @@
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
     }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_0000000",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "https://github.com/bmir-radx/dhmo/DHMO_1000000",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
       "id" : "http://vocab.fairdatacollective.org/gdmt/Deprecated",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -39227,9 +39881,6 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/Caldera"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Cites"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/ClArtistic"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
@@ -39239,16 +39890,10 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/Collection"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Compiles"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Condor1.1"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/ContactPerson"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Continues"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/ContributorRole"
@@ -39305,13 +39950,7 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/DateType"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Describes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Distributor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Documents"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Dotseqn"
@@ -39491,15 +40130,6 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/Handle"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasMetadata"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasPart"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/HasVersion"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/HaskellReport"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
@@ -39570,69 +40200,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Interbase1.0"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsCitedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsCompiledBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsContinuedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDerivedFrom"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDescribedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsDocumentedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsIdenticalTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsMetadataFor"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsNewVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsObsoletedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsOriginalFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsPartOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsPreviousVersionOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsReferencedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsRequiredBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsReviewedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSourceOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementTo"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementedBy"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsVariantFormOf"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/IsVersionOf"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/Issued"
@@ -39720,9 +40287,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifierScheme"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/LinuxOpenIB"
@@ -39989,9 +40553,6 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/OUDA1.0"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Obsoletes"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/OpenSSL"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
@@ -40091,9 +40652,6 @@
           "val" : "http://vocab.fairdatacollective.org/gdmt/Rdisc"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/References"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/RegistrationAgency"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
@@ -40101,12 +40659,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/RelatedPerson"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/RelationType"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Requires"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/ResearchGroup"
@@ -40119,9 +40671,6 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
-          "val" : "http://vocab.fairdatacollective.org/gdmt/Reviews"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#narrower",
           "val" : "http://vocab.fairdatacollective.org/gdmt/RightsHolder"
@@ -42330,10 +42879,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Cites",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/ClArtistic",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -42346,19 +42891,11 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Compiles",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/Condor1.1",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/ContactPerson",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Continues",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -42434,15 +42971,7 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Describes",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/Distributor",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Documents",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -42682,18 +43211,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/HasMetadata",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/HasPart",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/HasVersion",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/HaskellReport",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -42787,90 +43304,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/Interbase1.0",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsCitedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsCompiledBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsContinuedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsDerivedFrom",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsDescribedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsDocumentedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsIdenticalTo",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsMetadataFor",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsNewVersionOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsObsoletedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsOriginalFormOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsPartOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsPreviousVersionOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsReferencedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsRequiredBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsReviewedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsSourceOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementTo",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsSupplementedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsVariantFormOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/IsVersionOf",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -42987,10 +43420,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifier",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/LicenseIdentifierScheme",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -43346,10 +43775,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Obsoletes",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/OpenSSL",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -43482,10 +43907,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/References",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/RegistrationAgency",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -43495,14 +43916,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/RelatedPerson",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/RelationType",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Requires",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -43519,10 +43932,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "http://vocab.fairdatacollective.org/gdmt/ResourceTypeCategory",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "http://vocab.fairdatacollective.org/gdmt/Reviews",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -45774,9 +46183,61 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://spdx.org/licenses/",
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0000001",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0000002",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Collection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0000003",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0001000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0002000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0003000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0004000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0005000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0006000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0007000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0008000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0009000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0010000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/dhmo/DHMO_0011000",
+      "pred" : "type",
+      "obj" : "https://github.com/bmir-radx/dhmo/DHMO_0000002"
     }, {
       "sub" : "https://w3id.org/gdmt/",
       "pred" : "type",
@@ -46286,10 +46747,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/Cites",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/ClArtistic",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -46302,10 +46759,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/Compiles",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/Condor1.1",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -46315,10 +46768,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "https://w3id.org/gdmt/ContactPerson",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/Continues",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -46398,15 +46847,7 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/Describes",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/Distributor",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/Documents",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -46646,18 +47087,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/HasMetadata",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/HasPart",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/HasVersion",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/HaskellReport",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -46751,90 +47180,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "https://w3id.org/gdmt/Interbase1.0",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsCitedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsCompiledBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsContinuedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsDerivedFrom",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsDescribedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsDocumentedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsIdenticalTo",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsMetadataFor",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsNewVersionOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsObsoletedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsOriginalFormOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsPartOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsPreviousVersionOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsReferencedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsRequiredBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsReviewedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsSourceOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsSupplementTo",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsSupplementedBy",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsVariantFormOf",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/IsVersionOf",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -46951,10 +47296,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "https://w3id.org/gdmt/LicenseIdentifier",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/LicenseIdentifierScheme",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -47310,10 +47651,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/Obsoletes",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/OpenSSL",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -47450,10 +47787,6 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
-      "sub" : "https://w3id.org/gdmt/References",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
       "sub" : "https://w3id.org/gdmt/RegistrationAgency",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -47463,14 +47796,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "https://w3id.org/gdmt/RelatedPerson",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/RelationType",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/Requires",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
@@ -47487,10 +47812,6 @@
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {
       "sub" : "https://w3id.org/gdmt/ResourceTypeCategory",
-      "pred" : "type",
-      "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
-    }, {
-      "sub" : "https://w3id.org/gdmt/Reviews",
       "pred" : "type",
       "obj" : "http://www.w3.org/2004/02/skos/core#Concept"
     }, {

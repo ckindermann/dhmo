@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-base.owl
+data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-11-06/dhmo-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 ontology: https://github.com/bmir-radx/rxow/dhmo/dhmo-base.owl
@@ -7,7 +7,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "RADx Data Hub Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-16" xsd:string
+property_value: owl:versionInfo "2024-11-06" xsd:string
 
 [Term]
 id: DHMO:0000000

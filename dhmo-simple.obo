@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-simple.owl
+data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-11-06/dhmo-simple.owl
 idspace: pav http://purl.org/pav/ 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: https://github.com/bmir-radx/rxow/dhmo/dhmo-simple.owl
-property_value: owl:versionInfo "2024-10-16" xsd:string
+property_value: owl:versionInfo "2024-11-06" xsd:string
 property_value: terms:description "None" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/unspecified
 property_value: terms:title "RADx Data Hub Metadata Ontology" xsd:string

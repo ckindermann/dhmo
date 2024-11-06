@@ -1,7 +1,8 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-10-16/dhmo-full.owl
+data-version: https://github.com/bmir-radx/rxow/dhmo/releases/2024-11-06/dhmo-full.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
+idspace: dhmo https://github.com/bmir-radx/dhmo/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: pav http://purl.org/pav/ 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
@@ -9,11 +10,869 @@ ontology: https://github.com/bmir-radx/rxow/dhmo/dhmo-full.owl
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "RADx Data Hub Metadata Ontology" xsd:string
-property_value: owl:versionInfo "2024-10-16" xsd:string
+property_value: owl:versionInfo "2024-11-06" xsd:string
 
 [Term]
 id: DHMO:0000000
 name: root node
+
+[Term]
+id: dhmo:DHMO_0000002
+name: Value Set
+property_value: skos:definition "A finite set of values for a metadata attribute." xsd:string
+
+[Term]
+id: dhmo:DHMO_0000004
+name: isProvisional
+property_value: skos:definition "An annotation property to indicate that an entity is provisional and subject to change in the future." xsd:string
+
+[Term]
+id: dhmo:DHMO_0000005
+name: allowsMultipleValues
+property_value: skos:definition "An annotation property to indicate that an attribute allows for multiple values." xsd:string
+
+[Term]
+id: dhmo:DHMO_0001001
+name: TRUE
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0001002
+name: FALSE
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0002001
+name: RADx DHT
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHM:0002000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0002002
+name: RADx-rad
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHM:0002000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0002003
+name: RADx Tech
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHM:0002000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0002004
+name: RADx-UP
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHM:0002000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0003001
+name: Yes
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0003000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0003002
+name: No
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0003000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004001
+name: Case-Control
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004002
+name: Clinical Genetic Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004003
+name: Cross-Sectional
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004004
+name: Device Validation Study
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004005
+name: Device Verification Study
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004006
+name: Family/Twins/Trios
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004007
+name: Interventional/Clinical Trial
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004008
+name: Longitudinal Cohort
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004009
+name: Mendelian
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004010
+name: Metagenomics
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004011
+name: Mixed Methods
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004012
+name: Observational
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004013
+name: Open Cohort
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004014
+name: Qualitative
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004015
+name: Time-Series
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0004016
+name: Xenograft
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0001000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005001
+name: Behavioral
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005002
+name: Clinical
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005003
+name: Cognitive
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005004
+name: Electronic Medical Records
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005005
+name: Environmental (Physical)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005006
+name: Family History
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005007
+name: Genomic
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005008
+name: Genotyping
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005009
+name: Imaging
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005010
+name: Immunological
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005011
+name: Individual Genotype
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005012
+name: Individual Phenotype
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005013
+name: Individual Sequencing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005014
+name: Metabolomic
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005015
+name: Metagenomic
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005016
+name: Physical Activity
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005017
+name: Proteomic
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005018
+name: Psychological
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005019
+name: Questionnaires/Surveys
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005020
+name: Social
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005021
+name: Supporting Documents
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0005022
+name: Other
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0005000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0006001
+name: Antibody Testing / Other Adaptive Immune Response Test
+name: Antigen Testing Device
+name: Biobank Samples
+name: Breath Analysis Device / Airborne Detection Device
+name: Chemosensory Testing Device
+name: Contact Tracing
+name: Disease Registry
+name: Electrochemical Testing Device
+name: Interview or Focus Group
+name: Molecular (Nucleic Acid/PCR) Testing Device
+name: Real-World Data
+name: Smartphone
+name: Survey
+name: Unspecified COVID Testing Device
+name: Wastewater Sampling
+name: Wearable
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0006000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0007001
+name: Human Data
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0007000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0007002
+name: Non-Human Data
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0007000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0009001
+name: General Research Use
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0009000^^xsd:boolean" xsd:string
+
+[Term]
+id: dhmo:DHMO_0009002
+name: Use of the data is limited to health/medical/biomedical purposes
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0009000^^xsd:boolean" xsd:string
+
+[Term]
+id: dhmo:DHMO_0009003
+name: IRB required
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0009000^^xsd:boolean" xsd:string
+
+[Term]
+id: dhmo:DHMO_0009004
+name: Use of the data is limited to not-for-profit organizations
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0009000^^xsd:boolean" xsd:string
+
+[Term]
+id: dhmo:DHMO_0009005
+name: Disease-Specific for COVID-19
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0009000^^xsd:boolean" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010001
+name: Artificial Intelligence and Machine Learning
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010002
+name: Biosensor Technology
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010003
+name: Community Outreach Programs
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010004
+name: Comorbidities
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010005
+name: COVID Hotspots
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010006
+name: COVID in School Settings
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010007
+name: COVID Testing Deserts
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010008
+name: Diagnostic Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010009
+name: Digital Health Applications
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010010
+name: Disease Surveillance
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010011
+name: Health Behaviors
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010012
+name: Immune Responses
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010013
+name: Influenza 
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010014
+name: Long COVID
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010015
+name: Medical Device/Tool Development
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010016
+name: Mental Health
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010017
+name: Mobile Unit Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010018
+name: Multimodal Surveillance
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010019
+name: Multisystem Inflammatory Syndrome (MIS)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010020
+name: Multisystem Inflammatory Syndrome in Children (MIS-C)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010021
+name: Next Generation Sequencing (NGS)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010022
+name: Novel Biosensing and VOC
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010023
+name: Pandemic Perceptions and Decision-Making
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010024
+name: Point-of-Care (POC) Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010025
+name: Rapid Diagnostic Test (RDT)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010026
+name: Screening Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010027
+name: Self-Testing (At-Home or OTC)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010028
+name: Serological (Antibody) Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010029
+name: Seroprevalence
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010030
+name: Social Determinants of Health
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010031
+name: Substance Use
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010032
+name: Testing Rate/Uptake
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010033
+name: Vaccination Rate/Uptake
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010034
+name: Variants
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010035
+name: Virological Testing
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0010036
+name: Wastewater Surveillance
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0010000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011001
+name: Racial and Ethnic Minorities
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011002
+name: Immigrants
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011003
+name: African American
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011004
+name: Hispanic and Latino
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011005
+name: Native Hawaiian or other Pacific Islander
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011006
+name: Asian
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011007
+name: Children
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011008
+name: School Community Members
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011009
+name: Essential Workers
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011010
+name: Pregnant (or Nursing) Women
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011011
+name: Intellectual and Developmental Disabilities
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011012
+name: Homeless/Unhoused
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011013
+name: Incarcerated/Institutionalized (or Criminal Legal System Involvement)
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011014
+name: People Living with HIV/AIDs
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011015
+name: Dialysis Patients
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011016
+name: Sexual and Gender Minorities
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011017
+name: Rural Communities
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011018
+name: Underserved/Vulnerable Population
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011019
+name: Lower Socioeconomic Status (SES) Population
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011020
+name: Older Adults or Elderly
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011021
+name: Adults
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_0011022
+name: N/A
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0011000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008001
+name: NCATS
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008002
+name: NCCIH
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008003
+name: NCI
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008004
+name: NDA
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008005
+name: NEI
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008006
+name: NHGRI
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008007
+name: NHLBI
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008008
+name: NIA
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008009
+name: NIAAA
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008010
+name: NIAID
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008011
+name: NIAMS
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008012
+name: NIBIB
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008013
+name: NICHD
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008014
+name: NIDA
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008015
+name: NIDCD
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008016
+name: NIDCR
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008017
+name: NIDDK
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008018
+name: NIEHS
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008019
+name: NIGMS
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008020
+name: NIH OD
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008021
+name: NIMH
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008022
+name: NIMHD
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008023
+name: NINDS
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008024
+name: NINR
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008025
+name: NIH CC
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
+
+[Term]
+id: dhmo:DHMO_008026
+name: NLM
+property_value: dhmo:DHMO_1000000 "true" xsd:boolean
+property_value: skos:broader "DHMO:0008000" xsd:string
 
 [Typedef]
 id: https://w3id.org/gdmt/hasAwardInfo
